@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Planificacion IS" company="UCM" webLink="http://ucm.es" view-date="2015-09-01" view-index="0" gantt-divider-location="334" resource-divider-location="300" version="2.7.1" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="Planificacion IS" company="UCM" webLink="http://ucm.es" view-date="2015-10-19" view-index="0" gantt-divider-location="329" resource-divider-location="300" version="2.7.1" locale="es">
     <description><![CDATA[Trabajo IS]]></description>
-    <view zooming-state="default:8" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="68" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="13" order="1"/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="69" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="12" order="1"/>
         <field id="tpd5" name="Fecha de fin" width="18" order="2"/>
-        <option id="taskLabelUp" value="length"/>
-        <option id="taskLabelLeft" value="taskDates"/>
         <timeline><![CDATA[3]]></timeline>
         <option id="color.recent"><![CDATA[#ff0000 #cc00cc #000000 #ff3333 #ff0033]]></option>
     </view>
@@ -66,8 +64,8 @@
             </task>
             <task id="28" name="Correccion planificacion y estimacion" meeting="false" start="2015-11-27" duration="3" complete="0" expand="true"/>
         </task>
-        <task id="29" name="Analisis de riesgos" meeting="false" start="2015-12-02" duration="9" complete="0" expand="true">
-            <task id="30" name="Captura de riesgos" color="#cc00cc" meeting="false" start="2015-12-02" duration="4" complete="0" expand="true"/>
+        <task id="29" name="Analisis de riesgos" meeting="false" start="2015-12-01" duration="10" complete="0" expand="true">
+            <task id="30" name="Captura de riesgos" color="#cc00cc" meeting="false" start="2015-12-01" duration="4" complete="0" expand="true"/>
             <task id="31" name="Valoracion de riesgos" color="#cc00cc" meeting="false" start="2015-12-07" duration="1" complete="0" expand="true"/>
             <task id="32" name="Plan de Reduccion, Supervision y Gestion del Riesgo" color="#cc00cc" meeting="false" start="2015-12-08" duration="4" complete="0" expand="true"/>
             <task id="33" name="Valoracion final de riesgos" color="#cc00cc" meeting="false" start="2015-12-14" duration="1" complete="0" expand="true"/>
@@ -77,9 +75,8 @@
             <task id="47" name="Realizacion de cambios" color="#cc00cc" meeting="false" start="2015-12-18" duration="5" complete="0" expand="true"/>
             <task id="48" name="Plan de proyecto final" color="#cc00cc" meeting="false" start="2015-12-28" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="36" name="Modelo de proceso II" color="#000000" meeting="false" start="2015-12-29" duration="9" complete="0" expand="true">
-            <task id="41" name="Elaboracion modelo proceso" color="#cc00cc" meeting="false" start="2015-12-29" duration="6" complete="0" expand="true"/>
-            <task id="42" name="Verificacion y construccion modelo final" color="#cc00cc" meeting="false" start="2016-01-07" duration="2" complete="0" expand="true"/>
+        <task id="36" name="Plan de ajuste" color="#000000" meeting="false" start="2015-12-29" duration="9" complete="0" expand="true">
+            <task id="41" name="Colchón de seguridad" color="#cc00cc" meeting="false" start="2015-12-29" duration="9" complete="0" expand="true"/>
         </task>
         <task id="40" name="Gestion configuracion SW" meeting="false" start="2016-01-11" duration="4" complete="0" expand="true">
             <task id="59" name="Decisiones GCS" meeting="false" start="2016-01-11" duration="4" complete="0" expand="true">
@@ -98,9 +95,9 @@
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="217" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="41" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="57" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="215" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="39" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="56" visible="true"/>
         <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
