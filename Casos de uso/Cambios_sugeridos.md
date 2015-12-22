@@ -1,9 +1,9 @@
 #Casos de uso:
 
-- Añadir "información de sesión" en entradas y salidas
+- AÃ±adir "informaciÃ³n de sesiÃ³n" en entradas y salidas
 - Enumerar todos los campos de los formularios (incluyendo tipo de campo)
-- Comprobaciones del estilo "al registrar usuario el nombre de usuario no está repetido" "la fecha tiene que tener x condiciones"
-- ¿Modelos de dominio? (podría ser útil para carecterizar empleados y usuarios)
+- Comprobaciones del estilo "al registrar usuario el nombre de usuario no estÃ¡ repetido" "la fecha tiene que tener x condiciones"
+- Â¿Modelos de dominio? (podrÃ­a ser Ãºtil para carecterizar empleados y usuarios)
 - Quitar base de datos de los actores
-- Precondición y postcondición son estados, no valen cosas como "mostrar error"
+- PrecondiciÃ³n y postcondiciÃ³n son estados, no valen cosas como "mostrar error"
 - En lugar de poner infinitivos, "el sistema ..." o "el usuario ..."
