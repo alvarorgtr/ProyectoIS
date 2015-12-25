@@ -1,4 +1,4 @@
-#Thu Dec 24 14:27:43 CET 2015
+#Thu Dec 24 15:02:53 CET 2015
 Themes/Khaki/com.ibm.xtools.uml.actor=Khaki 4
 Themes/Predeterminado/com.ibm.xtools.uml.clearAssociationAction=Azul claro con borde azul
 Themes/Modelado\ UML\ cl\u00E1sico/com.ibm.xtools.uml.addStructuralFeatureValueAction=Gradiente gris-blanco
@@ -20,6 +20,7 @@ Themes/Brown/com.ibm.xtools.uml.destroyMessage=Brown conn
 ShapeApps/Gris\ claro/notation.FillStyle.fillColor=16250871
 Themes/Purple/com.ibm.xtools.uml.actor=Purple 4
 Themes/Predeterminado/com.ibm.xtools.uml.startObjectBehaviorAction=Azul claro con borde azul
+usecase.association.multiplicity=true
 Themes/Olive/Shape=Olive 1
 ShapeApps/Olive\ 2/notation.FillStyle.fillColor=9750460
 Themes/Modelado\ UML\ cl\u00E1sico/com.ibm.xtools.uml.joinNode=Gris con contorno gris
@@ -45,6 +46,7 @@ Themes/Brown/com.ibm.xtools.uml.component=Brown 4
 Themes/Green/com.ibm.xtools.uml.decisionNode=Green 5
 Themes/Green/com.ibm.xtools.uml.lifeline=Green 2
 Themes/Khaki/Shape=Khaki 1
+usecase.association.roles=true
 Themes/Green/com.ibm.xtools.uml.activity=Green 4
 Themes/Predeterminado/com.ibm.xtools.uml.createMessage=Conector oblicuo predeterminado
 Themes/Gold/com.ibm.xtools.uml.compositeState=Gold 3
