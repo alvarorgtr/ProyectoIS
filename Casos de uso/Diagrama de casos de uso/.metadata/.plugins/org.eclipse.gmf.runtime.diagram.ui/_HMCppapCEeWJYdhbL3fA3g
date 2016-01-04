@@ -1,5 +1,6 @@
-#Thu Dec 24 15:05:42 CET 2015
-zoom=0.75
+#Mon Dec 28 20:12:21 CET 2015
+viewport.x=485
+zoom=1.0
 print.margin.right=0.5
 rulergrid.rulerunit=1
 rulergrid.snaptogrid=true
@@ -14,6 +15,7 @@ print.margin.bottom=0.5
 rulergrid.gridlinestyle=6
 rulergrid.gridlevel=true
 print.margin.top=0.5
-rulergrid.viewrulers=true
 print.useMillim=true
+rulergrid.viewrulers=true
 print.usePortrait=true
+viewport.y=208

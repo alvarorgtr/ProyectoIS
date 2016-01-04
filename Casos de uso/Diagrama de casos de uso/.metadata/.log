@@ -10,3 +10,64 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.ratio
 
 !ENTRY org.eclipse.ui 4 4 2015-12-24 14:27:13.575
 !MESSAGE Unable to find Action Set: com.ibm.xtools.pluglets.ui.actionSet
+!SESSION 2016-01-04 12:40:32.390 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista amd64-64 jvmwa6460sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA_CMPRSS
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa4ws.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rsa4ws.product.v80.ide
+
+!ENTRY org.eclipse.ui 4 0 2016-01-04 13:26:45.387
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.draw2d.FreeformHelper.getFreeformExtent(Unknown Source)
+	at org.eclipse.draw2d.FreeformLayer.getFreeformExtent(Unknown Source)
+	at org.eclipse.draw2d.FreeformHelper.getFreeformExtent(Unknown Source)
+	at org.eclipse.draw2d.FreeformLayeredPane.getFreeformExtent(Unknown Source)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(Unknown Source)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas.access$4(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(Unknown Source)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performUpdate(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	... 24 more
