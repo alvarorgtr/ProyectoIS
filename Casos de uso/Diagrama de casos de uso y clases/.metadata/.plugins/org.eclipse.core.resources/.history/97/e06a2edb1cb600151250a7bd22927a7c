@@ -1,7 +1,0 @@
-
-public class Contrato {
-
-	private String cuentaBancaria;
-	private int horasTrabajo;
-
-}
