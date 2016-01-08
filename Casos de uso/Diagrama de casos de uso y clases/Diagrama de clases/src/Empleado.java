@@ -8,6 +8,9 @@ public abstract class Empleado {
 	protected String apellido2;
 	protected String path_foto;
 	protected String direccion;
-	protected String idiomas;
+	private String[] idiomas;
+	private String historialPath;
+	private String nominaPath;
+	private Contrato contrato;
 	
 }

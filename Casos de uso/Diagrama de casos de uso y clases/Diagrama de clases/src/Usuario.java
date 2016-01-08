@@ -5,7 +5,7 @@ public class Usuario {
 
 	private String nombre;
 	private String contraseña;
-	private TipoPermiso permiso;
-	private TipoFacultad facultad;
+	private TipoFacultad tipoFacultad;
+	private TipoPermiso tipoPermiso;
 
 }

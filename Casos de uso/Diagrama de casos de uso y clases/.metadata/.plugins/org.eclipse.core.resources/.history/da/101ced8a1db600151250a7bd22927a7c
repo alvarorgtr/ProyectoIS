@@ -1,0 +1,6 @@
+
+public class EmpleadoPDI extends Empleado {
+
+	private String departamento;
+
+}

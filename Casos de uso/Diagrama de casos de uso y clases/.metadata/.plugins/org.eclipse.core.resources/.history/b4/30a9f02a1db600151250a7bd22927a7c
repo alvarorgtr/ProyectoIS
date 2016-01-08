@@ -1,0 +1,5 @@
+
+public enum AreaTrabajo {
+	ENUMLITERAL1, ENUMLITERAL2
+
+}
