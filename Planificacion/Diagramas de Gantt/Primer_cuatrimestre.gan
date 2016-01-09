@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Planificacion IS" company="UCM" webLink="http://ucm.es" view-date="2015-10-19" view-index="0" gantt-divider-location="329" resource-divider-location="300" version="2.7.1" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="Planificacion IS" company="UCM" webLink="http://ucm.es" view-date="2015-10-01" view-index="0" gantt-divider-location="457" resource-divider-location="300" version="2.7.1" locale="es">
     <description><![CDATA[Trabajo IS]]></description>
-    <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="69" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="12" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="18" order="2"/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="66" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="13" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="20" order="2"/>
+        <option id="taskLabelUp" value="length"/>
+        <option id="taskLabelLeft" value="taskDates"/>
         <timeline><![CDATA[3]]></timeline>
         <option id="color.recent"><![CDATA[#ff0000 #cc00cc #000000 #ff3333 #ff0033]]></option>
     </view>
@@ -35,56 +37,68 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="4" name="Proyecto" color="#8cb6ce" meeting="false" start="2015-10-28" duration="60" complete="0" expand="true"/>
-        <task id="3" name="Grupo" color="#000000" meeting="false" start="2015-10-28" duration="5" complete="0" expand="true">
+        <task id="4" name="Proyecto" color="#8cb6ce" meeting="false" start="2015-11-16" duration="3" complete="0" expand="true"/>
+        <task id="3" name="Grupo" color="#000000" meeting="false" start="2015-10-28" duration="4" complete="0" expand="false">
             <task id="5" name="Montar Grupo" color="#cc00cc" meeting="false" start="2015-10-28" duration="1" complete="0" expand="true"/>
-            <task id="7" name="Organizacion jerarquica interna" color="#cc00cc" meeting="false" start="2015-10-29" duration="1" complete="0" expand="true"/>
-            <task id="8" name="Decision de mecanismos de comunicacion" color="#cc00cc" meeting="false" start="2015-10-30" duration="1" complete="0" expand="true"/>
+            <task id="7" name="Organizacion jerarquica interna" color="#cc00cc" meeting="false" start="2015-10-29" duration="2" complete="0" expand="true"/>
+            <task id="8" name="Decision de mecanismos de comunicacion" color="#cc00cc" meeting="false" start="2015-11-02" duration="1" complete="0" expand="true"/>
             <task id="9" name="Decision de plataformas de almacenamiento" color="#cc00cc" meeting="false" start="2015-11-02" duration="1" complete="0" expand="true"/>
-            <task id="45" name="Decision herramientas a utilizar" color="#cc00cc" meeting="false" start="2015-11-03" duration="1" complete="0" expand="true"/>
+            <task id="45" name="Decision herramientas de edición y planificación" color="#cc00cc" meeting="false" start="2015-11-02" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="11" name="Comunicacion con cliente" meeting="false" start="2015-11-03" duration="12" complete="0" expand="true">
-            <task id="18" name="Ambito del software" color="#cc00cc" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2015-11-03" duration="4" complete="0" expand="true"/>
-            <task id="17" name="Especificacion de requisitos" meeting="false" start="2015-11-10" duration="5" complete="0" expand="true">
-                <task id="19" name="Captura de requisitos" color="#ff0000" meeting="false" start="2015-11-10" duration="1" complete="0" expand="true"/>
-                <task id="20" name="Elaboracion casos de uso" color="#ff0000" meeting="false" start="2015-11-11" duration="4" complete="0" expand="true"/>
+        <task id="11" name="Comunicacion con el cliente" meeting="false" start="2015-11-03" duration="9" complete="0" expand="false">
+            <task id="18" name="Ambito del software" color="#cc00cc" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2015-11-03" duration="3" complete="0" expand="true"/>
+            <task id="17" name="Especificacion de requisitos" color="#000000" meeting="false" start="2015-11-06" duration="5" complete="0" expand="true">
+                <task id="19" name="Captura de requisitos" color="#ff0000" meeting="false" start="2015-11-06" duration="3" complete="0" expand="true"/>
+                <task id="20" name="Listado casos de uso" color="#ff0000" meeting="false" start="2015-11-11" duration="2" complete="0" expand="true"/>
             </task>
-            <task id="21" name="Verificacion ambito SW y SRS" color="#cc00cc" meeting="false" start="2015-11-17" duration="2" complete="0" expand="true"/>
+            <task id="21" name="Verificacion ambito SW y SRS" color="#cc00cc" meeting="false" start="2015-11-13" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="22" name="Planificacion" meeting="false" start="2015-11-19" duration="9" complete="0" expand="true">
-            <task id="23" name="Calculo esfuerzo disponible" color="#cc00cc" meeting="false" start="2015-11-19" duration="1" complete="0" expand="true"/>
-            <task id="25" name="Estimacion" color="#000000" meeting="false" start="2015-11-20" duration="2" complete="0" expand="true">
-                <task id="26" name="Descomposicion productos" color="#ff0000" meeting="false" start="2015-11-20" duration="1" complete="0" expand="true"/>
-                <task id="27" name="Descomposicion procesos" color="#ff0000" meeting="false" start="2015-11-23" duration="1" complete="0" expand="true"/>
+        <task id="22" name="Planificacion" meeting="false" start="2015-11-16" duration="10" complete="0" expand="false">
+            <task id="110" name="Modelo de proceso y ambito del proyecto" meeting="false" start="2015-11-16" duration="3" complete="0" expand="false">
+                <task id="111" name="Elección del modelo de proceso" color="#ff0000" meeting="false" start="2015-11-16" duration="1" complete="0" expand="true"/>
+                <task id="112" name="Descripción del modelo elegido" color="#ff0000" meeting="false" start="2015-11-17" duration="2" complete="0" expand="true"/>
+                <task id="135" name="Ámbito de proyecto" color="#cc00cc" meeting="false" start="2015-11-17" duration="2" complete="0" expand="true"/>
             </task>
-            <task id="24" name="Planificacion" meeting="false" start="2015-11-24" duration="3" complete="0" expand="true"/>
-            <task id="60" name="Modelo de proceso I" color="#000000" meeting="false" start="2015-11-27" duration="2" complete="0" expand="true">
-                <task id="63" name="Captura propuestas modelo" color="#ff0000" meeting="false" start="2015-11-27" duration="1" complete="0" expand="true"/>
-                <task id="64" name="Valoracion y decision de modelo" color="#ff0000" meeting="false" start="2015-11-30" duration="1" complete="0" expand="true"/>
+            <task id="113" name="Calculo esfuerzo disponible" color="#cc00cc" meeting="false" start="2015-11-19" duration="1" complete="0" expand="true"/>
+            <task id="114" name="Estimación" meeting="false" start="2015-11-19" duration="7" complete="0" expand="false">
+                <task id="115" name="Por descomposicion de producto" color="#ff0000" meeting="false" start="2015-11-19" duration="7" complete="0" expand="true"/>
+                <task id="116" name="Por descomposicion de proceso" color="#ff0000" meeting="false" start="2015-11-19" duration="6" complete="0" expand="true"/>
             </task>
-            <task id="28" name="Correccion planificacion y estimacion" meeting="false" start="2015-11-27" duration="3" complete="0" expand="true"/>
+            <task id="117" name="Planificación" color="#cc00cc" meeting="false" start="2015-11-19" duration="4" complete="0" expand="true"/>
         </task>
-        <task id="29" name="Analisis de riesgos" meeting="false" start="2015-12-01" duration="10" complete="0" expand="true">
-            <task id="30" name="Captura de riesgos" color="#cc00cc" meeting="false" start="2015-12-01" duration="4" complete="0" expand="true"/>
-            <task id="31" name="Valoracion de riesgos" color="#cc00cc" meeting="false" start="2015-12-07" duration="1" complete="0" expand="true"/>
-            <task id="32" name="Plan de Reduccion, Supervision y Gestion del Riesgo" color="#cc00cc" meeting="false" start="2015-12-08" duration="4" complete="0" expand="true"/>
-            <task id="33" name="Valoracion final de riesgos" color="#cc00cc" meeting="false" start="2015-12-14" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="34" name="Revision cliente" color="#000000" meeting="false" start="2015-12-15" duration="10" complete="0" expand="true">
-            <task id="46" name="Revision proyecto" color="#cc00cc" meeting="false" start="2015-12-15" duration="3" complete="0" expand="true"/>
-            <task id="47" name="Realizacion de cambios" color="#cc00cc" meeting="false" start="2015-12-18" duration="5" complete="0" expand="true"/>
-            <task id="48" name="Plan de proyecto final" color="#cc00cc" meeting="false" start="2015-12-28" duration="1" complete="0" expand="true"/>
-        </task>
-        <task id="36" name="Plan de ajuste" color="#000000" meeting="false" start="2015-12-29" duration="9" complete="0" expand="true">
-            <task id="41" name="Colchón de seguridad" color="#cc00cc" meeting="false" start="2015-12-29" duration="9" complete="0" expand="true"/>
-        </task>
-        <task id="40" name="Gestion configuracion SW" meeting="false" start="2016-01-11" duration="4" complete="0" expand="true">
-            <task id="59" name="Decisiones GCS" meeting="false" start="2016-01-11" duration="4" complete="0" expand="true">
-                <task id="43" name="Decision control versiones" color="#ff0000" meeting="false" start="2016-01-11" duration="2" complete="0" expand="true"/>
-                <task id="44" name="Decision estandares documentacion, productos y procesos" color="#ff0000" meeting="false" start="2016-01-13" duration="2" complete="0" expand="true"/>
+        <task id="40" name="Gestion configuracion SW" meeting="false" start="2015-11-30" duration="5" complete="0" expand="false">
+            <task id="59" name="Formalizar las decisiones sobre herramientas" meeting="false" start="2015-11-30" duration="5" complete="0" expand="false">
+                <task id="43" name="Herramientas de trabajo" color="#ff0000" meeting="false" start="2015-11-30" duration="4" complete="0" expand="true"/>
+                <task id="44" name="Estructura de archivos y convenios" color="#ff0000" meeting="false" start="2015-12-04" duration="1" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="66" name="Revisión y corrección proyecto final" color="#8cb6ce" meeting="false" start="2016-01-15" duration="2" complete="0" expand="true"/>
+        <task id="118" name="Especificación de requisitos" meeting="false" start="2015-12-07" duration="22" complete="0" expand="false">
+            <task id="121" name="Modelo estructural" meeting="false" start="2015-12-07" duration="3" complete="0" expand="false">
+                <task id="124" name="Diagrama de clases" color="#cc00cc" meeting="false" start="2015-12-07" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="122" name="Modelo de casos de uso" meeting="false" start="2015-12-10" duration="19" complete="0" expand="false">
+                <task id="130" name="Descripción de los casos de uso" color="#cc00cc" meeting="false" start="2015-12-10" duration="10" complete="0" expand="true"/>
+                <task id="131" name="Diagrama de casos de uso" color="#cc00cc" meeting="false" start="2015-12-28" duration="7" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="143" name="Plan de gestión de equipos" meeting="false" start="2015-12-07" duration="21" complete="0" expand="false">
+            <task id="149" name="Estructura interna" color="#cc00cc" meeting="false" start="2015-12-07" duration="2" complete="0" expand="true"/>
+            <task id="150" name="Reuniones y actas" color="#cc00cc" meeting="false" start="2015-12-09" duration="2" complete="0" expand="true"/>
+            <task id="151" name="Formación de la plantilla" color="#cc00cc" meeting="false" start="2015-12-28" duration="2" complete="0" expand="true"/>
+            <task id="152" name="Comunicación y seguimiento del trabajo" color="#cc00cc" meeting="false" start="2015-12-30" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="144" name="Plan de gestión de riesgos" meeting="false" start="2015-12-07" duration="22" complete="0" expand="false">
+            <task id="159" name="Listado y análisis de riesgos" color="#cc00cc" meeting="false" start="2015-12-07" duration="4" complete="0" expand="true"/>
+            <task id="160" name="Priorización de riesgos" color="#cc00cc" meeting="false" start="2015-12-28" duration="2" complete="0" expand="true"/>
+            <task id="161" name="Valoración final y plan de riesgos" color="#cc00cc" meeting="false" start="2016-01-04" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="166" name="Revisión cliente" meeting="false" start="2016-01-07" duration="4" complete="0" expand="false">
+            <task id="170" name="Revisión proyecto" meeting="false" start="2016-01-07" duration="2" complete="0" expand="false">
+                <task id="171" name="Revisión casos de uso" color="#cc00cc" meeting="false" start="2016-01-07" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="172" name="Realización de cambios" color="#cc00cc" meeting="false" start="2016-01-11" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="177" name="Revisión final" color="#cc00cc" meeting="false" start="2016-12-13" duration="3" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
@@ -95,9 +109,9 @@
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="215" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="39" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="56" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="303" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="59" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="91" visible="true"/>
         <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
