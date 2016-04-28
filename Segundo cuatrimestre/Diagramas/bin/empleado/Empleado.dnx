@@ -43,7 +43,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_IsWW8A14Eea3EpTcjG5eqg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_IsWW8Q14Eea3EpTcjG5eqg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
     <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Contrato%5Bjcu%5Ename=Contrato.java%5Bjpack%5Ename=empleado.capadenegocio%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IsVI0Q14Eea3EpTcjG5eqg" x="18084" y="16104"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IsVI0Q14Eea3EpTcjG5eqg" x="15048" y="14916"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_KuBTwA14Eea3EpTcjG5eqg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_KuB60A14Eea3EpTcjG5eqg" type="ImageCompartment">
@@ -69,7 +69,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_L0B5kA14Eea3EpTcjG5eqg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_L0B5kQ14Eea3EpTcjG5eqg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
     <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=EmpleadoPDI%5Bjcu%5Ename=EmpleadoPDI.java%5Bjpack%5Ename=empleado.capadenegocio%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L0AEYQ14Eea3EpTcjG5eqg" x="29739" y="11086"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L0AEYQ14Eea3EpTcjG5eqg" x="21384" y="8976"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_M-gvsA14Eea3EpTcjG5eqg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_M-gvsg14Eea3EpTcjG5eqg" type="ImageCompartment">
