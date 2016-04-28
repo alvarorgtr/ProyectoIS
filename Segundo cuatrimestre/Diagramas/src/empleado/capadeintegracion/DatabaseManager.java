@@ -1,3 +1,6 @@
+package empleado.capadeintegracion;
+
+import empleado.capadenegocio.Empleado;
 
 public class DatabaseManager {
 

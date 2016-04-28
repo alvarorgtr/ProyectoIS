@@ -1,0 +1,13 @@
+package usuario.capadenegocio;
+
+
+import java.lang.String;
+
+public class Usuario {
+
+	private String nombre;
+	private String contraseña;
+	private TipoFacultad tipoFacultad;
+	private TipoPermiso tipoPermiso;
+
+}

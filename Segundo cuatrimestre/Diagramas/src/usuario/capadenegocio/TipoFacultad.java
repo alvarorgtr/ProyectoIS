@@ -1,0 +1,9 @@
+package usuario.capadenegocio;
+
+
+public enum TipoFacultad {
+	MATEMATICAS, FISICA, QUIMICA, BIOLOGIA, INFORMATICA, MEDICINA, NINGUNA;
+
+	private Usuario facultad;
+
+}
