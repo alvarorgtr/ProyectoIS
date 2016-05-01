@@ -15,5 +15,6 @@ public abstract class Empleado {
 	private String nominaPath;
 	private Contrato contrato;
 	private String curriculumPath;
+	private TipoBaja bajaEmpleado;
 	
 }
