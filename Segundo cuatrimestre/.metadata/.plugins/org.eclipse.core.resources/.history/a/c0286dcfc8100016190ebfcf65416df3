@@ -1,0 +1,11 @@
+package usuario.capadepresentacion.vista;
+
+import usuario.capadepresentacion.vista.VistasUsuario;
+import java.awt.Button;
+
+public class VistaLogging implements VistasUsuario{
+
+	private Button validar;
+
+
+}

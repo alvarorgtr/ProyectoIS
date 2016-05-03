@@ -1,0 +1,13 @@
+package usuario.capadepresentacion.vista;
+
+import usuario.capadepresentacion.vista.VistasUsuario;
+import java.awt.Button;
+
+import javax.swing.JFrame;
+
+public class VistaLogging extends JFrame implements VistasUsuario {
+
+	private Button validar;
+
+
+}

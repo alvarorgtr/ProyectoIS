@@ -1,6 +1,5 @@
 package usuario.capadenegocio;
 
-
 import java.lang.String;
 
 public class Usuario {

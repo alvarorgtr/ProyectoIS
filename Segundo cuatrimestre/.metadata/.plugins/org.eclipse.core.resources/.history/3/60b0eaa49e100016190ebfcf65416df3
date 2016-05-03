@@ -1,0 +1,9 @@
+package usuario.capadeintegracion;
+
+import java.awt.List;
+
+public class BaseDatosUsuarios {
+
+	private boolean conectado;
+
+}

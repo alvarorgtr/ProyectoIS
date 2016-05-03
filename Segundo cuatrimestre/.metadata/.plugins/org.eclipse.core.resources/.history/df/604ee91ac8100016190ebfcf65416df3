@@ -1,0 +1,8 @@
+package usuario.capadepresentacion.vista;
+
+import usuario.capadepresentacion.vista.VistasUsuario;
+
+public class VistaLogging implements VistasUsuario{
+
+
+}

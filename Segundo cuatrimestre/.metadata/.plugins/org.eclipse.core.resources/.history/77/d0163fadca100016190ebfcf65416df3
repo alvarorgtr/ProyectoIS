@@ -1,0 +1,15 @@
+package usuario.capadepresentacion.vista;
+
+import usuario.capadepresentacion.vista.VistasUsuario;
+import java.awt.Button;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class VistaLogging extends JFrame implements VistasUsuario {
+
+	private Button validar;
+	private JTextField introducirNombre;
+	private JTextField introducirContra;
+
+}

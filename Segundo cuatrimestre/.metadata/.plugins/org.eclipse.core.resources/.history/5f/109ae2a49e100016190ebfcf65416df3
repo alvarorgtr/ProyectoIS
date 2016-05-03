@@ -1,0 +1,7 @@
+package usuario.capadeintegracion;
+
+public class BaseDatosUsuarios {
+
+	private boolean conectado;
+
+}

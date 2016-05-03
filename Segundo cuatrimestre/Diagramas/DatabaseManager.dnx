@@ -29,7 +29,7 @@
       </children>
     </children>
     <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DatabaseManager%5Bjcu%5Ename=DatabaseManager.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_86HykQ-GEeaBfp2V9DyZEA" x="14520" y="3696" width="5605" height="7508"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_86HykQ-GEeaBfp2V9DyZEA" x="9108" y="3300" width="5605" height="7508"/>
   </children>
   <element xsi:nil="true"/>
 </umlnotation:UMLDiagram>

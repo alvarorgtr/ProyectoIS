@@ -1,0 +1,15 @@
+package usuario.capadeintegracion;
+
+import java.util.List;
+import usuario.capadenegocio.Usuario;
+
+
+public class BaseDatosUsuarios {
+
+	private boolean conectado;
+	private List<Usuario> listaUsuarios;
+	public boolean getConectado() {
+	
+	}
+
+}

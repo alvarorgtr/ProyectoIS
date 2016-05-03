@@ -1,0 +1,10 @@
+package usuario.capadepresentacion.vista;
+
+import javax.swing.JFrame;
+import usuario.capadepresentacion.vista.VistasUsuario;
+
+public class VistaActividad extends JFrame implements VistasUsuario{
+
+	JLabel
+
+}
