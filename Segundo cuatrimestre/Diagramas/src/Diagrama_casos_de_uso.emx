@@ -2,9 +2,9 @@
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
-<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_HMCpo6pCEeWJYdhbL3fA3g" name="Diagrama de casos de uso">
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_HMCpo6pCEeWJYdhbL3fA3g" name="Diagrama de casos de uso">
   <eAnnotations xmi:id="_HMCppKpCEeWJYdhbL3fA3g" source="uml2.diagrams" references="_HMCppapCEeWJYdhbL3fA3g">
-    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_HMCppapCEeWJYdhbL3fA3g" type="Freeform" name="Main">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_HMCppapCEeWJYdhbL3fA3g" type="Freeform" name="Diagrama de casos de uso">
       <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_BehQsKpDEeWJYdhbL3fA3g" element="_BefbgKpDEeWJYdhbL3fA3g" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_Beh3wKpDEeWJYdhbL3fA3g" type="ImageCompartment">
           <layoutConstraint xmi:type="notation:Size" xmi:id="_Beh3wapDEeWJYdhbL3fA3g" width="1455" height="2381"/>
@@ -612,24 +612,7 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Actor" xmi:id="_BefbgKpDEeWJYdhbL3fA3g" name="Usuario">
-    <eAnnotations xmi:id="_95YvMLMYEeWptYQEgyLvXg" source="uml2.diagrams">
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Jqa7ALMeEeWptYQEgyLvXg" type="Class" name="DiagramaDeClase1">
-        <children xmi:type="umlnotation:UMLShape" xmi:id="_KdDR0LMeEeWptYQEgyLvXg" element="_Kc_ncLMeEeWptYQEgyLvXg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-          <children xmi:type="notation:DecorationNode" xmi:id="_KdD44LMeEeWptYQEgyLvXg" type="ImageCompartment">
-            <layoutConstraint xmi:type="notation:Size" xmi:id="_KdD44bMeEeWptYQEgyLvXg" width="1320" height="1320"/>
-          </children>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_KdEf8LMeEeWptYQEgyLvXg" type="Stereotype"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_KdEf8bMeEeWptYQEgyLvXg" type="Name"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_KdEf8rMeEeWptYQEgyLvXg" type="Parent"/>
-          <children xmi:type="notation:SemanticListCompartment" xmi:id="_KdEf87MeEeWptYQEgyLvXg" type="AttributeCompartment"/>
-          <children xmi:type="notation:SemanticListCompartment" xmi:id="_KdFHALMeEeWptYQEgyLvXg" type="OperationCompartment"/>
-          <children xmi:type="notation:SemanticListCompartment" xmi:id="_KdFHAbMeEeWptYQEgyLvXg" visible="false" type="SignalCompartment"/>
-          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_KdFuELMeEeWptYQEgyLvXg" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KdDR0bMeEeWptYQEgyLvXg" x="6732" y="2904"/>
-        </children>
-        <element xsi:nil="true"/>
-      </contents>
-    </eAnnotations>
+    <eAnnotations xmi:id="_95YvMLMYEeWptYQEgyLvXg" source="uml2.diagrams"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_LgDAAKpDEeWJYdhbL3fA3g" name="1. Login de usuario">
     <extend xmi:id="_K0_l8KpFEeWJYdhbL3fA3g" name="&lt;&lt;extends>>" extendedCase="_RHQgIKpDEeWJYdhbL3fA3g" extensionLocation="_ODRf0KpFEeWJYdhbL3fA3g">
