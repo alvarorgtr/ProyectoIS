@@ -8,7 +8,7 @@ import usuario.capadenegocio.Usuario;
 import java.lang.String;
 
 
-public class BaseDatosUsuarios {
+public class GestorBaseDatos {
 
 	private boolean conectado;
 	private List<Usuario> listaUsuarios;

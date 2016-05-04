@@ -16,19 +16,19 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_861kQA-GEeaBfp2V9DyZEA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_87coQA-GEeaBfp2V9DyZEA" type="ANNOTATED_OPERATION_COMPARTMENT">
       <children xmi:type="notation:BasicCompartment" xmi:id="_9KJyoA-GEeaBfp2V9DyZEA" type="OPERATION_ITEM" collapsed="true">
-        <element xmi:type="uml:Operation" href="mmi:///#jmethod%5Ename=consultarEmpleado%5Esign=(I)QEmpleado;%5Bjsrctype%5Ename=DatabaseManager%5Bjcu%5Ename=DatabaseManager.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+        <element xmi:type="uml:Operation" href="mmi:///#jmethod%5Ename=consultarEmpleado%5Esign=(I)QEmpleado;%5Bjsrctype%5Ename=GestorBaseDatos%5Bjcu%5Ename=GestorBaseDatos.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_9KLn0A-GEeaBfp2V9DyZEA" type="OPERATION_ITEM" collapsed="true">
-        <element xmi:type="uml:Operation" href="mmi:///#jmethod%5Ename=abrirDatabase%5Esign=()Z%5Bjsrctype%5Ename=DatabaseManager%5Bjcu%5Ename=DatabaseManager.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+        <element xmi:type="uml:Operation" href="mmi:///#jmethod%5Ename=abrirDatabase%5Esign=()Z%5Bjsrctype%5Ename=GestorBaseDatos%5Bjcu%5Ename=GestorBaseDatos.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_9KRucA-GEeaBfp2V9DyZEA" type="OPERATION_ITEM" collapsed="true">
-        <element xmi:type="uml:Operation" href="mmi:///#jmethod%5Ename=añadirEmpleado%5Esign=(QEmpleado;)Z%5Bjsrctype%5Ename=DatabaseManager%5Bjcu%5Ename=DatabaseManager.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+        <element xmi:type="uml:Operation" href="mmi:///#jmethod%5Ename=añadirEmpleado%5Esign=(QEmpleado;)Z%5Bjsrctype%5Ename=GestorBaseDatos%5Bjcu%5Ename=GestorBaseDatos.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_9KTjoA-GEeaBfp2V9DyZEA" type="OPERATION_ITEM" collapsed="true">
-        <element xmi:type="uml:Operation" href="mmi:///#jmethod%5Ename=eliminarEmpleado%5Esign=(I)Z%5Bjsrctype%5Ename=DatabaseManager%5Bjcu%5Ename=DatabaseManager.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+        <element xmi:type="uml:Operation" href="mmi:///#jmethod%5Ename=eliminarEmpleado%5Esign=(I)Z%5Bjsrctype%5Ename=GestorBaseDatos%5Bjcu%5Ename=GestorBaseDatos.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
       </children>
     </children>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DatabaseManager%5Bjcu%5Ename=DatabaseManager.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GestorBaseDatos%5Bjcu%5Ename=GestorBaseDatos.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_86HykQ-GEeaBfp2V9DyZEA" x="9108" y="3300" width="5605" height="7508"/>
   </children>
   <element xsi:nil="true"/>

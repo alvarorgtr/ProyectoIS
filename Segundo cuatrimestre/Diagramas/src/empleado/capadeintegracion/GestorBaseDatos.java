@@ -4,7 +4,7 @@ import empleado.capadenegocio.Empleado;
 import java.lang.String;
 import java.util.List;
 
-public class DatabaseManager {
+public class GestorBaseDatos {
 
 	private boolean abierta;
 	private List<Empleado> listaEmplados;
