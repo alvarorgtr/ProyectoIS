@@ -29,7 +29,7 @@ public class GestorBaseDatos {
 		
 	}
 
-	public Empleado busquedaUsuario(String nombre) {
+	public Empleado busquedaEmpleado(String nombre) {
 		return null;
 	
 	}

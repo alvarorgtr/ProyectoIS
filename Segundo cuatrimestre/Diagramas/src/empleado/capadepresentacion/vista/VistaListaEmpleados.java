@@ -1,17 +1,26 @@
 package empleado.capadepresentacion.vista;
 
-public abstract class VistaListaEmpleados implements VistaGenerica {
+import empleado.capadepresentacion.vista.gestoreventos.VistaListaEmpleadosListener;
+
+public class VistaListaEmpleados implements VistaGenerica {
+	VistaListaEmpleadosListener listener;
+	
+	public VistaListaEmpleados(VistaListaEmpleadosListener listener) {
+		this.listener = listener;
+	}
 
 	@Override
 	public void mostrarVista() {
-		// TODO Apéndice de método generado automáticamente
-
+		
 	}
 
 	@Override
 	public void ocultarVista() {
-		// TODO Apéndice de método generado automáticamente
-
+		
+	}
+	
+	public void empleadoSeleccionado(int idEmpleado) {
+		listener.empleadoSeleccionado(idEmpleado);
 	}
 
 }
