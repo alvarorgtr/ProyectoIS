@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_zwG6EQ-GEeaBfp2V9DyZEA" type="Class" name="Capa_De_Integracion_Empleado.dnx">
   <eAnnotations xmi:id="_zwIvQA-GEeaBfp2V9DyZEA" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
     <details xmi:id="_zwIvQQ-GEeaBfp2V9DyZEA" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
@@ -29,7 +29,46 @@
       </children>
     </children>
     <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GestorBaseDatos%5Bjcu%5Ename=GestorBaseDatos.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_86HykQ-GEeaBfp2V9DyZEA" x="9108" y="3300" width="5605" height="7508"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_86HykQ-GEeaBfp2V9DyZEA" x="17952" y="1188" width="5605" height="5363"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_Ywrw4RKUEealm4ZtAlzCKg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Yw1h4BKUEealm4ZtAlzCKg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_Yw1h4RKUEealm4ZtAlzCKg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Yw1h4hKUEealm4ZtAlzCKg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Yw1h4xKUEealm4ZtAlzCKg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Yw1h5BKUEealm4ZtAlzCKg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Yw1h5RKUEealm4ZtAlzCKg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Yw1h5hKUEealm4ZtAlzCKg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Yw-r0BKUEealm4ZtAlzCKg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOEmpleados%5Bjcu%5Ename=DAOEmpleados.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ywrw4hKUEealm4ZtAlzCKg" x="10692" y="1188" height="6556"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_3TwRohKUEealm4ZtAlzCKg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3TwRpBKUEealm4ZtAlzCKg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_3TwRpRKUEealm4ZtAlzCKg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_3TwRphKUEealm4ZtAlzCKg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_3TwRpxKUEealm4ZtAlzCKg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_3TwRqBKUEealm4ZtAlzCKg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_3TwRqRKUEealm4ZtAlzCKg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_3TwRqhKUEealm4ZtAlzCKg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_3TwRqxKUEealm4ZtAlzCKg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TwRoxKUEealm4ZtAlzCKg" x="10164" y="9900"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_0pHTgBKYEealm4ZtAlzCKg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0pHTghKYEealm4ZtAlzCKg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_0pHTgxKYEealm4ZtAlzCKg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_0pHThBKYEealm4ZtAlzCKg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_0pHThRKYEealm4ZtAlzCKg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_0pHThhKYEealm4ZtAlzCKg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_0pHThxKYEealm4ZtAlzCKg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_0pHTiBKYEealm4ZtAlzCKg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_0pHTiRKYEealm4ZtAlzCKg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Empleado%5Bjcu%5Ename=Empleado.java%5Bjpack%5Ename=empleado.capadenegocio%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0pHTgRKYEealm4ZtAlzCKg" x="2244" y="1056"/>
   </children>
   <element xsi:nil="true"/>
 </umlnotation:UMLDiagram>

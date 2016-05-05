@@ -1,11 +1,10 @@
-package empleado.capadenegocio;
+package empleado.capadeintegracion;
 
-
-import java.lang.String;
-import empleado.capadeintegracion.TransferEmpleado;
+import empleado.capadenegocio.Contrato;
+import empleado.capadenegocio.TipoBaja;
 import empleado.capadeintegracion.DAOEmpleados;
-public abstract class Empleado {
 
+public class TransferEmpleado {
 	private int identifier; 
 	protected String nombre;
 	protected String apellido1;
@@ -18,5 +17,4 @@ public abstract class Empleado {
 	private Contrato contrato;
 	private String curriculumPath;
 	private TipoBaja bajaEmpleado;
-	
 }

@@ -7,8 +7,6 @@ import java.util.List;
 public class GestorBaseDatos {
 
 	private boolean abierta;
-	private List<Empleado> listaEmplados;
-
 	public Empleado consultarEmpleado(int idEmpleado) {
 		return null;
 	

@@ -1,5 +1,5 @@
 package empleado.capadenegocio;
 
 public enum TipoBaja {
-	TEMPORAL, PLANIFICADA
+	TEMPORAL, PLANIFICADA, ALTA
 }
