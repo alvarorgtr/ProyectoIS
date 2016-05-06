@@ -2,8 +2,7 @@ package empleado.capadenegocio;
 
 
 import java.lang.String;
-import empleado.capadeintegracion.TransferEmpleado;
-import empleado.capadeintegracion.DAOEmpleados;
+
 public abstract class Empleado {
 
 	private int identifier; 
