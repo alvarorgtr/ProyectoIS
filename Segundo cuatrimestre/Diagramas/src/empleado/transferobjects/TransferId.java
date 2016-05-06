@@ -1,7 +1,9 @@
 package empleado.transferobjects;
 
-public class TransferId {
+import java.io.Serializable;
 
+public class TransferId implements Serializable {
+	private static final long serialVersionUID = 1L;
 	private int id;
 
 }

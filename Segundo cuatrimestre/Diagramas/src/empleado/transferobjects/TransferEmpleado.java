@@ -1,9 +1,13 @@
 package empleado.transferobjects;
 
+import java.io.Serializable;
+
 import empleado.capadenegocio.Contrato;
 import empleado.capadenegocio.TipoBaja;
 
-public class TransferEmpleado {
+public class TransferEmpleado implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
 	private int identifier; 
 	private String nombre;
 	private String apellido1;
