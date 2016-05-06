@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_pXwQ8BN9EeaR9dBTu0fmnQ" type="Class" name="Controlador.dnx">
+  <eAnnotations xmi:id="_pXwQ8RN9EeaR9dBTu0fmnQ" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_pXwQ8hN9EeaR9dBTu0fmnQ" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_6lDDaBN9EeaR9dBTu0fmnQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6lDDahN9EeaR9dBTu0fmnQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_6lDDaxN9EeaR9dBTu0fmnQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_6lDDbBN9EeaR9dBTu0fmnQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_6lDDbRN9EeaR9dBTu0fmnQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_6mf04BN9EeaR9dBTu0fmnQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_6mf04RN9EeaR9dBTu0fmnQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_6mhDABN9EeaR9dBTu0fmnQ" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_6mhDARN9EeaR9dBTu0fmnQ" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6lDDaRN9EeaR9dBTu0fmnQ" x="4884" y="1980"/>
+  </children>
+  <element xsi:nil="true"/>
+</umlnotation:UMLDiagram>
