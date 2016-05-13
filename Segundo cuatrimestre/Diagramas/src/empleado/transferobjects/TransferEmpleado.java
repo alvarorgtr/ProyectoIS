@@ -2,6 +2,8 @@ package empleado.transferobjects;
 
 import java.io.Serializable;
 
+import usuario.capadenegocio.TipoFacultad;
+
 import empleado.capadenegocio.Contrato;
 import empleado.capadenegocio.TipoBaja;
 
@@ -23,35 +25,38 @@ public class TransferEmpleado implements Serializable {
 	private Contrato contrato;
 	private String curriculumPath;
 	private TipoBaja bajaEmpleado;
+	private TipoFacultad facultad;
 	
 	public TransferEmpleado(int identifier, String nombre, String apellido1, String apellido2,
-			String fotoPath, String direccion, String[] idiomas, String historialPath,
-			String nominaPath, Contrato contrato, String curriculumPath, TipoBaja bajaEmpleado) {
+			String fotoPath, String direccion, String[] idiomas, String historialPath, String nominaPath,
+			Contrato contrato, String curriculumPath, TipoBaja bajaEmpleado, TipoFacultad facultad) {
 		
 	}
 
 	public int getId() {return identifier;}
 	
-	public String getNombre() {return null;}
+	public String getNombre() {return nombre;}
 	
-	public String getApellido1() {return null;}
+	public String getApellido1() {return apellido1;}
 	
-	public String getApellido2() {return null;}
+	public String getApellido2() {return apellido2;}
 	
-	public String getFotoPath() {return null;}
+	public String getFotoPath() {return fotoPath;}
 	
-	public String getDireccion() {return null;}
+	public String getDireccion() {return direccion;}
 	
-	public String[] getIdiomas() {return null;}
+	public String[] getIdiomas() {return idiomas;}
 	
-	public String getHistorialPath() {return null;}
+	public String getHistorialPath() {return historialPath;}
 	
-	public String getNominalPath() {return null;}
+	public String getNominalPath() {return nominaPath;}
 	
-	public Contrato getContrato() {return null;}
+	public Contrato getContrato() {return contrato;}
 	
-	public String getCurriculumPath() {return null;}
+	public String getCurriculumPath() {return curriculumPath;}
 	
-	public TipoBaja getTipoBaja() {return null;}
+	public TipoBaja getTipoBaja() {return bajaEmpleado;}
+	
+	public TipoFacultad getFacultad() {return facultad;}
 
 }

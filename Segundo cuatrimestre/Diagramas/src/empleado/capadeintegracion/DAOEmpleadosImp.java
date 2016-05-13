@@ -4,7 +4,7 @@ import empleado.capadenegocio.Empleado;
 import empleado.transferobjects.TransferEmpleado;
 import empleado.transferobjects.TransferId;
 import empleado.transferobjects.TransferListEmpleados;
-import empleado.transferobjects.TransferNombre;
+import empleado.transferobjects.TransferBusqueda;
 
 
 public class DAOEmpleadosImp implements DAOEmpleados {
@@ -29,7 +29,7 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 
 	@Override
 	public TransferListEmpleados getListEmpleadoPorBusqueda(
-			TransferNombre nombre) {
+			TransferBusqueda empleado) {
 		// TODO Auto-generated method stub
 		return null;
 	}

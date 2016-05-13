@@ -4,7 +4,7 @@ import empleado.capadenegocio.Empleado;
 import empleado.transferobjects.TransferEmpleado;
 import empleado.transferobjects.TransferId;
 import empleado.transferobjects.TransferListEmpleados;
-import empleado.transferobjects.TransferNombre;
+import empleado.transferobjects.TransferBusqueda;
 
 public interface DAOEmpleados {
 
@@ -14,7 +14,7 @@ public interface DAOEmpleados {
 
 	public TransferListEmpleados getListempleadoVista(int indice);
 	
-	public TransferListEmpleados getListEmpleadoPorBusqueda(TransferNombre nombre);
+	public TransferListEmpleados getListEmpleadoPorBusqueda(TransferBusqueda empleado);
 	
 	public boolean insertarEmpleado (TransferEmpleado empleado);
 	

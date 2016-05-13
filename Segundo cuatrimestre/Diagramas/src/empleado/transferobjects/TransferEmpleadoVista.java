@@ -17,4 +17,20 @@ public class TransferEmpleadoVista implements Serializable {
 	public void setEmpleadoVista(int id, String nombre, String apellido1, String apellido2) {
 		
 	}
+	
+	public int getIdentifier() {
+		return identifier;
+	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	
+	public String getApellido1() {
+		return apellido1;
+	}
+	
+	public String getApellido2() {
+		return apellido2;
+	}
 }

@@ -22,4 +22,8 @@ public class TransferListEmpleados implements Serializable {
 	public void addTransferEmpleadoVista(TransferEmpleadoVista empleado) {
 		
 	}
+	
+	public List<TransferEmpleadoVista> getList(){
+		return listaEmpleados;
+	}
 }
