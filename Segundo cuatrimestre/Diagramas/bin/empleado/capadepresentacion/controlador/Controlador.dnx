@@ -5,18 +5,18 @@
   <eAnnotations xmi:id="_pXwQ8RN9EeaR9dBTu0fmnQ" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
     <details xmi:id="_pXwQ8hN9EeaR9dBTu0fmnQ" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
   </eAnnotations>
-  <children xmi:type="umlnotation:UMLShape" xmi:id="_6lDDaBN9EeaR9dBTu0fmnQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-    <children xmi:type="notation:DecorationNode" xmi:id="_6lDDahN9EeaR9dBTu0fmnQ" type="ImageCompartment">
-      <layoutConstraint xmi:type="notation:Size" xmi:id="_6lDDaxN9EeaR9dBTu0fmnQ" width="1320" height="1320"/>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_VT85QBkAEea25-zNvaZkRg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VT85QhkAEea25-zNvaZkRg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_VT85QxkAEea25-zNvaZkRg" width="1320" height="1320"/>
     </children>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="_6lDDbBN9EeaR9dBTu0fmnQ" type="Stereotype"/>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="_6lDDbRN9EeaR9dBTu0fmnQ" type="Name"/>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="_6mf04BN9EeaR9dBTu0fmnQ" type="Parent"/>
-    <children xmi:type="notation:ListCompartment" xmi:id="_6mf04RN9EeaR9dBTu0fmnQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
-    <children xmi:type="notation:ListCompartment" xmi:id="_6mhDABN9EeaR9dBTu0fmnQ" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
-    <children xmi:type="notation:ListCompartment" xmi:id="_6mhDARN9EeaR9dBTu0fmnQ" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_VT85RBkAEea25-zNvaZkRg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_VT85RRkAEea25-zNvaZkRg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_VT85RhkAEea25-zNvaZkRg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_VT85RxkAEea25-zNvaZkRg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_VT85SBkAEea25-zNvaZkRg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_VT85SRkAEea25-zNvaZkRg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
     <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6lDDaRN9EeaR9dBTu0fmnQ" x="4884" y="1980"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VT85QRkAEea25-zNvaZkRg" x="7249" y="6138"/>
   </children>
   <element xsi:nil="true"/>
 </umlnotation:UMLDiagram>
