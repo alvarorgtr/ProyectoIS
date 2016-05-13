@@ -5,6 +5,9 @@ import java.io.Serializable;
 import empleado.capadenegocio.Contrato;
 import empleado.capadenegocio.TipoBaja;
 
+/**
+ * Codifica la información de un empleado al completo.
+ */
 public class TransferEmpleado implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
