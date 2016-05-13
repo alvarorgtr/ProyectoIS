@@ -2,7 +2,7 @@ package empleado.capadepresentacion.vista;
 
 import empleado.capadepresentacion.vista.gestoreventos.VistaListaEmpleadosListener;
 
-public class VistaListaEmpleados implements VistaGenerica {
+public abstract class VistaListaEmpleados implements VistaGenerica {
 	VistaListaEmpleadosListener listener;
 	
 	public VistaListaEmpleados(VistaListaEmpleadosListener listener) {

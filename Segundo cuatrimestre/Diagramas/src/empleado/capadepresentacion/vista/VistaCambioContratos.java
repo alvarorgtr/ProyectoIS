@@ -2,7 +2,7 @@ package empleado.capadepresentacion.vista;
 
 import empleado.capadepresentacion.vista.gestoreventos.VistaCambioContratosListener;
 
-public class VistaCambioContratos implements VistaGenerica {
+public abstract class VistaCambioContratos implements VistaGenerica {
 	VistaCambioContratosListener listener;
 	
 	@Override

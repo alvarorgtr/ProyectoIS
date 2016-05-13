@@ -2,7 +2,7 @@ package empleado.capadepresentacion.vista;
 
 import empleado.capadepresentacion.vista.gestoreventos.VistaCambioDepartamentoListener;
 
-public class VistaCambioDepartamento implements VistaGenerica {
+public abstract class VistaCambioDepartamento implements VistaGenerica {
 	private VistaCambioDepartamentoListener listener;
 
 	@Override
@@ -14,8 +14,10 @@ public class VistaCambioDepartamento implements VistaGenerica {
 	public void ocultarVista() {
 
 	}
+	
+	protected abstract String informacionNuevoDepartamento();
 
 	public void cambioDepartamento() {
-		listener.cambioDepartamento();
+		listener.cambioDepartamento(informacionNuevoDepartamento());
 	}
 }

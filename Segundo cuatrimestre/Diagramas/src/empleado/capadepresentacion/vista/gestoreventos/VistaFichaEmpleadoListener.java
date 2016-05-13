@@ -1,5 +1,6 @@
 package empleado.capadepresentacion.vista.gestoreventos;
 
+
 public interface VistaFichaEmpleadoListener {
 	public void cambiarContratoPulsado();
 	public void especificarBajaPulsado();

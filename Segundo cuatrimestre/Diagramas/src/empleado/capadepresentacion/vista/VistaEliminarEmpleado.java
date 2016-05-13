@@ -2,7 +2,7 @@ package empleado.capadepresentacion.vista;
 
 import empleado.capadepresentacion.vista.gestoreventos.VistaEliminarEmpleadoListener;
 
-public class VistaEliminarEmpleado implements VistaGenerica {
+public abstract class VistaEliminarEmpleado implements VistaGenerica {
 
 	VistaEliminarEmpleadoListener listener;
 
@@ -22,8 +22,10 @@ public class VistaEliminarEmpleado implements VistaGenerica {
 
 	}
 	
+	protected abstract int idEmpleadoAEliminar();
+	
 	public void eliminarEmpleadoPulsado(){
-		listener.eliminarEmpleadoPulsado();
+		listener.eliminarEmpleadoPulsado(idEmpleadoAEliminar());
 	}
 
 }

@@ -1,5 +1,5 @@
 package empleado.capadepresentacion.vista.gestoreventos;
 
 public interface VistaCambioDepartamentoListener {
-	public void cambioDepartamento();
+	public void cambioDepartamento(String departamento);
 }

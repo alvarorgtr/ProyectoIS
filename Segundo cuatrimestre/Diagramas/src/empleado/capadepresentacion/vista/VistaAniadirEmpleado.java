@@ -1,5 +1,6 @@
 package empleado.capadepresentacion.vista;
 
+import empleado.capadenegocio.Empleado;
 import empleado.capadepresentacion.vista.gestoreventos.VistaAniadirEmpleadoListener;
 
 public abstract class VistaAniadirEmpleado implements VistaGenerica {
@@ -8,17 +9,22 @@ public abstract class VistaAniadirEmpleado implements VistaGenerica {
 	
 	@Override
 	public void mostrarVista() {
-		// TODO Apéndice de método generado automáticamente
-
+		
 	}
 
 	@Override
 	public void ocultarVista() {
-		// TODO Apéndice de método generado automáticamente
-
+		
 	}
+	
+	/**
+	 * Recoge de la vista la información necesaria para crear un
+	 * empleado y la encapsula. 
+	 * @return el empleado encapsulado.
+	 */
+	protected abstract Empleado informacionNuevoEmpleado();
 
 	public void aniadirEmpleadoPulsado(){
-		listener.aniadirEmpleadoPulsado();
+		listener.aniadirEmpleadoPulsado(informacionNuevoEmpleado());
 	}
 }
