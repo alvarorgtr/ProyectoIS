@@ -1,0 +1,11 @@
+package usuario.capadepresentacion.vista;
+
+import usuario.capadenegocio.Usuario;
+
+public class Memento {
+	Usuario usuario;
+
+	public Memento(Usuario u) {
+	}
+
+}

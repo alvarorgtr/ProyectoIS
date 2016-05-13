@@ -1,0 +1,9 @@
+package usuario.capadepresentacion.vista;
+
+import usuario.capadenegocio.Usuario;
+
+public interface VistaAniadirUsuarioListener {
+
+	void añadir();
+
+}

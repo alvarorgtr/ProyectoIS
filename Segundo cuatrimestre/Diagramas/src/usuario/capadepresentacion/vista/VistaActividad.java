@@ -1,17 +1,42 @@
 package usuario.capadepresentacion.vista;
 
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 
-import usuario.capadepresentacion.vista.VistasUsuario;
+import empleado.capadepresentacion.vista.VistaGenerica;
 
-public class VistaActividad extends JFrame implements VistasUsuario{
+public class VistaActividad implements VistaGenerica{
 
-	private JLabel elegir;
-	private String[] opciones = {"Añadir usuario", "Eliminar usuario", "Log out", "Acceso a la base de datos de empleados"};
-	private JComboBox op;
-	private JButton aceptar;
+	VistaActividadListener listener;
+	
+	enum types{
+		AniadirUsuario, EliminarUsuario,AccesoEmpleados;
+	};
+	
+	public void eligeOpcion(){
+		types op = listener.eligeOpcion();
+		switch(op){
+		case AniadirUsuario:
+			listener.aniadirUsuario();
+			break;
+		case EliminarUsuario:
+			listener.eliminarUsuario();
+			break;
+		case AccesoEmpleados:
+			listener.accesoEmpleados();
+			break;
+		}
+		
+		
+	}
+	
+	@Override
+	public void mostrarVista() {
+		// TODO Apéndice de método generado automáticamente
+		
+	}
+	@Override
+	public void ocultarVista() {
+		// TODO Apéndice de método generado automáticamente
+		
+	}
 
 }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Suprimir elemento de proyecto &apos;Diagramas&apos;&#x0D;&#x0A;- Proyecto original: &apos;Diagramas&apos;&#x0D;&#x0A;- Elemento original: &apos;usuario.capadepresentacion.vista.DAOUsuario.java&apos;" description="Suprimir elemento" element1="/src&lt;usuario.capadepresentacion.vista{DAOUsuario.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1462534473778" subPackages="false" version="1.0"/>
+</session>

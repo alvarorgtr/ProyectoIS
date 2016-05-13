@@ -58,6 +58,19 @@
     <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaActividad%5Bjcu%5Ename=VistaActividad.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kf45KBICEeadDMbBSzXbAA" x="9572" y="3616"/>
   </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_Qh7OUBj4Eea8fMypL3mhbA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QiX6QBj4Eea8fMypL3mhbA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_QiX6QRj4Eea8fMypL3mhbA" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QiX6Qhj4Eea8fMypL3mhbA" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QircQBj4Eea8fMypL3mhbA" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QircQRj4Eea8fMypL3mhbA" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_QircQhj4Eea8fMypL3mhbA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_QircQxj4Eea8fMypL3mhbA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_QjIIMBj4Eea8fMypL3mhbA" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaEliminarUsuario%5Bjcu%5Ename=VistaEliminarUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Diagramas%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qh7OURj4Eea8fMypL3mhbA" x="2772" y="7524" width="4630" height="1322"/>
+  </children>
   <element xsi:nil="true"/>
   <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KkdQEBICEeadDMbBSzXbAA" source="_KfrdwRICEeadDMbBSzXbAA" target="_Kf4SEBICEeadDMbBSzXbAA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
     <children xmi:type="notation:DecorationNode" xmi:id="_KkqrcBICEeadDMbBSzXbAA" type="NameLabel">

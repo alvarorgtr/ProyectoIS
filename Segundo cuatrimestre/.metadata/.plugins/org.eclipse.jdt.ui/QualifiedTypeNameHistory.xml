@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="usuario.capadenegocio.Usuario"/>
 <fullyQualifiedTypeName name="usuario.capadenegocio.TipoPermiso"/>
 <fullyQualifiedTypeName name="usuario.capadenegocio.TipoFacultad"/>
 <fullyQualifiedTypeName name="javax.swing.JTextField"/>
@@ -8,4 +7,7 @@
 <fullyQualifiedTypeName name="javax.swing.JComboBox"/>
 <fullyQualifiedTypeName name="javax.swing.JButton"/>
 <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="usuario.capadenegocio.Usuario"/>
+<fullyQualifiedTypeName name="empleado.capadepresentacion.vista.VistaGenerica"/>
+<fullyQualifiedTypeName name="usuario.capadepresentacion.vista.VistaActividad.types"/>
 </qualifiedTypeNameHistroy>
