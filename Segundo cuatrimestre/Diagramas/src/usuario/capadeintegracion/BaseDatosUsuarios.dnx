@@ -28,7 +28,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_exFXwRN-EeaT0otNNYXTYg" visible="false" type="ANNOTATION_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_exFXwhN-EeaT0otNNYXTYg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_exFXwxN-EeaT0otNNYXTYg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferUsuario%5Bjcu%5Ename=TransferUsuario.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Diagramas%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferUsuario%5Bjcu%5Ename=TransferUsuario.java%5Bjpack%5Ename=usuario.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Diagramas%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ew7mwRN-EeaT0otNNYXTYg" x="8052" y="1188" width="5343" height="3781"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_J40S8BN_EeaT0otNNYXTYg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -41,7 +41,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_J40S9xN_EeaT0otNNYXTYg" visible="false" type="ANNOTATION_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_J49c4BN_EeaT0otNNYXTYg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_J49c4RN_EeaT0otNNYXTYg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferID%5Bjcu%5Ename=TransferID.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Diagramas%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferID%5Bjcu%5Ename=TransferID.java%5Bjpack%5Ename=usuario.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Diagramas%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J40S8RN_EeaT0otNNYXTYg" x="1584" y="1716" width="5159" height="3042"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_5tBkUBN_EeaT0otNNYXTYg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">

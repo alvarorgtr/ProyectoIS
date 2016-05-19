@@ -7,7 +7,7 @@ public class VistaActividad implements VistaGenerica{
 
 	VistaActividadListener listener;
 	
-	enum types{
+	public enum types{
 		AniadirUsuario, EliminarUsuario,AccesoEmpleados;
 	};
 	

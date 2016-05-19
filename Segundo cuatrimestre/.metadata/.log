@@ -1254,3 +1254,15 @@ java.nio.BufferUnderflowException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
 	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
 	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+!SESSION 2016-05-19 10:14:28.506 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa4ws.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa4ws.product.v80.ide
+
+!ENTRY org.eclipse.osgi 2 1 2016-05-19 10:15:05.628
+!MESSAGE NLS unused message: ExistingUnitsDialog_Option_DoNotRediscoverUnits in: com.ibm.ccl.soa.deploy.core.ui.Messages
