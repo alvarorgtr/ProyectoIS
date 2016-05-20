@@ -1,7 +1,9 @@
 package empleado.capadenegocio.logica;
 
+import empleado.capadenegocio.transferencia.TransferBusqueda;
 import empleado.capadenegocio.transferencia.TransferEmpleado;
 import empleado.capadenegocio.transferencia.TransferInt;
+import empleado.capadenegocio.transferencia.TransferListEmpleados;
 
 public class ImplementacionEmpleados implements Empleados {
 
@@ -12,15 +14,15 @@ public class ImplementacionEmpleados implements Empleados {
 	}
 
 	@Override
-	public void perfilCompletoEmpleado(TransferInt transfer) {
+	public TransferEmpleado perfilCompletoEmpleado(TransferInt transfer) {
 		// TODO Apéndice de método generado automáticamente
-		
+		return null;
 	}
 
 	@Override
-	public void listaEmpleados(TransferInt pagina) {
+	public TransferListEmpleados listaEmpleados(TransferInt pagina) {
 		// TODO Apéndice de método generado automáticamente
-		
+		return null;
 	}
 
 	@Override
@@ -28,6 +30,13 @@ public class ImplementacionEmpleados implements Empleados {
 		// TODO Apéndice de método generado automáticamente
 		
 	}
+	
+	@Override
+	public TransferEmpleado buscarEmpleado(TransferBusqueda transfer) {
+		// TODO Apéndice de método generado automáticamente
+		return null;
+	}
+	
 
 	@Override
 	public void trasladoFacultad(TransferEmpleado transfer) {
@@ -58,5 +67,4 @@ public class ImplementacionEmpleados implements Empleados {
 		// TODO Apéndice de método generado automáticamente
 		
 	}
-
 }
