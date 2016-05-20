@@ -1,10 +1,10 @@
 package empleado.capadeintegracion;
 
 import empleado.capadenegocio.reglas.Empleado;
-import empleado.transferobjects.TransferEmpleado;
-import empleado.transferobjects.TransferId;
-import empleado.transferobjects.TransferListEmpleados;
-import empleado.transferobjects.TransferBusqueda;
+import empleado.capadenegocio.transferencia.TransferBusqueda;
+import empleado.capadenegocio.transferencia.TransferEmpleado;
+import empleado.capadenegocio.transferencia.TransferInt;
+import empleado.capadenegocio.transferencia.TransferListEmpleados;
 
 
 public class DAOEmpleadosImp implements DAOEmpleados {
