@@ -1,4 +1,4 @@
-package empleado.transferobjects;
+package empleado.capadenegocio.transferencia;
 
 import empleado.capadenegocio.reglas.AreaTrabajo;
 import usuario.capadenegocio.TipoFacultad;

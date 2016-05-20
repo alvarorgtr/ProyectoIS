@@ -10,13 +10,13 @@ import empleado.transferobjects.TransferBusqueda;
 public class DAOEmpleadosImp implements DAOEmpleados {
 
 	@Override
-	public Empleado consultarEmpleado(TransferId idEmpleado) {
+	public Empleado consultarEmpleado(TransferInt idEmpleado) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public boolean eliminarEmpleado(TransferId idEmpleado) {
+	public boolean eliminarEmpleado(TransferInt idEmpleado) {
 		// TODO Auto-generated method stub
 		return false;
 	}

@@ -56,7 +56,7 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	}
 
 	@Override
-	public void eliminarFicheroPulsado() {
+	public void eliminarFichaPulsado() {
 		// TODO Apéndice de método generado automáticamente
 		
 	}

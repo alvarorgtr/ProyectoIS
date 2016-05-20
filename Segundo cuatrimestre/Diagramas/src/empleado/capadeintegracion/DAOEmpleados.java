@@ -8,9 +8,9 @@ import empleado.transferobjects.TransferBusqueda;
 
 public interface DAOEmpleados {
 
-	public Empleado consultarEmpleado(TransferId idEmpleado);
+	public Empleado consultarEmpleado(TransferInt idEmpleado);
 
-	public boolean eliminarEmpleado(TransferId idEmpleado);
+	public boolean eliminarEmpleado(TransferInt idEmpleado);
 
 	public TransferListEmpleados getListempleadoVista(int indice);
 	

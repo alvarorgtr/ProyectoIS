@@ -1,4 +1,4 @@
-package empleado.transferobjects;
+package empleado.capadenegocio.transferencia;
 
 import java.io.Serializable;
 

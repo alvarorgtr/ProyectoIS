@@ -1,5 +1,5 @@
 
-package empleado.transferobjects;
+package empleado.capadenegocio.transferencia;
 
 import java.io.Serializable;
 import java.util.List;
@@ -16,7 +16,7 @@ public class TransferListEmpleados implements Serializable {
 	private int index;
 	
 	public TransferListEmpleados (int index) {
-		
+		this.index = index;
 	}
 	
 	public void addTransferEmpleadoVista(TransferEmpleadoVista empleado) {

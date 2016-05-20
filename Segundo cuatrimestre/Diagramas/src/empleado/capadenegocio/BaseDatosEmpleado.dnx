@@ -15,7 +15,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_sHz2VRkmEeahh_QiF-0Xmw" visible="false" type="ANNOTATION_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sHz2VhkmEeahh_QiF-0Xmw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sHz2VxkmEeahh_QiF-0Xmw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sHXKZBkmEeahh_QiF-0Xmw" x="792" y="20196"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_sHz2WBkmEeahh_QiF-0Xmw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -41,7 +41,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_sH9nWRkmEeahh_QiF-0Xmw" visible="false" type="ANNOTATION_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sH9nWhkmEeahh_QiF-0Xmw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sH9nWxkmEeahh_QiF-0Xmw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferId%5Bjcu%5Ename=TransferId.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferId%5Bjcu%5Ename=TransferId.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sH9nUxkmEeahh_QiF-0Xmw" x="27720" y="4884"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_sH9nXBkmEeahh_QiF-0Xmw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -54,7 +54,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_sH9nYxkmEeahh_QiF-0Xmw" visible="false" type="ANNOTATION_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sH9nZBkmEeahh_QiF-0Xmw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sH9nZRkmEeahh_QiF-0Xmw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusquedaPDI%5Bjcu%5Ename=TransferBusquedaPDI.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusquedaPDI%5Bjcu%5Ename=TransferBusquedaPDI.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sH9nXRkmEeahh_QiF-0Xmw" x="9108" y="19668"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_sH9nZhkmEeahh_QiF-0Xmw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -67,7 +67,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_sIGxQhkmEeahh_QiF-0Xmw" visible="false" type="ANNOTATION_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sIGxQxkmEeahh_QiF-0Xmw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sIGxRBkmEeahh_QiF-0Xmw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sH9nZxkmEeahh_QiF-0Xmw" x="22440" y="7920"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_sIGxRRkmEeahh_QiF-0Xmw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -80,7 +80,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_sIGxTBkmEeahh_QiF-0Xmw" visible="false" type="ANNOTATION_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sIGxTRkmEeahh_QiF-0Xmw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sIGxThkmEeahh_QiF-0Xmw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferListEmpleados%5Bjcu%5Ename=TransferListEmpleados.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferListEmpleados%5Bjcu%5Ename=TransferListEmpleados.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIGxRhkmEeahh_QiF-0Xmw" x="13728" y="8580"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_sIGxTxkmEeahh_QiF-0Xmw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -93,7 +93,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_sIGxVhkmEeahh_QiF-0Xmw" visible="false" type="ANNOTATION_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sIQiQBkmEeahh_QiF-0Xmw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sIQiQRkmEeahh_QiF-0Xmw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIGxUBkmEeahh_QiF-0Xmw" x="4620" y="13200"/>
   </children>
   <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_sIQiQhkmEeahh_QiF-0Xmw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
@@ -120,7 +120,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_sIQiVBkmEeahh_QiF-0Xmw" visible="false" type="ANNOTATION_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sIQiVRkmEeahh_QiF-0Xmw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_sIQiVhkmEeahh_QiF-0Xmw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleadoVista%5Bjcu%5Ename=TransferEmpleadoVista.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleadoVista%5Bjcu%5Ename=TransferEmpleadoVista.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIQiThkmEeahh_QiF-0Xmw" x="13596" y="13860"/>
   </children>
   <element xsi:nil="true"/>
@@ -130,7 +130,7 @@
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_sjFdExkmEeahh_QiF-0Xmw" type="Name"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sjFdERkmEeahh_QiF-0Xmw" y="-186"/>
     </children>
-    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Generalization"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_shI8UhkmEeahh_QiF-0Xmw" points="[39, 102, -3353, -7500]$[39, 1211, -3353, -6391]$[3408, 1211, 16, -6391]$[3408, 7602, 16, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxPN0BkmEeahh_QiF-0Xmw" id="(0.5,0.9651162790697675)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxPN0RkmEeahh_QiF-0Xmw" id="(0.20014663924444948,-6.20815496090736E-16)"/>
@@ -142,7 +142,7 @@
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_sjFdGRkmEeahh_QiF-0Xmw" type="Name"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sjFdFxkmEeahh_QiF-0Xmw" y="-186"/>
     </children>
-    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferId%5Bjcu%5Ename=TransferId.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferId%5Bjcu%5Ename=TransferId.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sjFdFRkmEeahh_QiF-0Xmw" points="[1203, -2740, -7023, -1339]$[8162, -2740, -64, -1339]$[8162, -1401, -64, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxPN0hkmEeahh_QiF-0Xmw" id="(0.8334523371129077,0.975288303130148)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxPN0xkmEeahh_QiF-0Xmw" id="(0.6668129814227458,0.0)"/>
@@ -154,7 +154,7 @@
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_sjFdIBkmEeahh_QiF-0Xmw" type="Name"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sjFdHhkmEeahh_QiF-0Xmw" y="-186"/>
     </children>
-    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sjFdHBkmEeahh_QiF-0Xmw" points="[-1164, 103, -4548, -3248]$[-1164, 964, -4548, -2387]$[3129, 964, -255, -2387]$[3129, 3351, -255, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-0BkmEeahh_QiF-0Xmw" id="(0.6667855812380105,0.975288303130148)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-0RkmEeahh_QiF-0Xmw" id="(0.6668057757416165,0.0)"/>
@@ -166,7 +166,7 @@
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_sjFdJxkmEeahh_QiF-0Xmw" type="Name"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sjFdJRkmEeahh_QiF-0Xmw" y="-186"/>
     </children>
-    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferListEmpleados%5Bjcu%5Ename=TransferListEmpleados.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferListEmpleados%5Bjcu%5Ename=TransferListEmpleados.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sjFdIxkmEeahh_QiF-0Xmw" points="[428, 103, 4573, -1136]$[428, 700, 4573, -539]$[-4521, 700, -376, -539]$[-4521, 1239, -376, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-0hkmEeahh_QiF-0Xmw" id="(0.33345233711290767,0.975288303130148)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-0xkmEeahh_QiF-0Xmw" id="(0.3334191194765125,-9.186815169423518E-16)"/>
@@ -189,7 +189,7 @@
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_sjFdNBkmEeahh_QiF-0Xmw" type="Name"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sjFdMhkmEeahh_QiF-0Xmw" y="-186"/>
     </children>
-    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sjFdMBkmEeahh_QiF-0Xmw" points="[13, 103, 10581, -13101]$[13, 737, 10581, -12467]$[-6101, 737, 4467, -12467]$[-6101, 7342, 4467, -5862]$[-10520, 7342, 48, -5862]$[-10520, 13204, 48, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-1hkmEeahh_QiF-0Xmw" id="(0.1667855812380104,0.975288303130148)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-1xkmEeahh_QiF-0Xmw" id="(0.6001465507476212,-6.20815496090736E-16)"/>
@@ -200,7 +200,7 @@
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_sjFdOxkmEeahh_QiF-0Xmw" type="Name"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sjFdORkmEeahh_QiF-0Xmw" y="-186"/>
     </children>
-    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=TransferBusquedaPDI%5Bjcu%5Ename=TransferBusquedaPDI.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=TransferBusquedaPDI%5Bjcu%5Ename=TransferBusquedaPDI.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Generalization"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sjFdNxkmEeahh_QiF-0Xmw" points="[40, 103, 2527, -7025]$[40, 737, 2527, -6391]$[-2455, 737, 32, -6391]$[-2455, 7128, 32, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-2BkmEeahh_QiF-0Xmw" id="(0.5000002148179719,0.9734848484848485)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-2RkmEeahh_QiF-0Xmw" id="(0.40014659499603533,-6.20815496090736E-16)"/>
@@ -212,7 +212,7 @@
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_sjOnAxkmEeahh_QiF-0Xmw" type="Name"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sjOnARkmEeahh_QiF-0Xmw" y="-186"/>
     </children>
-    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=TransferListEmpleados%5Bjcu%5Ename=TransferListEmpleados.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferEmpleadoVista%5Bjcu%5Ename=TransferEmpleadoVista.java%5Bjpack%5Ename=empleado.transferobjects%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=TransferListEmpleados%5Bjcu%5Ename=TransferListEmpleados.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferEmpleadoVista%5Bjcu%5Ename=TransferEmpleadoVista.java%5Bjpack%5Ename=delete%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sjFdPRkmEeahh_QiF-0Xmw" points="[39, 103, 39, -7446]$[39, 7549, 39, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-2hkmEeahh_QiF-0Xmw" id="(0.5000857861431794,0.9734848484848485)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sxY-2xkmEeahh_QiF-0Xmw" id="(0.500146462250793,0.0)"/>

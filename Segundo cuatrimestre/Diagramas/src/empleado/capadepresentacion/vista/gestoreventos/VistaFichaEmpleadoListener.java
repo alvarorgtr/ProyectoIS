@@ -6,5 +6,5 @@ public interface VistaFichaEmpleadoListener {
 	public void especificarBajaPulsado();
 	public void especificarTrasladoPulsado();
 	public void especificarCambioDepartamentoPulsado();
-	public void eliminarFicheroPulsado();
+	public void eliminarFichaPulsado();
 }

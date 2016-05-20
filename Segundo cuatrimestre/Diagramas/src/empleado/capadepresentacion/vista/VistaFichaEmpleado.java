@@ -36,7 +36,7 @@ public abstract class VistaFichaEmpleado implements VistaGenerica {
 		listener.especificarCambioDepartamentoPulsado();
 	}
 	
-	public void eliminarFicheroPulsado() {
-		listener.eliminarFicheroPulsado();
+	public void eliminarFichaPulsado() {
+		listener.eliminarFichaPulsado();
 	}
 }
