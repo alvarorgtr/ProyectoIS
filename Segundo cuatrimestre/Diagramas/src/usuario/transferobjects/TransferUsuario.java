@@ -10,4 +10,8 @@ public class TransferUsuario {
 	private TipoFacultad facu;
 	private TipoPermiso permiso;
 	
+	public TransferUsuario (String nom, String contra, String facultad, String perm){
+		
+	}
+
 }

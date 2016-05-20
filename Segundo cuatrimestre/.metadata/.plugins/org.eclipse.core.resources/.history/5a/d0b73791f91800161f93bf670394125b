@@ -1,7 +1,0 @@
-package usuario.capadepresentacion.vista;
-
-import javax.swing.JFrame;
-
-public class VistaEliminar extends JFrame implements VistasUsuario{
-
-}
