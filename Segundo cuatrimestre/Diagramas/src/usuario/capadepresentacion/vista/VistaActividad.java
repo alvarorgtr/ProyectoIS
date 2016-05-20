@@ -11,6 +11,10 @@ public class VistaActividad implements VistaGenerica{
 		AniadirUsuario, EliminarUsuario,AccesoEmpleados;
 	};
 	
+	public VistaActividad (VistaActividadListener listener){
+		this.listener = listener;
+	}
+	
 	public void eligeOpcion(){
 		types op = listener.eligeOpcion();
 		switch(op){
@@ -24,7 +28,6 @@ public class VistaActividad implements VistaGenerica{
 			listener.accesoEmpleados();
 			break;
 		}
-		
 		
 	}
 	

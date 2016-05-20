@@ -7,6 +7,10 @@ public class VistaEliminarUsuario implements VistaGenerica{
 	VistaEliminarUsuarioListener listener;
 	//Conserje cons;
 	
+	public VistaEliminarUsuario(VistaEliminarUsuarioListener listener){
+		this.listener = listener;
+	}
+	
 	public void eliminar(){
 	//	cons.setMemento(new Memento(u));
 		listener.eliminar();		

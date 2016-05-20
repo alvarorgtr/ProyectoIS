@@ -1,7 +1,5 @@
 package usuario.capadepresentacion.vista;
 
-import usuario.capadenegocio.Usuario;
-
 import empleado.capadepresentacion.vista.VistaGenerica;
 
 public class VistaEliminarUsuario implements VistaGenerica{

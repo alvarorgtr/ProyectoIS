@@ -6,6 +6,9 @@ public class VistaAniadirUsuario implements VistaGenerica {
 
 	VistaAniadirUsuarioListener listener;
 	
+	public VistaAniadirUsuario (VistaAniadirUsuarioListener listener){
+		this.listener = listener;
+	}
 	
 	public void aniadirUsuario(){
 		listener.añadir();
