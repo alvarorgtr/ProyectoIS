@@ -10,4 +10,6 @@
 <fullyQualifiedTypeName name="usuario.capadenegocio.Usuario"/>
 <fullyQualifiedTypeName name="empleado.capadepresentacion.vista.VistaGenerica"/>
 <fullyQualifiedTypeName name="usuario.capadepresentacion.vista.VistaActividad.types"/>
+<fullyQualifiedTypeName name="usuario.transferobjects.TransferID"/>
+<fullyQualifiedTypeName name="usuario.transferobjects.TransferUsuario"/>
 </qualifiedTypeNameHistroy>

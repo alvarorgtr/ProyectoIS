@@ -1,5 +1,16 @@
 package usuario.capadeintegracion;
 
-public class DAOUsuarios {
+import usuario.transferobjects.TransferID;
+import usuario.transferobjects.TransferUsuario;
 
+public interface DAOUsuarios {
+	
+	public boolean getConectado();
+	
+	public boolean logging(TransferID usuario);
+	
+	public boolean añadirUsuario(TransferUsuario usuario);
+	
+	public boolean eliminarUsuario(TransferID usuario);
+	
 }

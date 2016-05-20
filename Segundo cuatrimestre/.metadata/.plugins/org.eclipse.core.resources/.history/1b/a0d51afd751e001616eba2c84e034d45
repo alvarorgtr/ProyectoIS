@@ -1,0 +1,15 @@
+package usuario.capadeintegracion;
+
+import usuario.capadenegocio.TipoPermiso;
+
+public interface DAOUsuarios {
+
+	public boolean getConectado();
+	
+	public boolean usuarioYaExiste(String nombre, String contraseña);
+	
+	public boolean comprobarPermiso(String nombre, String contraseña, TipoPermiso permisoNecesitado);
+	
+	public boolean añadirUsuario(String nombre, String contraseña);
+	
+}
