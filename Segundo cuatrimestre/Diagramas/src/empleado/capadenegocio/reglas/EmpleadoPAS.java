@@ -1,4 +1,4 @@
-package empleado.capadenegocio;
+package empleado.capadenegocio.reglas;
 
 public class EmpleadoPAS extends Empleado {
 

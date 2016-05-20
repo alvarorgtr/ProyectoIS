@@ -1,9 +1,9 @@
 package empleado.capadepresentacion.controlador;
 
 import usuario.capadenegocio.TipoFacultad;
-import empleado.capadenegocio.Contrato;
-import empleado.capadenegocio.Empleado;
-import empleado.capadenegocio.TipoBaja;
+import empleado.capadenegocio.reglas.Contrato;
+import empleado.capadenegocio.reglas.Empleado;
+import empleado.capadenegocio.reglas.TipoBaja;
 import empleado.capadepresentacion.vista.gestoreventos.VistaAniadirEmpleadoListener;
 import empleado.capadepresentacion.vista.gestoreventos.VistaCambioContratosListener;
 import empleado.capadepresentacion.vista.gestoreventos.VistaCambioDepartamentoListener;

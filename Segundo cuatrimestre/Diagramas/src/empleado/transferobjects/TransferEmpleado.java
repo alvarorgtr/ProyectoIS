@@ -4,8 +4,8 @@ import java.io.Serializable;
 
 import usuario.capadenegocio.TipoFacultad;
 
-import empleado.capadenegocio.Contrato;
-import empleado.capadenegocio.TipoBaja;
+import empleado.capadenegocio.reglas.Contrato;
+import empleado.capadenegocio.reglas.TipoBaja;
 
 /**
  * Codifica la información de un empleado al completo.

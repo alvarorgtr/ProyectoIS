@@ -1,6 +1,6 @@
 package empleado.capadeintegracion;
 
-import empleado.capadenegocio.Empleado;
+import empleado.capadenegocio.reglas.Empleado;
 import empleado.transferobjects.TransferEmpleado;
 import empleado.transferobjects.TransferId;
 import empleado.transferobjects.TransferListEmpleados;

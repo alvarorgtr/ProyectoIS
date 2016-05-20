@@ -1,6 +1,6 @@
 package empleado.transferobjects;
 
-import empleado.capadenegocio.AreaTrabajo;
+import empleado.capadenegocio.reglas.AreaTrabajo;
 import usuario.capadenegocio.TipoFacultad;
 
 public class TransferBusquedaPAS extends TransferBusqueda {

@@ -1,6 +1,6 @@
 package empleado.capadepresentacion.vista;
 
-import empleado.capadenegocio.Empleado;
+import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadepresentacion.vista.gestoreventos.VistaAniadirEmpleadoListener;
 
 public abstract class VistaAniadirEmpleado implements VistaGenerica {

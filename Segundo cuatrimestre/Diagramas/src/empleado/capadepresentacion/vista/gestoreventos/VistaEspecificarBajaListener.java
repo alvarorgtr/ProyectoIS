@@ -1,6 +1,6 @@
 package empleado.capadepresentacion.vista.gestoreventos;
 
-import empleado.capadenegocio.TipoBaja;
+import empleado.capadenegocio.reglas.TipoBaja;
 
 public interface VistaEspecificarBajaListener {
 	public void darDeBaja(int idEmpleado, TipoBaja baja);

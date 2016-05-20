@@ -1,6 +1,6 @@
 package empleado.capadepresentacion.vista;
 
-import empleado.capadenegocio.TipoBaja;
+import empleado.capadenegocio.reglas.TipoBaja;
 import empleado.capadepresentacion.vista.gestoreventos.VistaEspecificarBajaListener;
 
 public abstract class VistaEspecificarBaja implements VistaGenerica {
