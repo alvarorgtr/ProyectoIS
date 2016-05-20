@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_NLteoB4VEeau_oVr4UljwA" type="Class" name="IntegracionEmpleado.dnx">
+  <eAnnotations xmi:id="_NLteoR4VEeau_oVr4UljwA" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_NLteoh4VEeau_oVr4UljwA" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_OWi6EB4VEeau_oVr4UljwA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OWwVcB4VEeau_oVr4UljwA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_OWwVcR4VEeau_oVr4UljwA" width="530" height="530"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_OWwVch4VEeau_oVr4UljwA" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_OWwVcx4VEeau_oVr4UljwA" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_OWwVdB4VEeau_oVr4UljwA" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_OWwVdR4VEeau_oVr4UljwA" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_OWwVdh4VEeau_oVr4UljwA" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_OWwVdx4VEeau_oVr4UljwA" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_OWwVeB4VEeau_oVr4UljwA" visible="false" type="SignalCompartment"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=DAOEmpleados%5Bjcu%5Ename=DAOEmpleados.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OWi6ER4VEeau_oVr4UljwA" x="12990" y="10457"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_OWwVeR4VEeau_oVr4UljwA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OWwVex4VEeau_oVr4UljwA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_OWwVfB4VEeau_oVr4UljwA" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_OWwVfR4VEeau_oVr4UljwA" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_OWwVfh4VEeau_oVr4UljwA" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_OWwVfx4VEeau_oVr4UljwA" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_OWwVgB4VEeau_oVr4UljwA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_OWwVgR4VEeau_oVr4UljwA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_OWwVgh4VEeau_oVr4UljwA" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OWwVeh4VEeau_oVr4UljwA" x="12012" y="4092"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_OcfxEB4VEeau_oVr4UljwA" source="_OWwVeR4VEeau_oVr4UljwA" target="_OWi6EB4VEeau_oVr4UljwA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OdPX8B4VEeau_oVr4UljwA" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_OdPX8h4VEeau_oVr4UljwA" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_OdPX8x4VEeau_oVr4UljwA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OdPX8R4VEeau_oVr4UljwA" y="-186"/>
+    </children>
+    <element xmi:type="uml:InterfaceRealization" href="mmi:///#jimpl%5Bjsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=DAOEmpleados%5Bjcu%5Ename=DAOEmpleados.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.InterfaceRealization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OcfxER4VEeau_oVr4UljwA" points="[40, 103, 40, -2221]$[40, 2324, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq5ZcB4VEeau_oVr4UljwA" id="(0.5,0.975288303130148)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq5ZcR4VEeau_oVr4UljwA" id="(0.5000936154278225,-2.310121162745563E-16)"/>
+  </edges>
+</umlnotation:UMLDiagram>

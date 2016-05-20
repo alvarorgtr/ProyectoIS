@@ -12,11 +12,24 @@ import java.util.List;
  */
 public class TransferListEmpleados implements Serializable {
 	private static final long serialVersionUID = 1L;
+	
+	private static TransferListEmpleados instanceTransferListEmpleados;
+	
 	private List<TransferEmpleadoVista> listaEmpleados;
 	private int index;
 	
-	public TransferListEmpleados (int index) {
-		
+	private TransferListEmpleados (int index) {
+		this.index = index;
+	}
+	
+	public static synchronized TransferListEmpleados getInstance(int index){
+		if(instanceTransferListEmpleados == null){
+			instanceTransferListEmpleados = new TransferListEmpleados(index);
+		}
+		else{
+			instanceTransferListEmpleados.index = index;
+		}
+		return instanceTransferListEmpleados;
 	}
 	
 	public void addTransferEmpleadoVista(TransferEmpleadoVista empleado) {
