@@ -6,6 +6,10 @@ public class VistaLoginUsuario implements VistaGenerica {
 
 	VistaLoginUsuarioListener listener;
 
+	public VistaLoginUsuario (VistaLoginUsuarioListener listener){
+		this.listener = listener;
+	}
+	
 	public void inicioSesion() {
 		listener.inicioSesion();
 	}

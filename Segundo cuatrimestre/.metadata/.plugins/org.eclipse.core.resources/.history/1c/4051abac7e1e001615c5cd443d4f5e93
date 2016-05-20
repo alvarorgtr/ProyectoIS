@@ -1,20 +1,14 @@
 package usuario.capadepresentacion.vista;
 
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 
 import empleado.capadepresentacion.vista.VistaGenerica;
 
 public class VistaActividad implements VistaGenerica{
 
-	
 	VistaActividadListener listener;
-	enum types{
-		AniadirUsuario, EliminarUsuario,AccesoEmpleados, CargarCopiaDeSeguridad;
-		
-		
+	
+	public enum types{
+		AniadirUsuario, EliminarUsuario,AccesoEmpleados;
 	};
 	
 	public void eligeOpcion(){
@@ -28,9 +22,6 @@ public class VistaActividad implements VistaGenerica{
 			break;
 		case AccesoEmpleados:
 			listener.accesoEmpleados();
-			break;
-		case CargarCopiaDeSeguridad: 
-			listener.copiaDeSeguridad();
 			break;
 		}
 		

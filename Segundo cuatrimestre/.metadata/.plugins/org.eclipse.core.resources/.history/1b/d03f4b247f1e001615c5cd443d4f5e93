@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_ob3DUBCyEeaZ68wDKIBHSw" type="Class" name="VistaUsuario.dnx">
+  <eAnnotations xmi:id="_ob3DURCyEeaZ68wDKIBHSw" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_ob3DUhCyEeaZ68wDKIBHSw" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_KfrdwRICEeadDMbBSzXbAA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KfrdwxICEeadDMbBSzXbAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_KfrdxBICEeadDMbBSzXbAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_KfrdxRICEeadDMbBSzXbAA" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_KfrdxhICEeadDMbBSzXbAA" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_KfrdxxICEeadDMbBSzXbAA" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_KfrdyBICEeadDMbBSzXbAA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_KfrdyRICEeadDMbBSzXbAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_KfrdyhICEeadDMbBSzXbAA" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaAñadir%5Bjcu%5Ename=VistaAñadir.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KfrdwhICEeadDMbBSzXbAA" x="2640" y="2904"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_KfrdyxICEeadDMbBSzXbAA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kf110BICEeadDMbBSzXbAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_Kf110RICEeadDMbBSzXbAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf110hICEeadDMbBSzXbAA" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf2c4BICEeadDMbBSzXbAA" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf2c4RICEeadDMbBSzXbAA" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Kf2c4hICEeadDMbBSzXbAA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Kf3rABICEeadDMbBSzXbAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Kf3rARICEeadDMbBSzXbAA" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaLogging%5Bjcu%5Ename=VistaLogging.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KfrdzBICEeadDMbBSzXbAA" x="15313" y="3379"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_Kf4SEBICEeadDMbBSzXbAA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kf4SEhICEeadDMbBSzXbAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_Kf4SExICEeadDMbBSzXbAA" width="530" height="530"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf45IBICEeadDMbBSzXbAA" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf45IRICEeadDMbBSzXbAA" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf45IhICEeadDMbBSzXbAA" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf45IxICEeadDMbBSzXbAA" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Kf45JBICEeadDMbBSzXbAA" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Kf45JRICEeadDMbBSzXbAA" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_Kf45JhICEeadDMbBSzXbAA" visible="false" type="SignalCompartment"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=VistasUsuario%5Bjcu%5Ename=VistasUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kf4SERICEeadDMbBSzXbAA" x="9889" y="9744"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_Kf45JxICEeadDMbBSzXbAA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kf45KRICEeadDMbBSzXbAA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_Kf45KhICEeadDMbBSzXbAA" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf45KxICEeadDMbBSzXbAA" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf45LBICEeadDMbBSzXbAA" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Kf45LRICEeadDMbBSzXbAA" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Kf45LhICEeadDMbBSzXbAA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Kf45LxICEeadDMbBSzXbAA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_Kf45MBICEeadDMbBSzXbAA" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaActividad%5Bjcu%5Ename=VistaActividad.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kf45KBICEeadDMbBSzXbAA" x="9572" y="3616"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_Qh7OUBj4Eea8fMypL3mhbA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QiX6QBj4Eea8fMypL3mhbA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_QiX6QRj4Eea8fMypL3mhbA" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QiX6Qhj4Eea8fMypL3mhbA" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QircQBj4Eea8fMypL3mhbA" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_QircQRj4Eea8fMypL3mhbA" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_QircQhj4Eea8fMypL3mhbA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_QircQxj4Eea8fMypL3mhbA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_QjIIMBj4Eea8fMypL3mhbA" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaEliminarUsuario%5Bjcu%5Ename=VistaEliminarUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Diagramas%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qh7OURj4Eea8fMypL3mhbA" x="2772" y="7524" width="6138" height="2984"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KkdQEBICEeadDMbBSzXbAA" source="_KfrdwRICEeadDMbBSzXbAA" target="_Kf4SEBICEeadDMbBSzXbAA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KkqrcBICEeadDMbBSzXbAA" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KkqrchICEeadDMbBSzXbAA" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KkqrcxICEeadDMbBSzXbAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KkqrcRICEeadDMbBSzXbAA" y="-186"/>
+    </children>
+    <element xmi:type="uml:InterfaceRealization" href="mmi:///#jimpl%5Bjsrctype%5Ename=VistaAñadir%5Bjcu%5Ename=VistaAñadir.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=VistasUsuario%5Bjcu%5Ename=VistasUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.InterfaceRealization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KkdQERICEeadDMbBSzXbAA" points="[39, 103, -5570, -2221]$[39, 737, -5570, -1587]$[5629, 737, 20, -1587]$[5629, 2324, 20, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kq2zABICEeadDMbBSzXbAA" id="(0.5,0.9777730736663844)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kq2zARICEeadDMbBSzXbAA" id="(0.2499999999999997,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KkqrdBICEeadDMbBSzXbAA" source="_KfrdyxICEeadDMbBSzXbAA" target="_Kf4SEBICEeadDMbBSzXbAA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KkqrdhICEeadDMbBSzXbAA" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KkqreBICEeadDMbBSzXbAA" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KkqreRICEeadDMbBSzXbAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KkqrdxICEeadDMbBSzXbAA" y="-186"/>
+    </children>
+    <element xmi:type="uml:InterfaceRealization" href="mmi:///#jimpl%5Bjsrctype%5Ename=VistaLogging%5Bjcu%5Ename=VistaLogging.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=VistasUsuario%5Bjcu%5Ename=VistasUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.InterfaceRealization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KkqrdRICEeadDMbBSzXbAA" points="[39, 103, 5649, -2696]$[39, 1212, 5649, -1587]$[-5551, 1212, 59, -1587]$[-5551, 2799, 59, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KrAkABICEeadDMbBSzXbAA" id="(0.4999999999999996,0.9721780604133543)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KrAkARICEeadDMbBSzXbAA" id="(0.75,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KkqrehICEeadDMbBSzXbAA" source="_Kf45JxICEeadDMbBSzXbAA" target="_Kf4SEBICEeadDMbBSzXbAA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KkqrfBICEeadDMbBSzXbAA" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KkqrfhICEeadDMbBSzXbAA" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_KkqrfxICEeadDMbBSzXbAA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KkqrfRICEeadDMbBSzXbAA" y="-186"/>
+    </children>
+    <element xmi:type="uml:InterfaceRealization" href="mmi:///#jimpl%5Bjsrctype%5Ename=VistaActividad%5Bjcu%5Ename=VistaActividad.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=VistasUsuario%5Bjcu%5Ename=VistasUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.InterfaceRealization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KkqrexICEeadDMbBSzXbAA" points="[40, 102, 40, -2934]$[40, 3036, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KrAkAhICEeadDMbBSzXbAA" id="(0.5,0.9681721733858745)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KrAkAxICEeadDMbBSzXbAA" id="(0.5,0.0)"/>
+  </edges>
+</umlnotation:UMLDiagram>
