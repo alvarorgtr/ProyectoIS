@@ -1,10 +1,6 @@
 package empleado.capadenegocio.reglas;
 
-
-import java.lang.String;
-
-public abstract class Empleado {
-
+public class Empleado {
 	private int identifier; 
 	protected String nombre;
 	protected String apellido1;
@@ -16,6 +12,6 @@ public abstract class Empleado {
 	private String nominaPath;
 	private Contrato contrato;
 	private String curriculumPath;
-	private TipoBaja bajaEmpleado;
+	private TipoBaja tipoBaja;
 	
 }
