@@ -1,9 +1,13 @@
 package empleado.capadepresentacion.controlador;
 
+import java.util.Stack;
+
 import usuario.capadenegocio.TipoFacultad;
+import empleado.capadenegocio.logica.Empleados;
 import empleado.capadenegocio.reglas.Contrato;
 import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadenegocio.reglas.TipoBaja;
+import empleado.capadepresentacion.vista.VistaGenerica;
 import empleado.capadepresentacion.vista.gestoreventos.VistaAniadirEmpleadoListener;
 import empleado.capadepresentacion.vista.gestoreventos.VistaCambioContratosListener;
 import empleado.capadepresentacion.vista.gestoreventos.VistaCambioDepartamentoListener;
@@ -18,7 +22,27 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		VistaEliminarEmpleadoListener, VistaEspecificarBajaListener,
 		VistaFichaEmpleadoListener, VistaListaEmpleadosListener,
 		VistaTrasladoFacultadListener {
+	
+	private Empleados empleados;
+	
+	private Stack<VistaGenerica> vistasPresentadas;
+	
+	public Controlador(Empleados empleados) {
+		this.empleados = empleados;
+		vistasPresentadas = new Stack<VistaGenerica>();
+	}
 
+	public void avanzarAVista(VistaGenerica vista) {
+		mostrarVista(vista);
+	}
+	
+	public void retrocederAVistaAnterior() {
+		if (!vistasPresentadas.isEmpty()) {
+			ocultarUltimaVista();
+		}
+	}
+	
+	// EVENT LISTENERS
 	@Override
 	public void trasladoFacultad(TipoFacultad facultad) {
 		// TODO Apéndice de método generado automáticamente
@@ -97,6 +121,16 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		
 	}
 
+	// HELPERS PRIVADOS
+	private void mostrarVista(VistaGenerica vista) {
+		vistasPresentadas.add(vista);
+		vista.mostrarVista();
+	}
+	
+	private void ocultarUltimaVista() {
+		VistaGenerica vista = vistasPresentadas.pop();
+		vista.ocultarVista();
+	}
 }
 
 
