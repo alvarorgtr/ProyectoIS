@@ -1,5 +1,7 @@
 package empleado.capadenegocio.reglas;
 
+import usuario.capadenegocio.TipoFacultad;
+
 public abstract class Empleado extends EmpleadoVista {
 	private String path_foto;
 	private String direccion;
@@ -9,6 +11,7 @@ public abstract class Empleado extends EmpleadoVista {
 	private Contrato contrato;
 	private String curriculumPath;
 	private TipoBaja tipoBaja;
+	private TipoFacultad facultad;
 
 	public String getPath_foto() {
 		return path_foto;
@@ -72,5 +75,13 @@ public abstract class Empleado extends EmpleadoVista {
 
 	public void setTipoBaja(TipoBaja tipoBaja) {
 		this.tipoBaja = tipoBaja;
+	}
+
+	public void setFacultad(TipoFacultad facultad) {
+		this.facultad = facultad;
+	}
+
+	public TipoFacultad getFacultad() {
+		return facultad;
 	}
 }

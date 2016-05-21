@@ -1,9 +1,6 @@
 package empleado.capadenegocio.logica;
 
-import usuario.capadenegocio.TipoFacultad;
 import empleado.capadeintegracion.DAOEmpleadosImp;
-import empleado.capadenegocio.reglas.Contrato;
-import empleado.capadenegocio.reglas.TipoBaja;
 import empleado.capadenegocio.transferencia.TransferBusqueda;
 import empleado.capadenegocio.transferencia.TransferEmpleado;
 import empleado.capadenegocio.transferencia.TransferInt;
@@ -12,7 +9,7 @@ import empleado.capadenegocio.transferencia.TransferListEmpleados;
 public class ImplementacionEmpleados implements Empleados {
 
 	@Override
-	public void añadirEmpleado(TransferEmpleado transfer) {
+	public void aniadirEmpleado(TransferEmpleado transfer) {
 		DAOEmpleadosImp DAONegocio = new DAOEmpleadosImp();
 		DAONegocio.insertarEmpleado(transfer);
 	}

@@ -1,10 +1,21 @@
 package empleado.capadepresentacion.vista;
 
 import usuario.capadenegocio.TipoFacultad;
+import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadepresentacion.vista.gestoreventos.VistaTrasladoFacultadListener;
 
 public abstract class VistaTrasladoFacultad implements VistaGenerica {
-	VistaTrasladoFacultadListener listener;
+	private VistaTrasladoFacultadListener listener;
+	private Empleado empleado;
+	
+	public VistaTrasladoFacultad(VistaTrasladoFacultadListener listener) {
+		this.listener = listener;
+	}
+	
+	public void setEmpleado(Empleado empleado) {
+		this.empleado = empleado;
+		actualizarInformacion();
+	}
 
 	@Override
 	public void mostrarVista() {
@@ -19,6 +30,8 @@ public abstract class VistaTrasladoFacultad implements VistaGenerica {
 	protected abstract TipoFacultad tipoFacultadBaja();
 
 	void trasladoFacultad() {
-		listener.trasladoFacultad(tipoFacultadBaja());
+		listener.trasladoFacultad(empleado, tipoFacultadBaja());
 	}
+	
+	protected abstract void actualizarInformacion();
 }

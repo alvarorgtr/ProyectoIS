@@ -2,7 +2,10 @@
 package empleado.capadenegocio.transferencia;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
+
+import empleado.capadenegocio.reglas.EmpleadoVista;
 
 /**
  * Codifica la información de 20 empleados en una lista,
@@ -12,18 +15,19 @@ import java.util.List;
  */
 public class TransferListEmpleados implements Serializable {
 	private static final long serialVersionUID = 1L;
-	private List<TransferEmpleadoVista> listaEmpleados;
+	private List<EmpleadoVista> listaEmpleados;
 	private int index;
 	
 	public TransferListEmpleados (int index) {
 		this.index = index;
+		this.listaEmpleados = new ArrayList<EmpleadoVista>();
 	}
 	
-	public void addTransferEmpleadoVista(TransferEmpleadoVista empleado) {
-		
+	public void addEmpleadoVista(EmpleadoVista empleado) {
+		listaEmpleados.add(empleado);
 	}
 	
-	public List<TransferEmpleadoVista> getList(){
+	public List<EmpleadoVista> getList(){
 		return listaEmpleados;
 	}
 	

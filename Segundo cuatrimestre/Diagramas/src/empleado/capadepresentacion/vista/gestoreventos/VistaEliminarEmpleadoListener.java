@@ -1,6 +1,7 @@
 package empleado.capadepresentacion.vista.gestoreventos;
 
+import empleado.capadenegocio.reglas.Empleado;
+
 public interface VistaEliminarEmpleadoListener {
-	
-	public void eliminarEmpleadoPulsado(int id);
+	public void eliminarEmpleadoPulsado(Empleado empleado);
 }

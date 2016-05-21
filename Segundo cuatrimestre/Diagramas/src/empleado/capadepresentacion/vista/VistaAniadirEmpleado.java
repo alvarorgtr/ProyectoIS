@@ -4,8 +4,11 @@ import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadepresentacion.vista.gestoreventos.VistaAniadirEmpleadoListener;
 
 public abstract class VistaAniadirEmpleado implements VistaGenerica {
+	private VistaAniadirEmpleadoListener listener;
 	
-	VistaAniadirEmpleadoListener listener;
+	public VistaAniadirEmpleado(VistaAniadirEmpleadoListener listener) {
+		this.listener = listener;
+	}
 	
 	@Override
 	public void mostrarVista() {
@@ -25,6 +28,6 @@ public abstract class VistaAniadirEmpleado implements VistaGenerica {
 	protected abstract Empleado informacionNuevoEmpleado();
 
 	public void aniadirEmpleadoPulsado(){
-		listener.aniadirEmpleadoPulsado(informacionNuevoEmpleado());
+		listener.empleadoAniadido(informacionNuevoEmpleado());
 	}
 }

@@ -1,31 +1,28 @@
 package empleado.capadepresentacion.vista;
 
+import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadepresentacion.vista.gestoreventos.VistaEliminarEmpleadoListener;
 
 public abstract class VistaEliminarEmpleado implements VistaGenerica {
-
-	VistaEliminarEmpleadoListener listener;
+	private VistaEliminarEmpleadoListener listener;
+	private Empleado empleado;
 
 	public VistaEliminarEmpleado(VistaEliminarEmpleadoListener listener) {
 		this.listener = listener;
 	}
-
-	@Override
-	public void mostrarVista() {
-		// TODO Apéndice de método generado automáticamente
-
+	
+	public void setEmpleado(Empleado empleado) {
+		this.empleado = empleado;
+		actualizarInformacion();
 	}
 
-	@Override
-	public void ocultarVista() {
-		// TODO Apéndice de método generado automáticamente
-
-	}
+	public abstract void mostrarVista();
 	
-	protected abstract int idEmpleadoAEliminar();
-	
+	public abstract void ocultarVista();
+		
 	public void eliminarEmpleadoPulsado(){
-		listener.eliminarEmpleadoPulsado(idEmpleadoAEliminar());
+		listener.eliminarEmpleadoPulsado(empleado);
 	}
 
+	protected abstract void actualizarInformacion();
 }

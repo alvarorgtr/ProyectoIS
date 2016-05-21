@@ -6,7 +6,7 @@ import empleado.capadenegocio.transferencia.TransferInt;
 import empleado.capadenegocio.transferencia.TransferListEmpleados;
 
 public interface Empleados {
-	public void añadirEmpleado(TransferEmpleado transfer);
+	public void aniadirEmpleado(TransferEmpleado transfer);
 	public TransferEmpleado perfilCompletoEmpleado(TransferInt transfer);
 	public TransferListEmpleados listaEmpleados(TransferInt pagina);
 	public void eliminarEmpleado(TransferEmpleado transfer);

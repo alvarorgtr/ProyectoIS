@@ -1,12 +1,19 @@
 package empleado.capadepresentacion.vista;
 
+import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadepresentacion.vista.gestoreventos.VistaFichaEmpleadoListener;
 
 public abstract class VistaFichaEmpleado implements VistaGenerica {
-	VistaFichaEmpleadoListener listener;
+	private VistaFichaEmpleadoListener listener;
+	private Empleado empleado;
 	
 	public VistaFichaEmpleado(VistaFichaEmpleadoListener listener) {
 		this.listener = listener;
+	}
+	
+	public void setEmpleado(Empleado empleado) {
+		this.empleado = empleado;
+		actualizarInformacion();
 	}
 	
 	@Override
@@ -21,22 +28,24 @@ public abstract class VistaFichaEmpleado implements VistaGenerica {
 
 	/* ACCIONES */
 	public void cambiarContratoPulsado() {
-		listener.cambiarContratoPulsado();
+		listener.cambiarContratoPulsado(empleado);
 	}
 	
 	public void especificarBajaPulsado() {
-		listener.especificarBajaPulsado();
+		listener.especificarBajaPulsado(empleado);
 	}
 	
 	public void especificarTrasladoPulsado() {
-		listener.especificarTrasladoPulsado();
+		listener.especificarTrasladoPulsado(empleado);
 	}
 	
 	public void especificarCambioDepartamentoPulsado() {
-		listener.especificarCambioDepartamentoPulsado();
+		listener.especificarCambioDepartamentoPulsado(empleado);
 	}
 	
 	public void eliminarFichaPulsado() {
-		listener.eliminarFichaPulsado();
+		listener.eliminarFichaPulsado(empleado);
 	}
+	
+	protected abstract void actualizarInformacion();
 }

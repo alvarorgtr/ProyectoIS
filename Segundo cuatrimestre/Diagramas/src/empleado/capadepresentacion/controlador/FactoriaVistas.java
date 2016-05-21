@@ -1,0 +1,31 @@
+package empleado.capadepresentacion.controlador;
+
+import empleado.capadepresentacion.vista.VistaAniadirEmpleadoPAS;
+import empleado.capadepresentacion.vista.VistaAniadirEmpleadoPDI;
+import empleado.capadepresentacion.vista.VistaCambioContratos;
+import empleado.capadepresentacion.vista.VistaCambioDepartamento;
+import empleado.capadepresentacion.vista.VistaEliminarEmpleado;
+import empleado.capadepresentacion.vista.VistaEspecificarBaja;
+import empleado.capadepresentacion.vista.VistaFichaEmpleado;
+import empleado.capadepresentacion.vista.VistaListaEmpleados;
+import empleado.capadepresentacion.vista.VistaTrasladoFacultad;
+import empleado.capadepresentacion.vista.gestoreventos.VistaAniadirEmpleadoListener;
+import empleado.capadepresentacion.vista.gestoreventos.VistaCambioContratosListener;
+import empleado.capadepresentacion.vista.gestoreventos.VistaCambioDepartamentoListener;
+import empleado.capadepresentacion.vista.gestoreventos.VistaEliminarEmpleadoListener;
+import empleado.capadepresentacion.vista.gestoreventos.VistaEspecificarBajaListener;
+import empleado.capadepresentacion.vista.gestoreventos.VistaFichaEmpleadoListener;
+import empleado.capadepresentacion.vista.gestoreventos.VistaListaEmpleadosListener;
+import empleado.capadepresentacion.vista.gestoreventos.VistaTrasladoFacultadListener;
+
+public interface FactoriaVistas {
+	public VistaAniadirEmpleadoPAS vistaAniadirEmpleadoPAS(VistaAniadirEmpleadoListener listener);
+	public VistaAniadirEmpleadoPDI vistaAniadirEmpleadoPDI(VistaAniadirEmpleadoListener listener);
+	public VistaCambioContratos vistaCambioContratos(VistaCambioContratosListener listener);
+	public VistaCambioDepartamento vistaCambioDepartamento(VistaCambioDepartamentoListener listener);
+	public VistaEliminarEmpleado vistaEliminarEmpleado(VistaEliminarEmpleadoListener listener);
+	public VistaEspecificarBaja vistaEspecificarBaja(VistaEspecificarBajaListener listener);
+	public VistaFichaEmpleado vistaFichaEmpleado(VistaFichaEmpleadoListener listener);
+	public VistaListaEmpleados vistaListaEmpleados(VistaListaEmpleadosListener listener);
+	public VistaTrasladoFacultad vistaTrasladoFacultad(VistaTrasladoFacultadListener listener);
+}
