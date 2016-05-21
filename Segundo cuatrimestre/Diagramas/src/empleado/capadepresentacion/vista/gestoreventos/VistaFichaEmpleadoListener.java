@@ -3,7 +3,7 @@ package empleado.capadepresentacion.vista.gestoreventos;
 import empleado.capadenegocio.reglas.Empleado;
 
 
-public interface VistaFichaEmpleadoListener {
+public interface VistaFichaEmpleadoListener extends BotonRetrocesoListener {
 	public void cambiarContratoPulsado(Empleado empleado);
 	public void especificarBajaPulsado(Empleado empleado);
 	public void especificarTrasladoPulsado(Empleado empleado);

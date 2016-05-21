@@ -22,6 +22,7 @@ import empleado.capadepresentacion.vista.VistaFichaEmpleado;
 import empleado.capadepresentacion.vista.VistaGenerica;
 import empleado.capadepresentacion.vista.VistaListaEmpleados;
 import empleado.capadepresentacion.vista.VistaTrasladoFacultad;
+import empleado.capadepresentacion.vista.gestoreventos.BotonRetrocesoListener;
 import empleado.capadepresentacion.vista.gestoreventos.VistaAniadirEmpleadoListener;
 import empleado.capadepresentacion.vista.gestoreventos.VistaCambioContratosListener;
 import empleado.capadepresentacion.vista.gestoreventos.VistaCambioDepartamentoListener;
@@ -35,7 +36,7 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		VistaCambioContratosListener, VistaCambioDepartamentoListener,
 		VistaEliminarEmpleadoListener, VistaEspecificarBajaListener,
 		VistaFichaEmpleadoListener, VistaListaEmpleadosListener,
-		VistaTrasladoFacultadListener {
+		VistaTrasladoFacultadListener, BotonRetrocesoListener {
 	
 	private Empleados servicioAplicacionEmpleado;
 	private FactoriaVistas factoriaVistas;
@@ -56,22 +57,13 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		mostrarVista(vista);
 	}
 	
-	public void avanzarAVista(VistaGenerica vista) {
-		mostrarVista(vista);
-	}
-	
-	public void retrocederAVistaAnterior() {
-		if (!vistasPresentadas.isEmpty()) {
-			ocultarUltimaVista();
-		}
-	}
-	
 	// EVENT LISTENERS
 	@Override
 	public void trasladoFacultad(Empleado empleado, TipoFacultad facultad) {
 		empleado.setFacultad(facultad);
 		TransferEmpleado transfer = new TransferEmpleado(empleado);
 		servicioAplicacionEmpleado.modificarEmpleado(transfer);
+		ocultarUltimaVista();
 	}
 
 	@Override
@@ -147,6 +139,7 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		empleado.setTipoBaja(baja);
 		TransferEmpleado transfer = new TransferEmpleado(empleado);
 		servicioAplicacionEmpleado.modificarEmpleado(transfer);
+		ocultarUltimaVista();
 	}
 
 	@Override
@@ -158,6 +151,7 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	public void eliminarEmpleadoPulsado(int idEmpleado) {
 		TransferInt transfer = new TransferInt(idEmpleado);
 		servicioAplicacionEmpleado.eliminarEmpleado(transfer);
+		ocultarUltimaVista();
 	}
 
 	@Override
@@ -165,6 +159,7 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		empleado.setDepartamento(departamento);
 		TransferEmpleado transfer = new TransferEmpleado(empleado);
 		servicioAplicacionEmpleado.modificarEmpleado(transfer);
+		ocultarUltimaVista();
 	}
 
 	@Override
@@ -172,12 +167,19 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		empleado.setContrato(nuevoContrato);
 		TransferEmpleado transfer = new TransferEmpleado(empleado);
 		servicioAplicacionEmpleado.modificarEmpleado(transfer);
+		ocultarUltimaVista();
 	}
 
 	@Override
 	public void empleadoAniadido(Empleado empleado) {
 		TransferEmpleado transfer = new TransferEmpleado(empleado);
 		servicioAplicacionEmpleado.aniadirEmpleado(transfer);
+		ocultarUltimaVista();
+	}
+	
+	@Override
+	public void BotonRetrocesoPulsado() {
+		ocultarUltimaVista();
 	}
 
 	// HELPERS PRIVADOS
@@ -187,8 +189,10 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	}
 	
 	private void ocultarUltimaVista() {
-		VistaGenerica vista = vistasPresentadas.pop();
-		vista.ocultarVista();
+		if (!vistasPresentadas.isEmpty()) {
+			VistaGenerica vista = vistasPresentadas.pop();
+			vista.ocultarVista();
+		}
 	}
 }
 
