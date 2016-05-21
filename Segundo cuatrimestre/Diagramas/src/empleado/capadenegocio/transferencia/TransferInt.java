@@ -16,4 +16,8 @@ public class TransferInt implements Serializable {
 	public TransferInt (int entero) {
 		this.entero = entero;
 	}
+
+	public int getEntero() {
+		return entero;
+	}
 }
