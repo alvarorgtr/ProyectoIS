@@ -2,6 +2,8 @@ package empleado.capadenegocio.transferencia;
 
 import java.io.Serializable;
 
+import empleado.capadenegocio.reglas.EmpleadoVista;
+
 /**
  * Codifica la información de un empleado que se va a mostrar en la lista
  * (nombre, apellidos e id), sin incluir información específica.
@@ -9,28 +11,17 @@ import java.io.Serializable;
 public class TransferEmpleadoVista implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
-	private int identifier; 
-	private String nombre;
-	private String apellido1;
-	private String apellido2;
+	private EmpleadoVista empleado;
 	
-	public void setEmpleadoVista(int id, String nombre, String apellido1, String apellido2) {
-		
+	TransferEmpleadoVista(EmpleadoVista empleado) {
+		this.empleado = empleado;
 	}
-	
-	public int getIdentifier() {
-		return identifier;
+
+	public void setEmpleadoVista(EmpleadoVista empleado) {
+		this.empleado = empleado;
 	}
-	
-	public String getNombre() {
-		return nombre;
-	}
-	
-	public String getApellido1() {
-		return apellido1;
-	}
-	
-	public String getApellido2() {
-		return apellido2;
+
+	public EmpleadoVista getEmpleadoVista() {
+		return empleado;
 	}
 }
