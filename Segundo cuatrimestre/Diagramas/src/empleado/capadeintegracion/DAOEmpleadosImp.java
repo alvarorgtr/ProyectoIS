@@ -8,6 +8,17 @@ import empleado.capadenegocio.transferencia.TransferListEmpleados;
 
 
 public class DAOEmpleadosImp implements DAOEmpleados {
+	
+	private static DAOEmpleadosImp instance;
+	
+	private DAOEmpleadosImp(){}
+	
+	public static DAOEmpleadosImp getInstance(){
+		if(instance == null){
+			instance = new DAOEmpleadosImp(); 
+		}
+		return instance;
+	}
 
 	@Override
 	public Empleado consultarEmpleado(TransferInt idEmpleado) {
