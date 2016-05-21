@@ -1,5 +1,9 @@
 package empleado.capadenegocio.logica;
 
+import usuario.capadenegocio.TipoFacultad;
+import empleado.capadeintegracion.DAOEmpleadosImp;
+import empleado.capadenegocio.reglas.Contrato;
+import empleado.capadenegocio.reglas.TipoBaja;
 import empleado.capadenegocio.transferencia.TransferBusqueda;
 import empleado.capadenegocio.transferencia.TransferEmpleado;
 import empleado.capadenegocio.transferencia.TransferInt;
@@ -9,13 +13,13 @@ public class ImplementacionEmpleados implements Empleados {
 
 	@Override
 	public void añadirEmpleado(TransferEmpleado transfer) {
-		// TODO Apéndice de método generado automáticamente
-		
+		DAOEmpleadosImp DAONegocio = new DAOEmpleadosImp();
+		DAONegocio.insertarEmpleado(transfer);
 	}
 
 	@Override
 	public TransferEmpleado perfilCompletoEmpleado(TransferInt transfer) {
-		// TODO Apéndice de método generado automáticamente
+		DAOEmpleadosImp DAONegocio = new DAOEmpleadosImp();
 		return null;
 	}
 
