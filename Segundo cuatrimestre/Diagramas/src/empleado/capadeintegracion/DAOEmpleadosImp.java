@@ -22,8 +22,7 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 	}
 
 	@Override
-	public TransferListEmpleados getListempleadoVista(int indice) {
-		// TODO Auto-generated method stub
+	public TransferListEmpleados getListempleadoVista(TransferInt indice) {
 		return null;
 	}
 
@@ -41,7 +40,7 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 	}
 
 	@Override
-	public boolean modificarUsuario(TransferEmpleado empleado) {
+	public boolean modificarEmpleado(TransferEmpleado empleado) {
 		// TODO Auto-generated method stub
 		return false;
 	}
