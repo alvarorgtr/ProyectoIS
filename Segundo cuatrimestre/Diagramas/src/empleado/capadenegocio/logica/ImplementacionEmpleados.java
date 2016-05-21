@@ -10,62 +10,38 @@ public class ImplementacionEmpleados implements Empleados {
 
 	@Override
 	public void aniadirEmpleado(TransferEmpleado transfer) {
-		DAOEmpleadosImp DAONegocio = new DAOEmpleadosImp();
+		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
 		DAONegocio.insertarEmpleado(transfer);
 	}
 
 	@Override
 	public TransferEmpleado perfilCompletoEmpleado(TransferInt transfer) {
-		DAOEmpleadosImp DAONegocio = new DAOEmpleadosImp();
-		return null;
+		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
+		TransferEmpleado empleadoTransfer = new TransferEmpleado(DAONegocio.consultarEmpleado(transfer));
+		return empleadoTransfer;
 	}
 
 	@Override
 	public TransferListEmpleados listaEmpleados(TransferInt pagina) {
-		// TODO Apéndice de método generado automáticamente
-		return null;
+		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
+		return DAONegocio.getListempleadoVista(pagina);
 	}
 
 	@Override
-	public void eliminarEmpleado(TransferEmpleado transfer) {
-		// TODO Apéndice de método generado automáticamente
-		
+	public void eliminarEmpleado(TransferInt transfer) {
+		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
+		DAONegocio.eliminarEmpleado(transfer);
 	}
 	
 	@Override
-	public TransferEmpleado buscarEmpleado(TransferBusqueda transfer) {
-		// TODO Apéndice de método generado automáticamente
-		return null;
-	}
-	
-
-	@Override
-	public void trasladoFacultad(TransferEmpleado transfer) {
-		// TODO Apéndice de método generado automáticamente
-		
+	public TransferListEmpleados buscarEmpleado(TransferBusqueda transfer) {
+		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
+		return DAONegocio.getListEmpleadoPorBusqueda(transfer);
 	}
 
 	@Override
-	public void cambiarContrato(TransferEmpleado transfer) {
-		// TODO Apéndice de método generado automáticamente
-		
-	}
-
-	@Override
-	public void especificarBaja(TransferEmpleado transfer) {
-		// TODO Apéndice de método generado automáticamente
-		
-	}
-
-	@Override
-	public void especificarTraslado(TransferEmpleado transfer) {
-		// TODO Apéndice de método generado automáticamente
-		
-	}
-
-	@Override
-	public void cambioDepartamento(TransferEmpleado transfer) {
-		// TODO Apéndice de método generado automáticamente
-		
+	public void modificarEmpleado(TransferEmpleado transfer) {
+		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
+		DAONegocio.modificarEmpleado(transfer);
 	}
 }

@@ -21,7 +21,7 @@ public abstract class VistaEliminarEmpleado implements VistaGenerica {
 	public abstract void ocultarVista();
 		
 	public void eliminarEmpleadoPulsado(){
-		listener.eliminarEmpleadoPulsado(empleado);
+		listener.eliminarEmpleadoPulsado(empleado.getIdentifier());
 	}
 
 	protected abstract void actualizarInformacion();

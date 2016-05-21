@@ -8,6 +8,17 @@ import empleado.capadenegocio.transferencia.TransferListEmpleados;
 
 
 public class DAOEmpleadosImp implements DAOEmpleados {
+	
+	private static DAOEmpleadosImp instance;
+	
+	private DAOEmpleadosImp(){}
+	
+	public static DAOEmpleadosImp getInstance(){
+		if(instance == null){
+			instance = new DAOEmpleadosImp(); 
+		}
+		return instance;
+	}
 
 	@Override
 	public Empleado consultarEmpleado(TransferInt idEmpleado) {
@@ -22,8 +33,7 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 	}
 
 	@Override
-	public TransferListEmpleados getListempleadoVista(int indice) {
-		// TODO Auto-generated method stub
+	public TransferListEmpleados getListempleadoVista(TransferInt indice) {
 		return null;
 	}
 
@@ -41,7 +51,7 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 	}
 
 	@Override
-	public boolean modificarUsuario(TransferEmpleado empleado) {
+	public boolean modificarEmpleado(TransferEmpleado empleado) {
 		// TODO Auto-generated method stub
 		return false;
 	}

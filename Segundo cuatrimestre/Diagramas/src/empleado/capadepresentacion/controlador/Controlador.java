@@ -71,7 +71,7 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	public void trasladoFacultad(Empleado empleado, TipoFacultad facultad) {
 		empleado.setFacultad(facultad);
 		TransferEmpleado transfer = new TransferEmpleado(empleado);
-		servicioAplicacionEmpleado.especificarTraslado(transfer);
+		servicioAplicacionEmpleado.modificarEmpleado(transfer);
 	}
 
 	@Override
@@ -146,7 +146,7 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	public void darDeBaja(Empleado empleado, TipoBaja baja) {
 		empleado.setTipoBaja(baja);
 		TransferEmpleado transfer = new TransferEmpleado(empleado);
-		servicioAplicacionEmpleado.especificarBaja(transfer);
+		servicioAplicacionEmpleado.modificarEmpleado(transfer);
 	}
 
 	@Override
@@ -155,8 +155,8 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	}
 
 	@Override
-	public void eliminarEmpleadoPulsado(Empleado empleado) {
-		TransferEmpleado transfer = new TransferEmpleado(empleado);
+	public void eliminarEmpleadoPulsado(int idEmpleado) {
+		TransferInt transfer = new TransferInt(idEmpleado);
 		servicioAplicacionEmpleado.eliminarEmpleado(transfer);
 	}
 
@@ -164,14 +164,14 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	public void cambioDepartamento(EmpleadoPDI empleado, String departamento) {
 		empleado.setDepartamento(departamento);
 		TransferEmpleado transfer = new TransferEmpleado(empleado);
-		servicioAplicacionEmpleado.cambioDepartamento(transfer);
+		servicioAplicacionEmpleado.modificarEmpleado(transfer);
 	}
 
 	@Override
 	public void contratoCambiado(Empleado empleado, Contrato nuevoContrato) {
 		empleado.setContrato(nuevoContrato);
 		TransferEmpleado transfer = new TransferEmpleado(empleado);
-		servicioAplicacionEmpleado.cambiarContrato(transfer);
+		servicioAplicacionEmpleado.modificarEmpleado(transfer);
 	}
 
 	@Override
