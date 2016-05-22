@@ -1,6 +1,6 @@
 package empleado.capadepresentacion.vista;
 
-import usuario.capadenegocio.TipoFacultad;
+import usuario.capadenegocio.reglas.TipoFacultad;
 import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadepresentacion.vista.gestoreventos.VistaTrasladoFacultadListener;
 

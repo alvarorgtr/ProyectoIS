@@ -1,0 +1,27 @@
+package usuario.capadenegocio.logica;
+
+import usuario.capadeintegracion.DAOUsuariosImp;
+import usuario.capadenegocio.transferencia.TransferID;
+import usuario.capadenegocio.transferencia.TransferUsuario;
+
+public class ImplementacionUsuarios implements Usuarios{
+
+	@Override
+	public void aniadirUsuario(TransferUsuario us) {
+		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
+		canal.aniadirUsuario(us);
+	}
+
+	@Override
+	public void eliminarUsuario(TransferID us) {
+		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
+		canal.eliminarUsuario(us);
+	}
+
+	@Override
+	public boolean log(TransferID us) {
+		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
+		return canal.logging(us);
+	}
+
+}

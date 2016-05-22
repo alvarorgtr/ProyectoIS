@@ -2,6 +2,6 @@ package usuario.capadepresentacion.vista;
 
 public interface VistaAniadirUsuarioListener {
 
-	void añadir();
+	void aniadir();
 
 }

@@ -3,7 +3,7 @@ package empleado.capadepresentacion.controlador;
 import java.util.List;
 import java.util.Stack;
 
-import usuario.capadenegocio.TipoFacultad;
+import usuario.capadenegocio.reglas.TipoFacultad;
 import empleado.capadenegocio.logica.Empleados;
 import empleado.capadenegocio.reglas.Contrato;
 import empleado.capadenegocio.reglas.Empleado;

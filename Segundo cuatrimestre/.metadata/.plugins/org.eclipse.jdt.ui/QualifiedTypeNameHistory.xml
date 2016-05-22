@@ -12,4 +12,14 @@
 <fullyQualifiedTypeName name="usuario.capadepresentacion.vista.VistaActividad.types"/>
 <fullyQualifiedTypeName name="usuario.transferobjects.TransferID"/>
 <fullyQualifiedTypeName name="usuario.transferobjects.TransferUsuario"/>
+<fullyQualifiedTypeName name="usuario.capadenegocio.transferencia.TransferUsuario"/>
+<fullyQualifiedTypeName name="usuario.capadeintegracion.DAOUsuariosImp"/>
+<fullyQualifiedTypeName name="usuario.capadenegocio.logica.Usuarios"/>
+<fullyQualifiedTypeName name="usuario.capadenegocio.transferencia.TransferID"/>
+<fullyQualifiedTypeName name="usuario.capadenegocio.reglas.Usuario"/>
+<fullyQualifiedTypeName name="usuario.capadepresentacion.vista.VistaLoginUsuario"/>
+<fullyQualifiedTypeName name="usuario.capadepresentacion.vista.VistaActividad"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="usuario.capadenegocio.transferencia.TransferNombre"/>
+<fullyQualifiedTypeName name="usuario.capadenegocio.reglas.TipoPermiso"/>
 </qualifiedTypeNameHistroy>

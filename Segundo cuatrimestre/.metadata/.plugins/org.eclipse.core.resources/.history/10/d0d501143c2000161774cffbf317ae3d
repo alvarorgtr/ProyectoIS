@@ -1,0 +1,5 @@
+package usuario.capadenegocio.transferencia;
+
+public class TransferNombre {
+
+}

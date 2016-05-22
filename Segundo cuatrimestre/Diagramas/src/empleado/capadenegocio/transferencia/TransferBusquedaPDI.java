@@ -1,6 +1,6 @@
 package empleado.capadenegocio.transferencia;
 
-import usuario.capadenegocio.TipoFacultad;
+import usuario.capadenegocio.reglas.TipoFacultad;
 
 public class TransferBusquedaPDI extends TransferBusqueda {
 	private static final long serialVersionUID = 1L;

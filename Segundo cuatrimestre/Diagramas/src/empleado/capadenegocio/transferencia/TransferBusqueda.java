@@ -2,7 +2,7 @@ package empleado.capadenegocio.transferencia;
 
 import java.io.Serializable;
 
-import usuario.capadenegocio.TipoFacultad;
+import usuario.capadenegocio.reglas.TipoFacultad;
 
 /**
  * Codifica la información de un nombre para la búsqueda.

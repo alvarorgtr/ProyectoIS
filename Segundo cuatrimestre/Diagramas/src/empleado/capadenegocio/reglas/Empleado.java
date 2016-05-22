@@ -1,6 +1,6 @@
 package empleado.capadenegocio.reglas;
 
-import usuario.capadenegocio.TipoFacultad;
+import usuario.capadenegocio.reglas.TipoFacultad;
 
 public abstract class Empleado extends EmpleadoVista {
 	private String path_foto;

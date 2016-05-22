@@ -1,0 +1,13 @@
+package usuario.capadenegocio;
+
+import usuario.capadenegocio.reglas.Usuario;
+
+
+public class Memento {
+	Usuario usuario;
+
+	public Memento(Usuario u) {
+		usuario = u;
+	}
+
+}

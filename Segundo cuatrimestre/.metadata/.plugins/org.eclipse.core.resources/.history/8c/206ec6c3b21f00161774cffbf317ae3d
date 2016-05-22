@@ -1,0 +1,37 @@
+package usuario.capadeintegracion;
+
+import usuario.transferobjects.TransferID;
+import usuario.transferobjects.TransferUsuario;
+
+public class DAOUsuariosImp implements DAOUsuarios{
+	
+	private static DAOUsuariosImp instance;
+	
+	private DAOUsuariosImp(){}
+	
+	public static DAOUsuariosImp getInstance(){
+		if(instance == null){
+			instance = new DAOUsuariosImp(); 
+		}
+		return instance;
+	}
+	
+	@Override
+	public boolean logging(TransferID usuario) {
+		// TODO Apéndice de método generado automáticamente
+		return false;
+	}
+	
+	@Override
+	public boolean añadirUsuario(TransferUsuario usuario) {
+		// TODO Apéndice de método generado automáticamente
+		return false;
+	}
+
+	@Override
+	public boolean eliminarUsuario(TransferID usuario) {
+		// TODO Apéndice de método generado automáticamente
+		return false;
+	}
+	
+}

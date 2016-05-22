@@ -1,7 +1,7 @@
 package empleado.capadenegocio.transferencia;
 
 import empleado.capadenegocio.reglas.AreaTrabajo;
-import usuario.capadenegocio.TipoFacultad;
+import usuario.capadenegocio.reglas.TipoFacultad;
 
 public class TransferBusquedaPAS extends TransferBusqueda {
 	private static final long serialVersionUID = 1L;

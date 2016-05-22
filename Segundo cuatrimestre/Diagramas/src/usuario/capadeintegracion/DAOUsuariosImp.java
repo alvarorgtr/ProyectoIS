@@ -1,22 +1,21 @@
 package usuario.capadeintegracion;
 
-import java.util.List;
-
-import usuario.capadenegocio.TipoFacultad;
-import usuario.capadenegocio.TipoPermiso;
-import usuario.capadenegocio.Usuario;
-import usuario.transferobjects.TransferID;
-import usuario.transferobjects.TransferUsuario;
+import usuario.capadenegocio.reglas.TipoPermiso;
+import usuario.capadenegocio.transferencia.TransferID;
+import usuario.capadenegocio.transferencia.TransferNombre;
+import usuario.capadenegocio.transferencia.TransferUsuario;
 
 public class DAOUsuariosImp implements DAOUsuarios{
-
-	private boolean conectado;
-	private List<Usuario> listaUsuarios;
 	
-	@Override
-	public boolean getConectado() {
-		// TODO Apéndice de método generado automáticamente
-		return conectado;
+	private static DAOUsuariosImp instance;
+	
+	private DAOUsuariosImp(){}
+	
+	public static DAOUsuariosImp getInstance(){
+		if(instance == null){
+			instance = new DAOUsuariosImp(); 
+		}
+		return instance;
 	}
 	
 	@Override
@@ -26,13 +25,31 @@ public class DAOUsuariosImp implements DAOUsuarios{
 	}
 	
 	@Override
-	public boolean añadirUsuario(TransferUsuario usuario) {
+	public boolean aniadirUsuario(TransferUsuario usuario) {
 		// TODO Apéndice de método generado automáticamente
 		return false;
 	}
 
 	@Override
 	public boolean eliminarUsuario(TransferID usuario) {
+		// TODO Apéndice de método generado automáticamente
+		return false;
+	}
+
+	@Override
+	public String comprobarContra(TransferNombre nom) {
+		// TODO Apéndice de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public TipoPermiso comprobarPerm(TransferNombre nombre) {
+		// TODO Apéndice de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public boolean yaExiste(TransferNombre nom) {
 		// TODO Apéndice de método generado automáticamente
 		return false;
 	}

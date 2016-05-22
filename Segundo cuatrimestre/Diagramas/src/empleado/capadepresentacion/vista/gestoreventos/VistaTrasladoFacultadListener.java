@@ -1,6 +1,6 @@
 package empleado.capadepresentacion.vista.gestoreventos;
 
-import usuario.capadenegocio.TipoFacultad;
+import usuario.capadenegocio.reglas.TipoFacultad;
 import empleado.capadenegocio.reglas.Empleado;
 
 public interface VistaTrasladoFacultadListener extends BotonRetrocesoListener {

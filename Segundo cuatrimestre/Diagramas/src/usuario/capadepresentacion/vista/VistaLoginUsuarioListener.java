@@ -2,6 +2,6 @@ package usuario.capadepresentacion.vista;
 
 public interface VistaLoginUsuarioListener {
 
-	void inicioSesion();
-	
+	void inicioSesion(String nombre, String contra);
+
 }

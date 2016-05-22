@@ -1,19 +1,31 @@
 package usuario.capadepresentacion.controlador;
 
+import usuario.capadenegocio.logica.Usuarios;
+import usuario.capadenegocio.transferencia.TransferID;
+import usuario.capadepresentacion.vista.VistaActividad;
 import usuario.capadepresentacion.vista.VistaActividad.types;
 import usuario.capadepresentacion.vista.VistaActividadListener;
 import usuario.capadepresentacion.vista.VistaAniadirUsuarioListener;
 import usuario.capadepresentacion.vista.VistaEliminarUsuarioListener;
+import usuario.capadepresentacion.vista.VistaLoginUsuario;
 import usuario.capadepresentacion.vista.VistaLoginUsuarioListener;
 
 public class ControladorUsuario implements VistaActividadListener,
 		VistaAniadirUsuarioListener, VistaEliminarUsuarioListener,
 		VistaLoginUsuarioListener {
 
+	private Usuarios servicioAplicacionUsuarios;
+	
+	public ControladorUsuario(Usuarios sua){
+		this.servicioAplicacionUsuarios = sua;
+	}
+	
 	@Override
-	public void inicioSesion() {
-		// TODO Apéndice de método generado automáticamente
-
+	public void inicioSesion(String nombre, String contra) {
+		VistaLoginUsuario vista = new VistaLoginUsuario(this);
+		TransferID log = new TransferID(nombre, contra);
+		servicioAplicacionUsuarios.comprobarContrasenia(log);
+		
 	}
 
 	@Override
@@ -29,15 +41,11 @@ public class ControladorUsuario implements VistaActividadListener,
 	}
 
 	@Override
-	public void añadir() {
-		// TODO Apéndice de método generado automáticamente
-
-	}
-
-	@Override
 	public types eligeOpcion() {
-		// TODO Apéndice de método generado automáticamente
-		return null;
+		VistaActividad vista = new VistaActividad(this);
+		vista.mostrarVista();
+		types op = 
+		return ;
 	}
 
 	@Override
@@ -56,6 +64,12 @@ public class ControladorUsuario implements VistaActividadListener,
 	public void accesoEmpleados() {
 		// TODO Apéndice de método generado automáticamente
 
+	}
+
+	@Override
+	public void aniadir() {
+		// TODO Apéndice de método generado automáticamente
+		
 	}
 
 }

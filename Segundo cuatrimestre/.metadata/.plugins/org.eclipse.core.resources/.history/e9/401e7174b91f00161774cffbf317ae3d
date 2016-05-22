@@ -1,0 +1,14 @@
+package usuario.capadenegocio.logica;
+
+import usuario.capadenegocio.transferencia.TransferID;
+import usuario.capadenegocio.transferencia.TransferUsuario;
+
+public interface Usuarios {
+	
+	public void aniadirUsuario(TransferUsuario us);
+	
+	public void eliminarUsuario(TransferID us);
+	
+	public boolean log (TransferID us);
+
+}

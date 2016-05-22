@@ -4,16 +4,28 @@ import empleado.capadepresentacion.vista.VistaGenerica;
 
 public class VistaLoginUsuario implements VistaGenerica {
 
-	VistaLoginUsuarioListener listener;
+	private VistaLoginUsuarioListener listener;
+	private String nombre;
+	private String contrasenia;
 
 	public VistaLoginUsuario (VistaLoginUsuarioListener listener){
 		this.listener = listener;
+		this.nombre = "";
+		this.contrasenia = "";
 	}
 	
 	public void inicioSesion() {
-		listener.inicioSesion();
+		listener.inicioSesion(this.nombre, this.contrasenia);
 	}
 
+	public String getNombre(){
+		return this.nombre;
+	}
+	
+	public String getContrasenia(){
+		return this.contrasenia;
+	}
+	
 	@Override
 	public void mostrarVista() {
 		// TODO Apéndice de método generado automáticamente
