@@ -1,0 +1,14 @@
+package usuario.capadepresentacion.vista;
+
+import usuario.capadepresentacion.vista.VistaActividad.types;
+
+public interface VistaActividadListener {
+
+	public void aniadirUsuario();
+
+	public void eliminarUsuario();
+
+	public void accesoEmpleados();
+
+}
+

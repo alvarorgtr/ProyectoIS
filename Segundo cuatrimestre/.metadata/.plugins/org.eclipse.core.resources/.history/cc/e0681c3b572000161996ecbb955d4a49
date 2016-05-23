@@ -1,0 +1,5 @@
+package usuario.capadepresentacion.controlador;
+
+public class FactoriaVistasUsuario {
+
+}

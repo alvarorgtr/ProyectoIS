@@ -1,7 +1,6 @@
 package usuario.capadepresentacion.vista;
 
 import usuario.capadenegocio.reglas.Usuario;
-import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadepresentacion.vista.VistaGenerica;
 
 public class VistaAniadirUsuario implements VistaGenerica {
@@ -12,16 +11,12 @@ public class VistaAniadirUsuario implements VistaGenerica {
 		this.listener = listener;
 	}
 	
-	public void aniadirUsuario(){
-		listener.añadir();
+	protected Usuario infoNuevoUser(){
+		return null;
 	}
 	
-	protected Usuario infoNuevoUser(){
-		
-	}
-
-	public void aniadirEmpleadoPulsado(){
-		listener.empleadoAniadido(informacionNuevoEmpleado());
+	public void aniadirUsuario(){
+		listener.aniadir(infoNuevoUser());
 	}
 	
 	@Override

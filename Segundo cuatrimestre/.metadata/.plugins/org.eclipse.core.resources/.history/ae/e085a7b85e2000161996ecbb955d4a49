@@ -1,0 +1,11 @@
+package usuario.capadepresentacion.vista;
+
+import empleado.capadepresentacion.vista.gestoreventos.BotonRetrocesoListener;
+
+
+public interface VistaEliminarUsuarioListener extends BotonRetrocesoListener{
+
+	public void eliminar();
+	public void descartar();
+	
+}

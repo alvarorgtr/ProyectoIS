@@ -1,0 +1,44 @@
+package usuario.capadepresentacion.vista;
+
+
+import empleado.capadepresentacion.vista.VistaGenerica;
+
+public class VistaActividad implements VistaGenerica{
+
+	VistaActividadListener listener;
+	
+	public enum types{
+		AniadirUsuario, EliminarUsuario, AccesoEmpleados;
+	};
+	
+	public VistaActividad (VistaActividadListener listener){
+		this.listener = listener;
+	}
+	
+	public void eligeOpcion(types op){
+		switch(op){
+		case AniadirUsuario:
+			listener.aniadirUsuario();
+			break;
+		case EliminarUsuario:
+			listener.eliminarUsuario();
+			break;
+		case AccesoEmpleados:
+			listener.accesoEmpleados();
+			break;
+		}
+		
+	}
+	
+	@Override
+	public void mostrarVista() {
+		// TODO Apéndice de método generado automáticamente
+		
+	}
+	@Override
+	public void ocultarVista() {
+		// TODO Apéndice de método generado automáticamente
+		
+	}
+
+}

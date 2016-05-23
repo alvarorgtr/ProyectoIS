@@ -1,0 +1,77 @@
+package usuario.capadepresentacion.controlador;
+
+import empleado.capadenegocio.logica.ImplementacionEmpleados;
+import empleado.capadepresentacion.controlador.Controlador;
+import empleado.capadepresentacion.controlador.FactoriaVistas;
+import usuario.capadenegocio.logica.Usuarios;
+import usuario.capadenegocio.transferencia.TransferID;
+import usuario.capadepresentacion.vista.VistaActividad;
+import usuario.capadepresentacion.vista.VistaActividad.types;
+import usuario.capadepresentacion.vista.VistaActividadListener;
+import usuario.capadepresentacion.vista.VistaAniadirUsuarioListener;
+import usuario.capadepresentacion.vista.VistaEliminarUsuarioListener;
+import usuario.capadepresentacion.vista.VistaLoginUsuario;
+import usuario.capadepresentacion.vista.VistaLoginUsuarioListener;
+
+public class ControladorUsuario implements VistaActividadListener,
+		VistaAniadirUsuarioListener, VistaEliminarUsuarioListener,
+		VistaLoginUsuarioListener {
+
+	private Usuarios servicioAplicacionUsuarios;
+	private FactoriaVistasUsuario vistas;
+	private Controlador controlerEmpleados;
+	
+	public ControladorUsuario(Usuarios sua, ImplementacionEmpleados imP, FactoriaVistas fact){
+		this.servicioAplicacionUsuarios = sua;
+		controlerEmpleados = new Controlador(imP, fact);
+	}
+	
+	@Override
+	public void inicioSesion() {
+		VistaLoginUsuario vista = new VistaLoginUsuario(this);
+		vista.mostrarVista();
+		if (servicioAplicacionUsuarios.comprobarContrasenia(vista.getNombre(), vista.getContrasenia())) {
+			TransferID user = new TransferID(vista.getNombre(), vista.getContrasenia());
+			servicioAplicacionUsuarios.log(user);
+			VistaActividad vista2 = new VistaActividad(this);
+			vista.ocultarVista();
+			vista2.mostrarVista();
+		} else {
+			//Tratar error
+		}
+	}
+
+	@Override
+	public void eliminar() {
+		// TODO Apéndice de método generado automáticamente
+
+	}
+
+	@Override
+	public void descartar() {
+		// TODO Apéndice de método generado automáticamente
+
+	}
+
+	@Override
+	public void aniadirUsuario() {
+		
+	}
+
+	@Override
+	public void eliminarUsuario() {
+		
+	}
+
+	@Override
+	public void accesoEmpleados() {
+		controlerEmpleados.lanzar();
+	}
+
+	@Override
+	public void aniadir() {
+		// TODO Apéndice de método generado automáticamente
+		
+	}
+
+}

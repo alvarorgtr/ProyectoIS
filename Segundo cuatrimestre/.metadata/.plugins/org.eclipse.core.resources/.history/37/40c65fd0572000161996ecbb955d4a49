@@ -1,0 +1,12 @@
+package usuario.capadepresentacion.controlador;
+
+import usuario.capadepresentacion.vista.VistaActividad;
+import usuario.capadepresentacion.vista.VistaActividadListener;
+import usuario.capadepresentacion.vista.VistaAniadirUsuario;
+import usuario.capadepresentacion.vista.VistaAniadirUsuarioListener;
+
+public interface FactoriaVistasUsuario {
+	public VistaActividad vistaActividad(VistaActividadListener listener);
+	public VistaAniadirUsuario vistaAniadirUsuario(VistaAniadirUsuarioListener listener);
+	
+}

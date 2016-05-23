@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="213" version="2.0">
+<workbench progressCount="29" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="78" y="0">
 <fastViewData fastViewLocation="1024">
@@ -30,7 +30,7 @@
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.support.feedback.errorreports.ui.crashReportToolbar" itemType="typeToolBarContribution" x="158" y="22"/>
-<coolItem id="com.ibm.cic.licensing.common.ui.controlContribution" itemType="typeToolBarContribution" x="149" y="22"/>
+<coolItem id="com.ibm.cic.licensing.common.ui.controlContribution" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1462530475129" focus="true" label="Espacio de trabajo - Modelado">
@@ -48,25 +48,25 @@
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ControladorUsuario.java" partName="ControladorUsuario.java" path="C:/Users/usuario/Documents/GitHub/ProyectoIS/Segundo cuatrimestre/Diagramas/src/usuario/capadepresentacion/controlador/ControladorUsuario.java" title="ControladorUsuario.java" tooltip="Diagramas/src/usuario/capadepresentacion/controlador/ControladorUsuario.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Diagramas/src/usuario/capadepresentacion/controlador/ControladorUsuario.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2954" selectionTopPixel="1096"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Controlador.java" partName="Controlador.java" path="C:/Users/usuario/Documents/GitHub/ProyectoIS/Segundo cuatrimestre/Diagramas/src/empleado/capadepresentacion/controlador/Controlador.java" title="Controlador.java" tooltip="Diagramas/src/empleado/capadepresentacion/controlador/Controlador.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Diagramas/src/empleado/capadepresentacion/controlador/Controlador.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6737" selectionTopPixel="1879"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaEliminarUsuario.java" partName="VistaEliminarUsuario.java" path="C:/Users/usuario/Documents/GitHub/ProyectoIS/Segundo cuatrimestre/Diagramas/src/usuario/capadepresentacion/vista/VistaEliminarUsuario.java" title="VistaEliminarUsuario.java" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaEliminarUsuario.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Diagramas/src/usuario/capadepresentacion/vista/VistaEliminarUsuario.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="206" selectionTopPixel="0"/>
+</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UsuariosImp.java" partName="UsuariosImp.java" path="C:/Users/usuario/Documents/GitHub/ProyectoIS/Segundo cuatrimestre/Diagramas/src/usuario/capadenegocio/logica/UsuariosImp.java" title="UsuariosImp.java" tooltip="Diagramas/src/usuario/capadenegocio/logica/UsuariosImp.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Diagramas/src/usuario/capadenegocio/logica/UsuariosImp.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="956" selectionTopPixel="223"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1694" selectionTopPixel="543"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usuarios.java" partName="Usuarios.java" path="C:/Users/usuario/Documents/GitHub/ProyectoIS/Segundo cuatrimestre/Diagramas/src/usuario/capadenegocio/logica/Usuarios.java" title="Usuarios.java" tooltip="Diagramas/src/usuario/capadenegocio/logica/Usuarios.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Diagramas/src/usuario/capadenegocio/logica/Usuarios.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="415" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAOUsuarios.java" partName="DAOUsuarios.java" path="C:/Users/usuario/Documents/GitHub/ProyectoIS/Segundo cuatrimestre/Diagramas/src/usuario/capadeintegracion/DAOUsuarios.java" title="DAOUsuarios.java" tooltip="Diagramas/src/usuario/capadeintegracion/DAOUsuarios.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Diagramas/src/usuario/capadeintegracion/DAOUsuarios.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="514" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAOEmpleados.java" partName="DAOEmpleados.java" path="C:/Users/usuario/Documents/GitHub/ProyectoIS/Segundo cuatrimestre/Diagramas/src/empleado/capadeintegracion/DAOEmpleados.java" title="DAOEmpleados.java" tooltip="Diagramas/src/empleado/capadeintegracion/DAOEmpleados.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Diagramas/src/empleado/capadeintegracion/DAOEmpleados.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAOUsuariosImp.java" partName="DAOUsuariosImp.java" path="C:/Users/usuario/Documents/GitHub/ProyectoIS/Segundo cuatrimestre/Diagramas/src/usuario/capadeintegracion/DAOUsuariosImp.java" title="DAOUsuariosImp.java" tooltip="Diagramas/src/usuario/capadeintegracion/DAOUsuariosImp.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Diagramas/src/usuario/capadeintegracion/DAOUsuariosImp.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TipoPermiso.java" partName="TipoPermiso.java" path="C:/Users/usuario/Documents/GitHub/ProyectoIS/Segundo cuatrimestre/Diagramas/src/usuario/capadenegocio/reglas/TipoPermiso.java" title="TipoPermiso.java" tooltip="Diagramas/src/usuario/capadenegocio/reglas/TipoPermiso.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Diagramas/src/usuario/capadenegocio/reglas/TipoPermiso.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="168" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -224,166 +224,165 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadepresentacion/controlador/ControladorUsuario.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadenegocio/logica/Usuarios.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadeintegracion/DAOUsuarios.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadenegocio/logica/UsuariosImp.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/empleado/capadeintegracion/DAOEmpleadosImp.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/empleado/capadeintegracion/DAOEmpleados.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/empleado/capadenegocio/logica/Empleados.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/empleado/capadenegocio/logica/ImplementacionEmpleados.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="UMLVisualizerEditor" path="/Diagramas/src/usuario/capadenegocio/NegocioUsuario.dnx"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="UMLVisualizerEditor" path="/Diagramas/src/usuario/capadepresentacion/vista/VistaUsuario.dnx"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="UMLVisualizerEditor" path="/Diagramas/src/usuario/capadeintegracion/BaseDatosUsuarios.dnx"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadenegocio/transferencia/TransferID.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadenegocio/transferencia/TransferNombre.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadepresentacion/vista/VistaEliminarUsuario.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadenegocio/reglas/Conserje.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadenegocio/logica/Usuarios.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadeintegracion/DAOUsuariosImp.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/empleado/capadepresentacion/vista/VistaAniadirEmpleado.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadeintegracion/DAOUsuarios.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/empleado/capadeintegracion/DAOEmpleados.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadepresentacion/vista/VistaActividad.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadepresentacion/vista/VistaActividadListener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Diagramas/src/usuario/capadenegocio/reglas/TipoPermiso.java"/>
 </editors>
-<item historyLabel="DAOEmpleados.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DAOEmpleadosImp.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Empleados.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ImplementacionEmpleados.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DAOEmpleados.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DAOEmpleadosImp.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DAOEmpleados.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Usuarios.java" index="1">
-<position info="not_deleted" x="583" y="0"/>
-</item>
-<item historyLabel="UsuariosImp.java" index="3">
+<item historyLabel="Conserje.java" index="3">
 <position/>
-</item>
-<item historyLabel="UsuariosImp.java" index="3">
-<position info="not_deleted" x="1066" y="28"/>
-</item>
-<item historyLabel="Usuarios.java" index="1">
-<position info="not_deleted" x="498" y="0"/>
-</item>
-<item historyLabel="DAOUsuarios.java" index="2">
-<position info="not_deleted" x="470" y="0"/>
-</item>
-<item historyLabel="NegocioUsuario.dnx" index="8"/>
-<item historyLabel="DAOUsuarios.java" index="2">
-<position info="not_deleted" x="470" y="0"/>
-</item>
-<item historyLabel="VistaUsuario.dnx" index="9"/>
-<item historyLabel="DAOUsuarios.java" index="2">
-<position info="not_deleted" x="470" y="0"/>
-</item>
-<item historyLabel="BaseDatosUsuarios.dnx" index="10"/>
-<item historyLabel="TransferID.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TransferNombre.java" index="12">
-<position info="not_deleted" x="134" y="0"/>
-</item>
-<item historyLabel="TransferID.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TransferNombre.java" index="12">
-<position info="not_deleted" x="134" y="0"/>
-</item>
-<item historyLabel="TransferNombre.java" index="12">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="TransferID.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DAOUsuarios.java" index="2">
-<position info="not_deleted" x="470" y="0"/>
-</item>
-<item historyLabel="DAOUsuariosImp.java" index="13">
-<position info="not_deleted" x="1058" y="0"/>
-</item>
-<item historyLabel="DAOEmpleadosImp.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DAOUsuariosImp.java" index="13">
-<position info="not_deleted" x="1058" y="0"/>
-</item>
-<item historyLabel="DAOUsuarios.java" index="2">
-<position info="not_deleted" x="470" y="0"/>
-</item>
-<item historyLabel="UsuariosImp.java" index="3">
-<position info="not_deleted" x="1325" y="0"/>
 </item>
 <item historyLabel="ControladorUsuario.java" index="0">
-<position info="not_deleted" x="1501" y="0"/>
+<position info="not_deleted" x="3619" y="0"/>
 </item>
-<item historyLabel="UsuariosImp.java" index="3">
-<position info="not_deleted" x="1325" y="0"/>
-</item>
-<item historyLabel="VistaAniadirEmpleado.java" index="14">
-<position info="not_deleted" x="617" y="0"/>
-</item>
-<item historyLabel="UsuariosImp.java" index="3">
-<position info="not_deleted" x="1325" y="0"/>
-</item>
-<item historyLabel="DAOUsuarios.java" index="15">
+<item historyLabel="Usuarios.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="UsuariosImp.java" index="3">
-<position info="not_deleted" x="1325" y="0"/>
-</item>
-<item historyLabel="Usuarios.java" index="1">
-<position info="not_deleted" x="581" y="0"/>
-</item>
-<item historyLabel="DAOEmpleados.java" index="16">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DAOUsuarios.java" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DAOUsuarios.java" index="15">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="Usuarios.java" index="1">
-<position info="not_deleted" x="581" y="0"/>
-</item>
-<item historyLabel="DAOUsuariosImp.java" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DAOUsuarios.java" index="15">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="Usuarios.java" index="1">
-<position info="not_deleted" x="583" y="0"/>
-</item>
-<item historyLabel="UsuariosImp.java" index="3">
+<item historyLabel="Usuarios.java" index="4">
 <position/>
 </item>
-<item historyLabel="Usuarios.java" index="1">
-<position info="not_deleted" x="415" y="0"/>
+<item historyLabel="UsuariosImp.java" index="1">
+<position info="not_deleted" x="2068" y="0"/>
 </item>
-<item historyLabel="DAOUsuarios.java" index="15">
-<position info="not_deleted" x="514" y="0"/>
+<item historyLabel="Usuarios.java" index="4">
+<position info="not_deleted" x="503" y="37"/>
 </item>
-<item historyLabel="DAOUsuariosImp.java" index="13">
+<item historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3615" y="0"/>
+</item>
+<item historyLabel="Usuarios.java" index="4">
+<position info="not_deleted" x="456" y="47"/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position info="not_deleted" x="2068" y="0"/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position info="not_deleted" x="2064" y="0"/>
+</item>
+<item historyLabel="Usuarios.java" index="4">
+<position info="not_deleted" x="501" y="0"/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position info="not_deleted" x="2064" y="0"/>
+</item>
+<item historyLabel="DAOUsuariosImp.java" index="5">
+<position/>
+</item>
+<item historyLabel="DAOUsuarios.java" index="6">
+<position/>
+</item>
+<item historyLabel="DAOUsuarios.java" index="6">
+<position/>
+</item>
+<item historyLabel="DAOUsuariosImp.java" index="5">
+<position/>
+</item>
+<item historyLabel="DAOUsuarios.java" index="6">
+<position/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position info="not_deleted" x="2064" y="0"/>
+</item>
+<item historyLabel="Usuarios.java" index="4">
+<position info="not_deleted" x="39" y="0"/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position info="not_deleted" x="2064" y="0"/>
+</item>
+<item historyLabel="DAOUsuarios.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DAOUsuarios.java" index="15">
-<position info="not_deleted" x="514" y="0"/>
+<item historyLabel="DAOUsuariosImp.java" index="5">
+<position info="not_deleted" x="1741" y="0"/>
 </item>
-<item historyLabel="UsuariosImp.java" index="3">
-<position info="not_deleted" x="956" y="0"/>
+<item historyLabel="DAOUsuarios.java" index="6">
+<position info="not_deleted" x="534" y="0"/>
 </item>
-<item active="true" historyLabel="DAOUsuarios.java" index="15">
-<position info="not_deleted" x="514" y="0"/>
+<item historyLabel="DAOUsuariosImp.java" index="5">
+<position info="not_deleted" x="1741" y="0"/>
+</item>
+<item historyLabel="DAOUsuarios.java" index="6">
+<position info="not_deleted" x="534" y="0"/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position info="not_deleted" x="89" y="0"/>
+</item>
+<item historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3615" y="0"/>
+</item>
+<item historyLabel="VistaEliminarUsuario.java" index="2">
+<position info="not_deleted" x="43" y="0"/>
+</item>
+<item historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3566" y="0"/>
+</item>
+<item historyLabel="Conserje.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3810" y="0"/>
+</item>
+<item historyLabel="VistaEliminarUsuario.java" index="2">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3906" y="0"/>
+</item>
+<item historyLabel="VistaActividad.java" index="7">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="VistaActividadListener.java" index="8">
+<position info="not_deleted" x="153" y="0"/>
+</item>
+<item historyLabel="VistaActividad.java" index="7">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="VistaActividadListener.java" index="8">
+<position info="not_deleted" x="153" y="0"/>
+</item>
+<item historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3071" y="0"/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3013" y="0"/>
+</item>
+<item historyLabel="TipoPermiso.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3013" y="0"/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position/>
+</item>
+<item historyLabel="TipoPermiso.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position/>
+</item>
+<item historyLabel="TipoPermiso.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TipoPermiso.java" index="9">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3013" y="0"/>
+</item>
+<item historyLabel="UsuariosImp.java" index="1">
+<position info="not_deleted" x="1694" y="0"/>
+</item>
+<item active="true" historyLabel="ControladorUsuario.java" index="0">
+<position info="not_deleted" x="3013" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -391,6 +390,10 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="projectExplorerArea"/>
+<trimItem IMemento.internal.id="underProjectExplorerArea"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -398,54 +401,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="underEditorArea"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAOUsuariosImp.java" tooltip="Diagramas/src/usuario/capadeintegracion/DAOUsuariosImp.java">
-<persistable path="/Diagramas/src/usuario/capadeintegracion/DAOUsuariosImp.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TipoPermiso.java" tooltip="Diagramas/src/usuario/capadenegocio/reglas/TipoPermiso.java">
+<persistable path="/Diagramas/src/usuario/capadenegocio/reglas/TipoPermiso.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAOEmpleados.java" tooltip="Diagramas/src/empleado/capadeintegracion/DAOEmpleados.java">
-<persistable path="/Diagramas/src/empleado/capadeintegracion/DAOEmpleados.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAOUsuarios.java" tooltip="Diagramas/src/usuario/capadeintegracion/DAOUsuarios.java">
-<persistable path="/Diagramas/src/usuario/capadeintegracion/DAOUsuarios.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TransferNombre.java" tooltip="Diagramas/src/usuario/capadenegocio/transferencia/TransferNombre.java">
-<persistable path="/Diagramas/src/usuario/capadenegocio/transferencia/TransferNombre.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TransferID.java" tooltip="Diagramas/src/usuario/capadenegocio/transferencia/TransferID.java">
-<persistable path="/Diagramas/src/usuario/capadenegocio/transferencia/TransferID.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="UMLVisualizerEditor" name="BaseDatosUsuarios.dnx" tooltip="Diagramas/src/usuario/capadeintegracion/BaseDatosUsuarios.dnx">
-<persistable path="/Diagramas/src/usuario/capadeintegracion/BaseDatosUsuarios.dnx"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="UMLVisualizerEditor" name="VistaUsuario.dnx" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaUsuario.dnx">
-<persistable path="/Diagramas/src/usuario/capadepresentacion/vista/VistaUsuario.dnx"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="UMLVisualizerEditor" name="NegocioUsuario.dnx" tooltip="Diagramas/src/usuario/capadenegocio/NegocioUsuario.dnx">
-<persistable path="/Diagramas/src/usuario/capadenegocio/NegocioUsuario.dnx"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImplementacionEmpleados.java" tooltip="Diagramas/src/empleado/capadenegocio/logica/ImplementacionEmpleados.java">
-<persistable path="/Diagramas/src/empleado/capadenegocio/logica/ImplementacionEmpleados.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Empleados.java" tooltip="Diagramas/src/empleado/capadenegocio/logica/Empleados.java">
-<persistable path="/Diagramas/src/empleado/capadenegocio/logica/Empleados.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAOEmpleadosImp.java" tooltip="Diagramas/src/empleado/capadeintegracion/DAOEmpleadosImp.java">
-<persistable path="/Diagramas/src/empleado/capadeintegracion/DAOEmpleadosImp.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaAniadirUsuarioListener.java" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaAniadirUsuarioListener.java">
-<persistable path="/Diagramas/src/usuario/capadepresentacion/vista/VistaAniadirUsuarioListener.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UsuariosImp.java" tooltip="Diagramas/src/usuario/capadenegocio/logica/UsuariosImp.java">
+<persistable path="/Diagramas/src/usuario/capadenegocio/logica/UsuariosImp.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaActividadListener.java" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaActividadListener.java">
 <persistable path="/Diagramas/src/usuario/capadepresentacion/vista/VistaActividadListener.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BotonRetrocesoListener.java" tooltip="Diagramas/src/empleado/capadepresentacion/vista/gestoreventos/BotonRetrocesoListener.java">
-<persistable path="/Diagramas/src/empleado/capadepresentacion/vista/gestoreventos/BotonRetrocesoListener.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaActividad.java" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaActividad.java">
+<persistable path="/Diagramas/src/usuario/capadepresentacion/vista/VistaActividad.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaFichaEmpleadoListener.java" tooltip="Diagramas/src/empleado/capadepresentacion/vista/gestoreventos/VistaFichaEmpleadoListener.java">
-<persistable path="/Diagramas/src/empleado/capadepresentacion/vista/gestoreventos/VistaFichaEmpleadoListener.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaEliminarUsuario.java" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaEliminarUsuario.java">
+<persistable path="/Diagramas/src/usuario/capadepresentacion/vista/VistaEliminarUsuario.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Conserje.java" tooltip="Diagramas/src/usuario/capadenegocio/reglas/Conserje.java">
+<persistable path="/Diagramas/src/usuario/capadenegocio/reglas/Conserje.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAOUsuariosImp.java" tooltip="Diagramas/src/usuario/capadeintegracion/DAOUsuariosImp.java">
+<persistable path="/Diagramas/src/usuario/capadeintegracion/DAOUsuariosImp.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DAOUsuarios.java" tooltip="Diagramas/src/usuario/capadeintegracion/DAOUsuarios.java">
+<persistable path="/Diagramas/src/usuario/capadeintegracion/DAOUsuarios.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usuarios.java" tooltip="Diagramas/src/usuario/capadenegocio/logica/Usuarios.java">
+<persistable path="/Diagramas/src/usuario/capadenegocio/logica/Usuarios.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaLoginUsuario.java" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaLoginUsuario.java">
+<persistable path="/Diagramas/src/usuario/capadepresentacion/vista/VistaLoginUsuario.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Memento.java" tooltip="Diagramas/src/usuario/capadenegocio/reglas/Memento.java">
+<persistable path="/Diagramas/src/usuario/capadenegocio/reglas/Memento.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaAniadirUsuario.java" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaAniadirUsuario.java">
+<persistable path="/Diagramas/src/usuario/capadepresentacion/vista/VistaAniadirUsuario.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaEliminarUsuarioListener.java" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaEliminarUsuarioListener.java">
+<persistable path="/Diagramas/src/usuario/capadepresentacion/vista/VistaEliminarUsuarioListener.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VistaAniadirUsuarioListener.java" tooltip="Diagramas/src/usuario/capadepresentacion/vista/VistaAniadirUsuarioListener.java">
+<persistable path="/Diagramas/src/usuario/capadepresentacion/vista/VistaAniadirUsuarioListener.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Usuario.java" tooltip="Diagramas/src/usuario/capadenegocio/reglas/Usuario.java">
+<persistable path="/Diagramas/src/usuario/capadenegocio/reglas/Usuario.java"/>
 </file>
 </mruList>
 </workbench>

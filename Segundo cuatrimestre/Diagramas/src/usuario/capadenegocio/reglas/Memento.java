@@ -1,6 +1,5 @@
 package usuario.capadenegocio.reglas;
 
-
 public class Memento {
 	Usuario usuario;
 

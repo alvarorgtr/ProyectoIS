@@ -1,5 +1,0 @@
-package usuario.capadepresentacion.controlador;
-
-public class ControladorUsuario implements VistaAn{
-
-}

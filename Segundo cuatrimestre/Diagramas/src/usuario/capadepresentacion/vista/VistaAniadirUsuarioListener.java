@@ -1,7 +1,10 @@
 package usuario.capadepresentacion.vista;
 
-public interface VistaAniadirUsuarioListener {
+import usuario.capadenegocio.reglas.Usuario;
+import empleado.capadepresentacion.vista.gestoreventos.BotonRetrocesoListener;
 
-	void aniadir();
+public interface VistaAniadirUsuarioListener extends BotonRetrocesoListener{
+
+	void aniadir(Usuario user);
 
 }

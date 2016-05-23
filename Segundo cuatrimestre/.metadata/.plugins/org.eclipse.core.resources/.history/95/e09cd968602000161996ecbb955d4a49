@@ -1,0 +1,125 @@
+package usuario.capadepresentacion.controlador;
+
+import java.util.Stack;
+
+import usuario.capadenegocio.logica.Usuarios;
+import usuario.capadenegocio.reglas.Usuario;
+import usuario.capadenegocio.transferencia.TransferID;
+import usuario.capadenegocio.transferencia.TransferNombre;
+import usuario.capadenegocio.transferencia.TransferUsuario;
+import usuario.capadepresentacion.vista.VistaActividad;
+import usuario.capadepresentacion.vista.VistaActividadListener;
+import usuario.capadepresentacion.vista.VistaAniadirUsuario;
+import usuario.capadepresentacion.vista.VistaAniadirUsuarioListener;
+import usuario.capadepresentacion.vista.VistaEliminarUsuario;
+import usuario.capadepresentacion.vista.VistaEliminarUsuarioListener;
+import usuario.capadepresentacion.vista.VistaLoginUsuario;
+import usuario.capadepresentacion.vista.VistaLoginUsuarioListener;
+import empleado.capadenegocio.logica.ImplementacionEmpleados;
+import empleado.capadepresentacion.controlador.Controlador;
+import empleado.capadepresentacion.controlador.FactoriaVistas;
+import empleado.capadepresentacion.vista.VistaGenerica;
+
+public class ControladorUsuario implements VistaActividadListener,
+		VistaAniadirUsuarioListener, VistaEliminarUsuarioListener,
+		VistaLoginUsuarioListener {
+
+	private Usuarios servicioAplicacionUsuarios;
+	private FactoriaVistasUsuario factoria;
+	private Controlador controlerEmpleados;
+	private Stack<VistaGenerica> lista;
+	private Usuario usuario;
+
+	public ControladorUsuario(Usuarios sua, FactoriaVistasUsuario factUser,
+			ImplementacionEmpleados imP, FactoriaVistas fact) {
+		this.servicioAplicacionUsuarios = sua;
+		this.factoria = factUser;
+		controlerEmpleados = new Controlador(imP, fact);
+		lista = new Stack<VistaGenerica>();
+	}
+
+	@Override
+	public void inicioSesion() {
+		VistaLoginUsuario vista = factoria.vistaLoginUsuario(this);
+		vista.mostrarVista();
+		if (servicioAplicacionUsuarios.comprobarContrasenia(vista.getNombre(),
+				vista.getContrasenia())) {
+			TransferID user = new TransferID(vista.getNombre(),
+					vista.getContrasenia());
+			servicioAplicacionUsuarios.log(user);
+			TransferNombre nombre = new TransferNombre(vista.getNombre());
+			this.usuario = servicioAplicacionUsuarios.consultarUsuario(nombre);
+			VistaActividad vista2 = factoria.vistaActividad(this);
+			vista.ocultarVista();
+			vista2.mostrarVista();
+		} else {
+			// Tratar error
+		}
+	}
+
+	@Override
+	public void aniadir(Usuario us) {
+		if (!servicioAplicacionUsuarios.userYaExiste(us.getNombre())) {
+			if (servicioAplicacionUsuarios.comprobarPermiso(us.getNombre(), this.usuario.getTipoPermiso())){
+				TransferUsuario user = new TransferUsuario(us);
+				servicioAplicacionUsuarios.aniadirUsuario(user);
+				ocultarUltimaVista();
+			} else {
+				//Error
+			}
+		}else {
+			//Error
+		}
+	}
+	
+	@Override
+	public void eliminar() {
+		if (servicioAplicacionUsuarios.comprobarPermiso(nombre, this.usuario.getTipoPermiso())){
+			TransferNombre nom = new TransferNombre(nombre);
+			servicioAplicacionUsuarios.
+			ocultarUltimaVista();
+		} else {
+			//Error
+		}
+	}
+
+	@Override
+	public void descartar() {
+
+	}
+
+	@Override
+	public void aniadirUsuario() {
+		VistaAniadirUsuario vista = factoria.vistaAniadirUsuario(this);
+		mostrarVista(vista);
+	}
+
+	@Override
+	public void eliminarUsuario() {
+		VistaEliminarUsuario vista = factoria.vistaEliminarUsuario(this);
+		mostrarVista(vista);
+	}
+
+	@Override
+	public void accesoEmpleados() {
+		controlerEmpleados.lanzar();
+	}
+
+	@Override
+	public void BotonRetrocesoPulsado() {
+		ocultarUltimaVista();
+	}
+	
+	private void mostrarVista(VistaGenerica vista) {
+		lista.add(vista);
+		vista.mostrarVista();
+	}
+	
+	private void ocultarUltimaVista() {
+		if (!lista.isEmpty()) {
+			VistaGenerica vista = lista.pop();
+			vista.ocultarVista();
+		}
+	}
+
+}

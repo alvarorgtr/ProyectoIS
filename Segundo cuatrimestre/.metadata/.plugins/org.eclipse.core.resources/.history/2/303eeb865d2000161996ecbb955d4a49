@@ -1,0 +1,57 @@
+package usuario.capadeintegracion;
+
+import usuario.capadenegocio.reglas.TipoPermiso;
+import usuario.capadenegocio.transferencia.TransferID;
+import usuario.capadenegocio.transferencia.TransferNombre;
+import usuario.capadenegocio.transferencia.TransferUsuario;
+
+public class DAOUsuariosImp implements DAOUsuarios{
+	
+	private static DAOUsuariosImp instance;
+	
+	private DAOUsuariosImp(){}
+	
+	public static DAOUsuariosImp getInstance(){
+		if(instance == null){
+			instance = new DAOUsuariosImp(); 
+		}
+		return instance;
+	}
+	
+	@Override
+	public boolean logging(TransferID usuario) {
+		// TODO Apéndice de método generado automáticamente
+		return false;
+	}
+	
+	@Override
+	public boolean aniadirUsuario(TransferUsuario usuario) {
+		// TODO Apéndice de método generado automáticamente
+		return false;
+	}
+
+	@Override
+	public boolean eliminarUsuario(TransferID usuario) {
+		// TODO Apéndice de método generado automáticamente
+		return false;
+	}
+
+	@Override
+	public String comprobarContra(TransferNombre nom) {
+		// TODO Apéndice de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public TipoPermiso comprobarPerm(TransferNombre nombre) {
+		// TODO Apéndice de método generado automáticamente
+		return null;
+	}
+
+	@Override
+	public boolean yaExiste(TransferNombre nom) {
+		// TODO Apéndice de método generado automáticamente
+		return false;
+	}
+	
+}
