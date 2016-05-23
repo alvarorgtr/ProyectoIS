@@ -20,10 +20,9 @@ public class DAOUsuariosImp implements DAOUsuarios{
 	}
 	
 	@Override
-	public boolean logging(TransferID usuario) {
+	public void loging(TransferID usuario) {
 		// TODO Apéndice de método generado automáticamente
-		return false;
-	}
+ 	}
 	
 	@Override
 	public boolean aniadirUsuario(TransferUsuario usuario) {
@@ -38,7 +37,7 @@ public class DAOUsuariosImp implements DAOUsuarios{
 	}
 
 	@Override
-	public String comprobarContra(TransferNombre nom) {
+	public String getContra(TransferNombre nom) {
 		// TODO Apéndice de método generado automáticamente
 		return null;
 	}
@@ -56,15 +55,10 @@ public class DAOUsuariosImp implements DAOUsuarios{
 	}
 
 	@Override
-	public Usuario encontrarUsuario(TransferNombre nom) {
+	public Usuario getUsuario(TransferNombre nom) {
 		// TODO Apéndice de método generado automáticamente
 		return null;
 	}
 
-	@Override
-	public boolean descartarCambios(TransferUsuario usuario) {
-		// TODO Apéndice de método generado automáticamente
-		return false;
-	}
 	
 }

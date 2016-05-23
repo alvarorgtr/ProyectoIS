@@ -18,9 +18,6 @@ public class VistaEliminarUsuario implements VistaGenerica{
 		listener.eliminar(infoUsuarioEliminar());		
 	}
 	
-	public void descartar(){
-		listener.descartar();
-	}
 	
 	@Override
 	public void mostrarVista() {
@@ -33,6 +30,7 @@ public class VistaEliminarUsuario implements VistaGenerica{
 		// TODO Apéndice de método generado automáticamente
 		
 	}
+
 
 	
 	

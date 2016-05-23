@@ -11,10 +11,8 @@ public interface Usuarios {
 	public void aniadirUsuario(TransferUsuario us);
 	
 	public void eliminarUsuario(TransferNombre nom);
-	
-	public void descartar(TransferUsuario usuario);
-	
-	public boolean log(TransferID us);
+		
+	public void log(TransferID us);
 	
 	public boolean userYaExiste(String nombre);
 	

@@ -2,11 +2,13 @@ package usuario.capadepresentacion.vista;
 
 public interface VistaActividadListener {
 
-	public void aniadirUsuario();
+	public void vistaAniadirUsuario();
 
-	public void eliminarUsuario();
+	public void vistaEliminarUsuario();
 
-	public void accesoEmpleados();
+	public void vistaAccesoEmpleados();
+	
+	public void logout();
 
 }
 

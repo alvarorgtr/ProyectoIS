@@ -2,6 +2,9 @@ package usuario.capadepresentacion.controlador;
 
 import java.util.Stack;
 
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
 import usuario.capadenegocio.logica.Usuarios;
 import usuario.capadenegocio.reglas.Conserje;
 import usuario.capadenegocio.reglas.Usuario;
@@ -63,53 +66,69 @@ public class ControladorUsuario implements VistaActividadListener,
 	@Override
 	public void aniadir(Usuario us) {
 		if (!servicioAplicacionUsuarios.userYaExiste(us.getNombre())) {
-			if (servicioAplicacionUsuarios.comprobarPermiso(us.getNombre(), this.usuario.getTipoPermiso())){
+			if (servicioAplicacionUsuarios.comprobarPermiso(us.getNombre(),
+					this.usuario.getTipoPermiso())) {
 				TransferUsuario user = new TransferUsuario(us);
 				servicioAplicacionUsuarios.aniadirUsuario(user);
 				ocultarUltimaVista();
 			} else {
-				//Error
+				// Error
 			}
-		}else {
-			//Error
+		} else {
+			// Error
 		}
 	}
-	
+
 	@Override
 	public void eliminar(String nombre) {
-		if (servicioAplicacionUsuarios.comprobarPermiso(nombre, this.usuario.getTipoPermiso())){
+		if (servicioAplicacionUsuarios.comprobarPermiso(nombre,
+				this.usuario.getTipoPermiso())) {
 			TransferNombre nom = new TransferNombre(nombre);
-			Usuario usuarioEliminado = servicioAplicacionUsuarios.consultarUsuario(nom);
+			Usuario usuarioEliminado = servicioAplicacionUsuarios
+					.consultarUsuario(nom);
 			cons.setMemento(new Memento(usuarioEliminado));
 			servicioAplicacionUsuarios.eliminarUsuario(nom);
+			if (!estasSeguro()) {
+				descartar();
+			}
 			ocultarUltimaVista();
 		} else {
-			//Error
+			// Error
 		}
 	}
 
-	@Override
-	public void descartar() {
+	private void descartar() {
 		Memento usuarioAntiguo = cons.getMemento();
 		TransferUsuario user = new TransferUsuario(usuarioAntiguo.getUsuario());
-		servicioAplicacionUsuarios.descartar(user);
-		
+		servicioAplicacionUsuarios.aniadirUsuario(user);
+	}
+
+	private boolean estasSeguro() {
+		Object[] options = { "Guardar", "Descartar" };
+		int n = JOptionPane.showOptionDialog(new JFrame(), "¿Estás seguro?",
+				"Eliminar", JOptionPane.YES_NO_OPTION,
+				JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+
+		if (n == 0)
+			return true;
+		return false;
+
 	}
 
 	@Override
-	public void aniadirUsuario() {
+	public void vistaAniadirUsuario() {
 		VistaAniadirUsuario vista = factoria.vistaAniadirUsuario(this);
 		mostrarVista(vista);
 	}
 
 	@Override
-	public void eliminarUsuario() {
+	public void vistaEliminarUsuario() {
 		VistaEliminarUsuario vista = factoria.vistaEliminarUsuario(this);
 		mostrarVista(vista);
 	}
 
 	@Override
-	public void accesoEmpleados() {
+	public void vistaAccesoEmpleados() {
 		controlerEmpleados.lanzar();
 	}
 
@@ -117,17 +136,24 @@ public class ControladorUsuario implements VistaActividadListener,
 	public void BotonRetrocesoPulsado() {
 		ocultarUltimaVista();
 	}
-	
+
 	private void mostrarVista(VistaGenerica vista) {
 		lista.add(vista);
 		vista.mostrarVista();
 	}
-	
+
 	private void ocultarUltimaVista() {
 		if (!lista.isEmpty()) {
 			VistaGenerica vista = lista.pop();
 			vista.ocultarVista();
 		}
+	}
+
+	@Override
+	public void logout() {
+		for(int i=0; i < lista.size(); i++)ocultarUltimaVista();
+		mostrarVista(factoria.vistaLoginUsuario(this));
+		
 	}
 
 }

@@ -7,7 +7,7 @@ public class VistaActividad implements VistaGenerica{
 	VistaActividadListener listener;
 	
 	public enum types{
-		AniadirUsuario, EliminarUsuario, AccesoEmpleados;
+		AniadirUsuario, EliminarUsuario, AccesoEmpleados, Logout;
 	};
 	
 	public VistaActividad (VistaActividadListener listener){
@@ -17,14 +17,17 @@ public class VistaActividad implements VistaGenerica{
 	public void eligeOpcion(types op){
 		switch(op){
 		case AniadirUsuario:
-			listener.aniadirUsuario();
+			listener.vistaAniadirUsuario();
 			break;
 		case EliminarUsuario:
-			listener.eliminarUsuario();
+			listener.vistaEliminarUsuario();
 			break;
 		case AccesoEmpleados:
-			listener.accesoEmpleados();
+			listener.vistaAccesoEmpleados();
 			break;
+		default: //Logout
+			listener.logout();
+		break;
 		}
 		
 	}

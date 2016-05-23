@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_FBvngCB-EeadkdLnucuuuQ" type="Class" name="BaseDatosUsuario.dnx">
+  <eAnnotations xmi:id="_FBvngSB-EeadkdLnucuuuQ" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_FBvngiB-EeadkdLnucuuuQ" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_lspiACB_EeadkdLnucuuuQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lspiAiB_EeadkdLnucuuuQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_lspiAyB_EeadkdLnucuuuQ" width="530" height="530"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_lspiBCB_EeadkdLnucuuuQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_lspiBSB_EeadkdLnucuuuQ" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_lspiBiB_EeadkdLnucuuuQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_lszTACB_EeadkdLnucuuuQ" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_lszTASB_EeadkdLnucuuuQ" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_lszTAiB_EeadkdLnucuuuQ" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_lszTAyB_EeadkdLnucuuuQ" visible="false" type="SignalCompartment"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=DAOUsuarios%5Bjcu%5Ename=DAOUsuarios.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Diagramas%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lspiASB_EeadkdLnucuuuQ" x="1848" y="1320" width="4708" height="5262"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_8B6T0CB_EeadkdLnucuuuQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8B6T0iB_EeadkdLnucuuuQ" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_8B6T0yB_EeadkdLnucuuuQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_8B6T1CB_EeadkdLnucuuuQ" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_8B6T1SB_EeadkdLnucuuuQ" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_8B6T1iB_EeadkdLnucuuuQ" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_8B6T1yB_EeadkdLnucuuuQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_8CDdwCB_EeadkdLnucuuuQ" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_8CDdwSB_EeadkdLnucuuuQ" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOUsuariosImp%5Bjcu%5Ename=DAOUsuariosImp.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Diagramas%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8B6T0SB_EeadkdLnucuuuQ" x="9900" y="264" width="9310" height="6954"/>
+  </children>
+  <element xsi:nil="true"/>
+</umlnotation:UMLDiagram>

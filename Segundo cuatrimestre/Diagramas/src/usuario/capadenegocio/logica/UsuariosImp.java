@@ -7,7 +7,7 @@ import usuario.capadenegocio.transferencia.TransferID;
 import usuario.capadenegocio.transferencia.TransferNombre;
 import usuario.capadenegocio.transferencia.TransferUsuario;
 
-public class UsuariosImp implements Usuarios{
+public class UsuariosImp implements Usuarios {
 
 	@Override
 	public void aniadirUsuario(TransferUsuario us) {
@@ -22,9 +22,9 @@ public class UsuariosImp implements Usuarios{
 	}
 
 	@Override
-	public boolean log(TransferID us) {
+	public void log(TransferID us) {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
-		return canal.logging(us);
+		canal.loging(us);
 	}
 
 	@Override
@@ -38,32 +38,71 @@ public class UsuariosImp implements Usuarios{
 	public boolean comprobarContrasenia(String nombre, String contra) {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
 		TransferNombre us = new TransferNombre(nombre);
-		String contrasenia = canal.comprobarContra(us);
-		if (contrasenia.equals(contra)) return true;
-		else return false; 
+		String contrasenia = canal.getContra(us);
+		if (contra.equals(contrasenia))
+			return true;
+		else
+			return false;
 	}
 
 	@Override
 	public boolean comprobarPermiso(String nombre, TipoPermiso permisoNecesario) {
+
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
 		TransferNombre us = new TransferNombre(nombre);
 		TipoPermiso permiso = canal.comprobarPerm(us);
-		if (permiso.equals(permisoNecesario)) return true;
-		else return false; 
+
+		return permisoValido(permiso, permisoNecesario);
+
+	}
+
+	private boolean permisoValido(TipoPermiso permiso,
+			TipoPermiso permisoNecesario) {
+
+		switch (permiso) {
+
+		case SUPERUSUARIO:
+			return true;
+
+		case ADMINISTRADOR_RECTORADO: {
+			switch (permisoNecesario) {
+			case SUPERUSUARIO:
+				return false;
+			default:
+				return true;
+
+			}
+		}
+
+		case ADMINISTRADOR_FACULTAD: {
+			switch (permisoNecesario) {
+			case SUPERUSUARIO:
+			case ADMINISTRADOR_RECTORADO:
+				return false;
+			default:
+				return true;
+			}
+
+		}
+
+		case SECRETARIO_PAS:
+			if (permisoNecesario == TipoPermiso.SECRETARIO_PAS)
+				return true;
+			return false;
+
+		case SECRETARIO_PDI:
+			if (permisoNecesario == TipoPermiso.SECRETARIO_PDI)
+				return true;
+			return false;
+
+		}
+		return true;
 	}
 
 	@Override
 	public Usuario consultarUsuario(TransferNombre nom) {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
-		return canal.encontrarUsuario(nom);
-	}
-
-	@Override
-	public void descartar(TransferUsuario user) {
-		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
-		if (!canal.descartarCambios(user)){
-			//Error
-		}
+		return canal.getUsuario(nom);
 	}
 
 }

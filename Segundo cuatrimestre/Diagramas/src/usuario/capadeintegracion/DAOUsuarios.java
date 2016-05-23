@@ -8,20 +8,18 @@ import usuario.capadenegocio.transferencia.TransferUsuario;
 
 public interface DAOUsuarios {
 	
-	public boolean logging(TransferID usuario);
+	public void loging(TransferID usuario);
 	
 	public boolean aniadirUsuario(TransferUsuario usuario);
 	
 	public boolean eliminarUsuario(TransferNombre usuario);
-	
-	public boolean descartarCambios(TransferUsuario usuario);
-	
+		
 	public boolean yaExiste(TransferNombre nom);
 	
-	public String comprobarContra(TransferNombre nom);
+	public String getContra(TransferNombre nom);
 	
 	public TipoPermiso comprobarPerm(TransferNombre nombre);
 	
-	public Usuario encontrarUsuario(TransferNombre nom);
+	public Usuario getUsuario(TransferNombre nom);
 	
 }

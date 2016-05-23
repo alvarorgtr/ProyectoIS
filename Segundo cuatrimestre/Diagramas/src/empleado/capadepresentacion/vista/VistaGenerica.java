@@ -5,5 +5,5 @@ public interface VistaGenerica {
 	public void mostrarVista();
 
 	public void ocultarVista();
-
+	
 }
