@@ -1,5 +1,6 @@
 package usuario.capadenegocio.logica;
 
+import usuario.capadenegocio.reglas.TipoFacultad;
 import usuario.capadenegocio.reglas.TipoPermiso;
 import usuario.capadenegocio.reglas.Usuario;
 import usuario.capadenegocio.transferencia.TransferID;
@@ -18,7 +19,7 @@ public interface Usuarios {
 	
 	public boolean comprobarContrasenia(String nombre, String contra);
 	
-	public boolean comprobarPermiso(String nombre, TipoPermiso permisoNecesario);
+	public boolean comprobarPermiso(TipoPermiso permisoNecesario, TipoFacultad facultad);
 	
 	public Usuario consultarUsuario(TransferNombre nom);
 

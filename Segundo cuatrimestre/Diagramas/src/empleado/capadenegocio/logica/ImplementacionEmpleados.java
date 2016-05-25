@@ -1,5 +1,6 @@
 package empleado.capadenegocio.logica;
 
+import usuario.capadenegocio.logica.Usuarios;
 import empleado.capadeintegracion.DAOEmpleadosImp;
 import empleado.capadenegocio.transferencia.TransferBusqueda;
 import empleado.capadenegocio.transferencia.TransferEmpleado;
@@ -7,10 +8,21 @@ import empleado.capadenegocio.transferencia.TransferInt;
 import empleado.capadenegocio.transferencia.TransferListEmpleados;
 
 public class ImplementacionEmpleados implements Empleados {
+	private Usuarios servicioAplicacionUsuarios;
+	
+	public ImplementacionEmpleados(Usuarios servicioAplicacionUsuarios) {
+		this.servicioAplicacionUsuarios = servicioAplicacionUsuarios;
+	}
 
+	// 	SUPERUSUARIO, ADMINISTRADOR_RECTORADO, ADMINISTRADOR_FACULTAD, SECRETARIO_PAS, SECRETARIO_PDI
 	@Override
 	public void aniadirEmpleado(TransferEmpleado transfer) {
 		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
+		
+		if (servicioAplicacionUsuarios.comprobarPermiso()) {
+			
+		}
+		
 		DAONegocio.insertarEmpleado(transfer);
 	}
 

@@ -1,6 +1,7 @@
 package usuario.capadenegocio.logica;
 
 import usuario.capadeintegracion.DAOUsuariosImp;
+import usuario.capadenegocio.reglas.TipoFacultad;
 import usuario.capadenegocio.reglas.TipoPermiso;
 import usuario.capadenegocio.reglas.Usuario;
 import usuario.capadenegocio.transferencia.TransferID;
@@ -8,6 +9,7 @@ import usuario.capadenegocio.transferencia.TransferNombre;
 import usuario.capadenegocio.transferencia.TransferUsuario;
 
 public class UsuariosImp implements Usuarios {
+	private String nombreLogueado;
 
 	@Override
 	public void aniadirUsuario(TransferUsuario us) {
@@ -39,27 +41,29 @@ public class UsuariosImp implements Usuarios {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
 		TransferNombre us = new TransferNombre(nombre);
 		String contrasenia = canal.getContra(us);
-		if (contra.equals(contrasenia))
+		if (contra.equals(contrasenia)) {
+			nombreLogueado = nombre;
 			return true;
-		else
+		} else {
 			return false;
+		}
 	}
 
 	@Override
-	public boolean comprobarPermiso(String nombre, TipoPermiso permisoNecesario) {
+	public boolean comprobarPermiso(TipoPermiso permisoNecesario, TipoFacultad facultadNecesaria) {
 
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
-		TransferNombre us = new TransferNombre(nombre);
-		TipoPermiso permiso = canal.comprobarPerm(us);
-
-		return permisoValido(permiso, permisoNecesario);
+		TransferNombre transfer = new TransferNombre(nombreLogueado);
+		Usuario usuario = canal.getUsuario(transfer);
+		
+		return permisoValido(usuario, permisoNecesario, facultadNecesaria);
 
 	}
 
-	private boolean permisoValido(TipoPermiso permiso,
-			TipoPermiso permisoNecesario) {
+	private boolean permisoValido(Usuario usuario,
+			TipoPermiso permisoNecesario, TipoFacultad facultadNecesaria) {
 
-		switch (permiso) {
+		/* switch (usuario.getTipoPermiso()) {
 
 		case SUPERUSUARIO:
 			return true;
@@ -96,6 +100,8 @@ public class UsuariosImp implements Usuarios {
 			return false;
 
 		}
+		return true; */
+		
 		return true;
 	}
 
