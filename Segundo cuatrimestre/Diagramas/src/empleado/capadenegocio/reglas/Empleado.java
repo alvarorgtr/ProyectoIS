@@ -84,4 +84,6 @@ public abstract class Empleado extends EmpleadoVista {
 	public TipoFacultad getFacultad() {
 		return facultad;
 	}
+	
+	public abstract boolean isPAS();
 }

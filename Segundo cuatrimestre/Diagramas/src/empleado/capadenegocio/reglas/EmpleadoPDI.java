@@ -32,4 +32,7 @@ public class EmpleadoPDI extends Empleado {
 		this.tipoDocente = tipoDocente;
 	}
 
+	public boolean isPAS() {
+		return false;
+	}
 }

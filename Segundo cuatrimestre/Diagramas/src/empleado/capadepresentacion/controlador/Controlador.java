@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Stack;
 
 import usuario.capadenegocio.reglas.TipoFacultad;
-import empleado.capadenegocio.logica.Empleados;
+import empleado.capadenegocio.logica.ImplementacionEmpleados;
 import empleado.capadenegocio.reglas.Contrato;
 import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadenegocio.reglas.EmpleadoPDI;
@@ -38,12 +38,12 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		VistaFichaEmpleadoListener, VistaListaEmpleadosListener,
 		VistaTrasladoFacultadListener, BotonRetrocesoListener {
 	
-	private Empleados servicioAplicacionEmpleado;
+	private ImplementacionEmpleados servicioAplicacionEmpleado;
 	private FactoriaVistas factoriaVistas;
 	
 	private Stack<VistaGenerica> vistasPresentadas;
 	
-	public Controlador(Empleados servicioAplicacionEmpleado, FactoriaVistas factoria) {
+	public Controlador(ImplementacionEmpleados servicioAplicacionEmpleado, FactoriaVistas factoria) {
 		this.servicioAplicacionEmpleado = servicioAplicacionEmpleado;
 		this.factoriaVistas = factoria;
 		vistasPresentadas = new Stack<VistaGenerica>();

@@ -16,4 +16,8 @@ public class EmpleadoPAS extends Empleado {
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
+	
+	public boolean isPAS() {
+		return true;
+	}
 }
