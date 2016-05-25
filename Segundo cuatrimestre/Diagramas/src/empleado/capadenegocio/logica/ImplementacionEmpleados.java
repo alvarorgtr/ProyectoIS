@@ -21,8 +21,9 @@ public class ImplementacionEmpleados implements Empleados {
 	public void aniadirEmpleado(TransferEmpleado transfer) {
 		TipoPermiso necesario = transfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
 				: TipoPermiso.SECRETARIO_PDI;
-		if (servicioAplicacionUsuarios.comprobarPermiso(necesario, transfer
-				.getEmpleado().getFacultad())) {
+		boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(necesario, transfer
+				.getEmpleado().getFacultad());
+		if (permiso) {
 			DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
 			DAONegocio.insertarEmpleado(transfer);
 		} else {
