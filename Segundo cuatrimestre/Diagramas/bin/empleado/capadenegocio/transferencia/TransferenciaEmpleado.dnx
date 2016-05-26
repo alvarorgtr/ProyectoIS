@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_h6rZ4CNsEeas5vUxuBuUFw" type="Class" name="TransferenciaEmpleado.dnx">
+  <eAnnotations xmi:id="_h6rZ4SNsEeas5vUxuBuUFw" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_h6rZ4iNsEeas5vUxuBuUFw" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_jEVJkCNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jEZbACNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_jEZbASNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEaCECNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEbQMCNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEbQMSNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEbQMiNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEb3QCNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEdscCNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEVJkSNsEeas5vUxuBuUFw" y="475"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_jEdscSNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jEgvwCNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_jEgvwSNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEgvwiNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEgvwyNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEgvxCNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEhW0CNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEhW0SNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEhW0iNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEdsciNsEeas5vUxuBuUFw" x="-660" y="6732"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_jEhW0yNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jEh94CNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_jEh94SNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEh94iNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEh94yNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEh95CNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEh95SNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEik8CNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEik8SNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEhW1CNsEeas5vUxuBuUFw" x="19668" y="792"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_jEik8iNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jEjMACNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_jEjMASNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEjMAiNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEjzECNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEjzESNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEjzEiNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEjzEyNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEkaICNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusquedaPDI%5Bjcu%5Ename=TransferBusquedaPDI.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEik8yNsEeas5vUxuBuUFw" x="6826"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_jEkaISNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jEloQCNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_jEloQSNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEloQiNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEloQyNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEm2YCNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEm2YSNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEm2YiNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEm2YyNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferInt%5Bjcu%5Ename=TransferInt.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEkaIiNsEeas5vUxuBuUFw" x="18480" y="15048"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_jEndcCNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jEndciNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_jEndcyNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEnddCNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEoEgCNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEoEgSNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEoEgiNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEoEgyNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEoEhCNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleadoVista%5Bjcu%5Ename=TransferEmpleadoVista.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEndcSNsEeas5vUxuBuUFw" x="11748" y="16500"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_jEoEhSNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jEorkCNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_jEorkSNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEorkiNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEorkyNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEorlCNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEorlSNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEqgwCNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jErH0CNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferPermisos%5Bjcu%5Ename=TransferPermisos.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jEoEhiNsEeas5vUxuBuUFw" x="19668" y="5148"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_jErH0SNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jErH0yNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_jErH1CNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEru4CNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEru4SNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_jEru4iNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEru4yNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEru5CNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_jEru5SNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferListEmpleados%5Bjcu%5Ename=TransferListEmpleados.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jErH0iNsEeas5vUxuBuUFw" x="5269" y="6864"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_nHqcICNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nHrDMCNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_nHrDMSNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_nHrqQCNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_nHrqQSNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_nHrqQiNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_nHrqQyNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_nHsRUCNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_nHsRUSNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=EmpleadoVista%5Bjcu%5Ename=EmpleadoVista.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nHqcISNsEeas5vUxuBuUFw" x="4620" y="15048"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_uS3ekCNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uS5TwCNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_uS5TwSNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_uS5TwiNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_uS560CNsEeas5vUxuBuUFw" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_uS560SNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_uS6h4CNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_uS7I8CNsEeas5vUxuBuUFw" type="EnumerationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_uS7wACNsEeas5vUxuBuUFw" visible="false" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_uS7wASNsEeas5vUxuBuUFw" visible="false" type="OperationCompartment"/>
+    <element xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=TipoPermiso%5Bjcu%5Ename=TipoPermiso.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Enumeration"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uS4ssCNsEeas5vUxuBuUFw" x="19272" y="10296"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_xoDRsCNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xoD4wCNsEeas5vUxuBuUFw" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xoD4wSNsEeas5vUxuBuUFw" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_xoD4wiNsEeas5vUxuBuUFw" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_xoD4wyNsEeas5vUxuBuUFw" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_xoD4xCNsEeas5vUxuBuUFw" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_xoD4xSNsEeas5vUxuBuUFw" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_xoEf0CNsEeas5vUxuBuUFw" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_xoEf0SNsEeas5vUxuBuUFw" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Empleado%5Bjcu%5Ename=Empleado.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xoDRsSNsEeas5vUxuBuUFw" x="13068" y="396"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_jMcjwCNsEeas5vUxuBuUFw" source="_jEVJkCNsEeas5vUxuBuUFw" target="_jEdscSNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jMni4CNsEeas5vUxuBuUFw" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_jMni4iNsEeas5vUxuBuUFw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_jMoJ8CNsEeas5vUxuBuUFw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMni4SNsEeas5vUxuBuUFw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jMcjwSNsEeas5vUxuBuUFw" points="[39, 102, -2611, -2696]$[39, 1211, -2611, -1587]$[2677, 1211, 27, -1587]$[2677, 2798, 27, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jSfhYCNsEeas5vUxuBuUFw" id="(0.5,0.9651162790697675)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jSfhYSNsEeas5vUxuBuUFw" id="(0.333503284117297,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_jMoJ8SNsEeas5vUxuBuUFw" source="_jEik8iNsEeas5vUxuBuUFw" target="_jEdscSNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jMoxACNsEeas5vUxuBuUFw" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_jMpYECNsEeas5vUxuBuUFw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_jMpYESNsEeas5vUxuBuUFw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMoxASNsEeas5vUxuBuUFw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=TransferBusquedaPDI%5Bjcu%5Ename=TransferBusquedaPDI.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jMoJ8iNsEeas5vUxuBuUFw" points="[40, 103, 2691, -2221]$[40, 737, 2691, -1587]$[-2598, 737, 53, -1587]$[-2598, 2324, 53, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jShWkCNsEeas5vUxuBuUFw" id="(0.5,0.9734848484848485)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jShWkSNsEeas5vUxuBuUFw" id="(0.666836654324309,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_nKiJ8CNsEeas5vUxuBuUFw" source="_jEndcCNsEeas5vUxuBuUFw" target="_nHqcICNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nKixACNsEeas5vUxuBuUFw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_nKixAiNsEeas5vUxuBuUFw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_nKjYESNsEeas5vUxuBuUFw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_nKjYECNsEeas5vUxuBuUFw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nKixASNsEeas5vUxuBuUFw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=TransferEmpleadoVista%5Bjcu%5Ename=TransferEmpleadoVista.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=EmpleadoVista%5Bjcu%5Ename=EmpleadoVista.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nKiJ8SNsEeas5vUxuBuUFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_nKj_ICNsEeas5vUxuBuUFw" source="_jErH0SNsEeas5vUxuBuUFw" target="_nHqcICNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nKj_IiNsEeas5vUxuBuUFw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_nKkmMCNsEeas5vUxuBuUFw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_nKkmMiNsEeas5vUxuBuUFw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_nKkmMSNsEeas5vUxuBuUFw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nKj_IyNsEeas5vUxuBuUFw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=TransferListEmpleados%5Bjcu%5Ename=TransferListEmpleados.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=EmpleadoVista%5Bjcu%5Ename=EmpleadoVista.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nKj_ISNsEeas5vUxuBuUFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_uTGIECNsEeas5vUxuBuUFw" source="_jEoEhSNsEeas5vUxuBuUFw" target="_uS3ekCNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uTHWMCNsEeas5vUxuBuUFw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_uTHWMiNsEeas5vUxuBuUFw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_uTHWNCNsEeas5vUxuBuUFw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_uTHWMyNsEeas5vUxuBuUFw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uTHWMSNsEeas5vUxuBuUFw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=TransferPermisos%5Bjcu%5Ename=TransferPermisos.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=TipoPermiso%5Bjcu%5Ename=TipoPermiso.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uTGIESNsEeas5vUxuBuUFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_xrfAMCNsEeas5vUxuBuUFw" source="_jEhW0yNsEeas5vUxuBuUFw" target="_xoDRsCNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xrfAMiNsEeas5vUxuBuUFw" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_xrfANCNsEeas5vUxuBuUFw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_xrfnQSNsEeas5vUxuBuUFw" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_xrfnQCNsEeas5vUxuBuUFw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xrfAMyNsEeas5vUxuBuUFw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=Empleado%5Bjcu%5Ename=Empleado.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xrfAMSNsEeas5vUxuBuUFw" points="[-2167, 53, 4433, -5251]$[-3103, 53, 3497, -5251]$[-3103, 1407, 3497, -3897]$[-4432, 1407, 2168, -3897]"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_xrfnQiNsEeas5vUxuBuUFw" source="_xoDRsCNsEeas5vUxuBuUFw" target="_nHqcICNsEeas5vUxuBuUFw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xrgOUCNsEeas5vUxuBuUFw" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_xrgOUiNsEeas5vUxuBuUFw" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_xrgOUyNsEeas5vUxuBuUFw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xrgOUSNsEeas5vUxuBuUFw" y="-186"/>
+    </children>
+    <element xmi:type="uml:Generalization" href="mmi:///#jgen%5Bjsrctype%5Ename=Empleado%5Bjcu%5Ename=Empleado.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=EmpleadoVista%5Bjcu%5Ename=EmpleadoVista.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Generalization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xrfnQyNsEeas5vUxuBuUFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</umlnotation:UMLDiagram>
