@@ -463,8 +463,8 @@
         <message xmi:id="_tJ66wCLCEeayNu_cC-U2UQ" name="getFacultad" messageSort="reply" receiveEvent="_tJ66wSLCEeayNu_cC-U2UQ" sendEvent="_tJ6TsiLCEeayNu_cC-U2UQ" connector="_tJ66wiLCEeayNu_cC-U2UQ"/>
         <message xmi:id="_M2VCICLDEeaEiJjOFCmoeQ" name="comprobarPermiso" receiveEvent="_M2XeYSLDEeaEiJjOFCmoeQ" sendEvent="_M2XeYCLDEeaEiJjOFCmoeQ" connector="_M2ZTkCLDEeaEiJjOFCmoeQ"/>
         <message xmi:id="_M2YFciLDEeaEiJjOFCmoeQ" name="comprobarPermiso" messageSort="reply" receiveEvent="_M2YsgCLDEeaEiJjOFCmoeQ" sendEvent="_M2YFcSLDEeaEiJjOFCmoeQ" connector="_M2ZTkCLDEeaEiJjOFCmoeQ"/>
-        <message xmi:id="_1CztICLDEeaEiJjOFCmoeQ" name="eliminarEmpleado" receiveEvent="_1C07QCLDEeaEiJjOFCmoeQ" sendEvent="_1C0UMCLDEeaEiJjOFCmoeQ" connector="_1C2wcSLDEeaEiJjOFCmoeQ"/>
-        <message xmi:id="_1C2JYCLDEeaEiJjOFCmoeQ" name="eliminarEmpleado" messageSort="reply" receiveEvent="_1C2wcCLDEeaEiJjOFCmoeQ" sendEvent="_1C1iUSLDEeaEiJjOFCmoeQ" connector="_1C2wcSLDEeaEiJjOFCmoeQ"/>
+        <message xmi:id="_1CztICLDEeaEiJjOFCmoeQ" name="\Sin especificar\" receiveEvent="_1C07QCLDEeaEiJjOFCmoeQ" sendEvent="_1C0UMCLDEeaEiJjOFCmoeQ" connector="_1C2wcSLDEeaEiJjOFCmoeQ"/>
+        <message xmi:id="_1C2JYCLDEeaEiJjOFCmoeQ" name="\Sin especificar\" messageSort="reply" receiveEvent="_1C2wcCLDEeaEiJjOFCmoeQ" sendEvent="_1C1iUSLDEeaEiJjOFCmoeQ" connector="_1C2wcSLDEeaEiJjOFCmoeQ"/>
         <message xmi:id="_p6QqwCMYEeaWesxgPaLVwQ" name="perfilCompletoEmpleado" receiveEvent="_p6QqwiMYEeaWesxgPaLVwQ" sendEvent="_p6QqwSMYEeaWesxgPaLVwQ" connector="_p6QqxyMYEeaWesxgPaLVwQ"/>
         <message xmi:id="_p6QqxSMYEeaWesxgPaLVwQ" name="perfilCompletoEmpleado" messageSort="reply" receiveEvent="_p6QqxiMYEeaWesxgPaLVwQ" sendEvent="_p6QqxCMYEeaWesxgPaLVwQ" connector="_p6QqxyMYEeaWesxgPaLVwQ"/>
         <message xmi:id="_F5PeICMZEeaWesxgPaLVwQ" name="getInstance" receiveEvent="_F5PeIiMZEeaWesxgPaLVwQ" sendEvent="_F5PeISMZEeaWesxgPaLVwQ" connector="_1C2wcSLDEeaEiJjOFCmoeQ"/>
