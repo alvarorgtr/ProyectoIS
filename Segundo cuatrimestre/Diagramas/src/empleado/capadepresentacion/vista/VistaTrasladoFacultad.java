@@ -29,7 +29,7 @@ public abstract class VistaTrasladoFacultad implements VistaGenerica {
 	
 	protected abstract TipoFacultad tipoFacultadBaja();
 
-	void trasladoFacultad() {
+	public void trasladoFacultad() {
 		listener.trasladoFacultad(empleado, tipoFacultadBaja());
 	}
 	
