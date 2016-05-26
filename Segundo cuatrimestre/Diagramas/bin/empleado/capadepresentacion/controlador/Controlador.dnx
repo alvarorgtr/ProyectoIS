@@ -16,7 +16,7 @@
     <children xmi:type="notation:ListCompartment" xmi:id="_VT85SBkAEea25-zNvaZkRg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
     <children xmi:type="notation:ListCompartment" xmi:id="_VT85SRkAEea25-zNvaZkRg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
     <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VT85QRkAEea25-zNvaZkRg" x="7249" y="6138"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VT85QRkAEea25-zNvaZkRg" x="5676" y="1584"/>
   </children>
   <element xsi:nil="true"/>
 </umlnotation:UMLDiagram>

@@ -123,6 +123,18 @@
     <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eht8BR50EeavzdYbPJ0wng" x="18265" y="8609"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_mIDIUCNjEeapPetiFpSHbQ" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>En las siguientes clases del diagrama de Base de Datos de Empleado, se han utilizado los siguientes patrones de diseño: DAO (Data Access Object), Singleton y el Transfer Object.&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_mIGysCNjEeapPetiFpSHbQ" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_mIIA0CNjEeapPetiFpSHbQ" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_mIDIUSNjEeapPetiFpSHbQ"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_mIDIUiNjEeapPetiFpSHbQ"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mIDIUyNjEeapPetiFpSHbQ" x="-3696" y="3168" width="9763" height="1851"/>
+  </children>
   <element xsi:nil="true"/>
   <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sjFdKRkmEeahh_QiF-0Xmw" source="_sHz2WBkmEeahh_QiF-0Xmw" target="_sIQiQhkmEeahh_QiF-0Xmw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
     <children xmi:type="notation:DecorationNode" xmi:id="_sjFdKxkmEeahh_QiF-0Xmw" type="NameLabel">
