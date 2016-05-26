@@ -22,8 +22,8 @@ public class ImplementacionEmpleados implements Empleados {
 	public void aniadirEmpleado(TransferEmpleado transfer) {
 		TipoPermiso necesario = transfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
 				: TipoPermiso.SECRETARIO_PDI;
-		boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(necesario, transfer
-				.getEmpleado().getFacultad());
+		boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(
+				necesario, transfer.getEmpleado().getFacultad());
 		if (permiso) {
 			DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
 			DAONegocio.insertarEmpleado(transfer);
@@ -37,13 +37,23 @@ public class ImplementacionEmpleados implements Empleados {
 		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
 		TransferEmpleado empleadoTransfer = new TransferEmpleado(
 				DAONegocio.consultarEmpleado(transfer));
-		return empleadoTransfer;
+		TipoPermiso necesario = empleadoTransfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
+				: TipoPermiso.SECRETARIO_PDI;
+		boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(
+				necesario, empleadoTransfer.getEmpleado().getFacultad());
+		if (permiso) {
+			return empleadoTransfer;
+		} else {
+			// Error
+			return null;
+		}
 	}
 
 	@Override
 	public TransferListEmpleados listaEmpleados(TransferInt pagina) {
 		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
-		TransferPermisos transfer = servicioAplicacionUsuarios.permisoUsuarioActual();
+		TransferPermisos transfer = servicioAplicacionUsuarios
+				.permisoUsuarioActual();
 		return DAONegocio.getListEmpleadoVista(pagina, transfer);
 	}
 
