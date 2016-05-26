@@ -526,10 +526,10 @@
                   </specification>
                 </guard>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BSCN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw" message="_8dBEkCN2EeanKPBPqQsGzw">
-                  <event xmi:type="uml:SendOperationEvent" href="example1.dnx#_jsHWzSN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
+                  <event xmi:type="uml:SendOperationEvent" href="../example1.dnx#_jsHWzSN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
                 </fragment>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BSSN2EeanKPBPqQsGzw" covered="_8c3TkCN2EeanKPBPqQsGzw" message="_8dBEkCN2EeanKPBPqQsGzw">
-                  <event xmi:type="uml:CreationEvent" href="example1.dnx#_jsHW0iN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodecreación%3E?"/>
+                  <event xmi:type="uml:CreationEvent" href="../example1.dnx#_jsHW0iN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodecreación%3E?"/>
                 </fragment>
                 <fragment xmi:type="uml:CombinedFragment" xmi:id="_8c-BSiN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw _8c36oCN2EeanKPBPqQsGzw" interactionOperator="alt">
                   <operand xmi:id="_8c-BSyN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw _8c36oCN2EeanKPBPqQsGzw">
@@ -540,30 +540,30 @@
                       </specification>
                     </guard>
                     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BTiN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw" message="_8dBroSN2EeanKPBPqQsGzw">
-                      <event xmi:type="uml:SendOperationEvent" href="example1.dnx#_jsHWziN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
+                      <event xmi:type="uml:SendOperationEvent" href="../example1.dnx#_jsHWziN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
                     </fragment>
                     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BTyN2EeanKPBPqQsGzw" covered="_8c36oCN2EeanKPBPqQsGzw" message="_8dBroSN2EeanKPBPqQsGzw">
-                      <event xmi:type="uml:ReceiveOperationEvent" href="example1.dnx#_jsHWyiN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperaciónderecepción%3E?"/>
+                      <event xmi:type="uml:ReceiveOperationEvent" href="../example1.dnx#_jsHWyiN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperaciónderecepción%3E?"/>
                     </fragment>
                     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_8c-BUCN2EeanKPBPqQsGzw" name="aniadirUsuario" covered="_8c36oCN2EeanKPBPqQsGzw" start="_8c-BTyN2EeanKPBPqQsGzw" finish="_8c-BUSN2EeanKPBPqQsGzw"/>
                     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BUSN2EeanKPBPqQsGzw" covered="_8c36oCN2EeanKPBPqQsGzw" message="_8dAdgSN2EeanKPBPqQsGzw">
-                      <event xmi:type="uml:SendOperationEvent" href="example1.dnx#_jsHWziN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
+                      <event xmi:type="uml:SendOperationEvent" href="../example1.dnx#_jsHWziN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
                     </fragment>
                     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BUiN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw" message="_8dAdgSN2EeanKPBPqQsGzw">
-                      <event xmi:type="uml:ReceiveOperationEvent" href="example1.dnx#_jsHWyiN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperaciónderecepción%3E?"/>
+                      <event xmi:type="uml:ReceiveOperationEvent" href="../example1.dnx#_jsHWyiN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperaciónderecepción%3E?"/>
                     </fragment>
                     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BUyN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw" message="_8dCSsCN2EeanKPBPqQsGzw">
-                      <event xmi:type="uml:SendOperationEvent" href="example1.dnx#_jsHWyyN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
+                      <event xmi:type="uml:SendOperationEvent" href="../example1.dnx#_jsHWyyN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
                     </fragment>
                     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BVCN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw" message="_8dCSsCN2EeanKPBPqQsGzw">
-                      <event xmi:type="uml:ReceiveOperationEvent" href="example1.dnx#_jsHW0CN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperaciónderecepción%3E?"/>
+                      <event xmi:type="uml:ReceiveOperationEvent" href="../example1.dnx#_jsHW0CN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperaciónderecepción%3E?"/>
                     </fragment>
                     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_8c-BVSN2EeanKPBPqQsGzw" name="ocultarUltimaVista" covered="_8c2sgCN2EeanKPBPqQsGzw" start="_8c-BVCN2EeanKPBPqQsGzw" finish="_8c-BViN2EeanKPBPqQsGzw"/>
                     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BViN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw" message="_8dAdgCN2EeanKPBPqQsGzw">
-                      <event xmi:type="uml:SendOperationEvent" href="example1.dnx#_jsHWyyN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
+                      <event xmi:type="uml:SendOperationEvent" href="../example1.dnx#_jsHWyyN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
                     </fragment>
                     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BVyN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw" message="_8dAdgCN2EeanKPBPqQsGzw">
-                      <event xmi:type="uml:ReceiveOperationEvent" href="example1.dnx#_jsHW0CN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperaciónderecepción%3E?"/>
+                      <event xmi:type="uml:ReceiveOperationEvent" href="../example1.dnx#_jsHW0CN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperaciónderecepción%3E?"/>
                     </fragment>
                   </operand>
                   <operand xmi:id="_8c-BWCN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw">
@@ -576,10 +576,10 @@
                   </operand>
                 </fragment>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BWyN2EeanKPBPqQsGzw" covered="_8c3TkCN2EeanKPBPqQsGzw" message="_8dBroyN2EeanKPBPqQsGzw">
-                  <event xmi:type="uml:SendOperationEvent" href="example1.dnx#_jsHWzyN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
+                  <event xmi:type="uml:SendOperationEvent" href="../example1.dnx#_jsHWzyN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodeoperacióndeenvío%3E?"/>
                 </fragment>
                 <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8c-BXCN2EeanKPBPqQsGzw" covered="_8c3TkCN2EeanKPBPqQsGzw" message="_8dBroyN2EeanKPBPqQsGzw">
-                  <event xmi:type="uml:DestructionEvent" href="example1.dnx#_jsHWzCN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodedestrucción%3E?"/>
+                  <event xmi:type="uml:DestructionEvent" href="../example1.dnx#_jsHWzCN2EeaEDO9DFou9DQ?%3CPaquete%3E/%3CEventodedestrucción%3E?"/>
                 </fragment>
               </operand>
               <operand xmi:id="_8c-BXSN2EeanKPBPqQsGzw" covered="_8c2sgCN2EeanKPBPqQsGzw">
@@ -609,12 +609,12 @@
         <message xmi:id="_8dAdgSN2EeanKPBPqQsGzw" name="aniadirUsuario" messageSort="reply" receiveEvent="_8c-BUiN2EeanKPBPqQsGzw" sendEvent="_8c-BUSN2EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
         <message xmi:id="_8dBEkCN2EeanKPBPqQsGzw" name="TransferUsuario" messageSort="createMessage" receiveEvent="_8c-BSSN2EeanKPBPqQsGzw" sendEvent="_8c-BSCN2EeanKPBPqQsGzw" connector="_8dFWASN2EeanKPBPqQsGzw">
           <argument xmi:type="uml:InstanceValue" xmi:id="_8dBEkSN2EeanKPBPqQsGzw" name="us">
-            <instance href="example1.dnx#_jsHW1CN2EeaEDO9DFou9DQ?%3CPaquete%3E/Usuario?"/>
+            <instance href="../example1.dnx#_jsHW1CN2EeaEDO9DFou9DQ?%3CPaquete%3E/Usuario?"/>
           </argument>
         </message>
         <message xmi:id="_8dBroSN2EeanKPBPqQsGzw" name="aniadirUsuario" receiveEvent="_8c-BTyN2EeanKPBPqQsGzw" sendEvent="_8c-BTiN2EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw">
           <argument xmi:type="uml:InstanceValue" xmi:id="_8dBroiN2EeanKPBPqQsGzw" name="user">
-            <instance href="example1.dnx#_jsHW0SN2EeaEDO9DFou9DQ?%3CPaquete%3E/TransferUsuario?"/>
+            <instance href="../example1.dnx#_jsHW0SN2EeaEDO9DFou9DQ?%3CPaquete%3E/TransferUsuario?"/>
           </argument>
         </message>
         <message xmi:id="_8dBroyN2EeanKPBPqQsGzw" messageSort="deleteMessage" receiveEvent="_8c-BXCN2EeanKPBPqQsGzw" sendEvent="_8c-BWyN2EeanKPBPqQsGzw" connector="_8dF9ECN2EeanKPBPqQsGzw"/>
