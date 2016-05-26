@@ -318,7 +318,7 @@
   </umlnotation:UMLDiagram>
   <uml:Package xmi:id="_olmF4CLAEeayNu_cC-U2UQ">
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_olmF4SLAEeayNu_cC-U2UQ" name="empleadoAniadido" collaborationRole="_olms_iLAEeayNu_cC-U2UQ">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_olmF4iLAEeayNu_cC-U2UQ" name="empleadoAniadido" covered="_olmF5SLAEeayNu_cC-U2UQ _olmF5iLAEeayNu_cC-U2UQ _olmF5CLAEeayNu_cC-U2UQ">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_olmF4iLAEeayNu_cC-U2UQ" name="eliminarEmpleado" covered="_olmF5SLAEeayNu_cC-U2UQ _olmF5iLAEeayNu_cC-U2UQ _olmF5CLAEeayNu_cC-U2UQ">
         <ownedConnector xmi:id="_dnMzwCLCEeayNu_cC-U2UQ">
           <end xmi:id="_dnMzwSLCEeayNu_cC-U2UQ" role="_b9MwECLCEeayNu_cC-U2UQ"/>
           <end xmi:id="_dnMzwiLCEeayNu_cC-U2UQ">
