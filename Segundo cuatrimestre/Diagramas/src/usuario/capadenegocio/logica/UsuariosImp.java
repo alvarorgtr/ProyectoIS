@@ -67,47 +67,7 @@ public class UsuariosImp implements Usuarios {
 	}
 
 	private boolean permisoValido(Usuario usuario,
-			TipoPermiso permisoNecesario, TipoFacultad facultadNecesaria) {
-
-		/* switch (usuario.getTipoPermiso()) {
-
-		case SUPERUSUARIO:
-			return true;
-
-		case ADMINISTRADOR_RECTORADO: {
-			switch (permisoNecesario) {
-			case SUPERUSUARIO:
-				return false;
-			default:
-				return true;
-
-			}
-		}
-
-		case ADMINISTRADOR_FACULTAD: {
-			switch (permisoNecesario) {
-			case SUPERUSUARIO:
-			case ADMINISTRADOR_RECTORADO:
-				return false;
-			default:
-				return true;
-			}
-
-		}
-
-		case SECRETARIO_PAS:
-			if (permisoNecesario == TipoPermiso.SECRETARIO_PAS)
-				return true;
-			return false;
-
-		case SECRETARIO_PDI:
-			if (permisoNecesario == TipoPermiso.SECRETARIO_PDI)
-				return true;
-			return false;
-
-		}
-		return true; */
-		
+			TipoPermiso permisoNecesario, TipoFacultad facultadNecesaria) {		
 		return true;
 	}
 

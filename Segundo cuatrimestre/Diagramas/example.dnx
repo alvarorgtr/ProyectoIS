@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation">
+  <umlnotation:UMLDiagram xmi:id="_MQVxYCONEeaUvKMrnJD7fQ" type="Sequence" element="_MQYNoiONEeaUvKMrnJD7fQ" name="example.dnx" measurementUnit="Himetric">
+    <children xmi:type="umlnotation:UMLShape" xmi:id="_MQVxYSONEeaUvKMrnJD7fQ" element="_MQYNoiONEeaUvKMrnJD7fQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_MQVxYiONEeaUvKMrnJD7fQ" element="_MQY0siONEeaUvKMrnJD7fQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MQVxYyONEeaUvKMrnJD7fQ"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_MQVxZCONEeaUvKMrnJD7fQ" element="_MQY0syONEeaUvKMrnJD7fQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MQVxZSONEeaUvKMrnJD7fQ"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_MQVxZiONEeaUvKMrnJD7fQ" type="interaction_compartment"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_MQWYdSONEeaUvKMrnJD7fQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MQWYdiONEeaUvKMrnJD7fQ" x="793" y="793"/>
+    </children>
+  </umlnotation:UMLDiagram>
+  <uml:Package xmi:id="_MQYNoCONEeaUvKMrnJD7fQ">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_MQYNoSONEeaUvKMrnJD7fQ" name="aniadirUsuario" collaborationRole="_MQY0vCONEeaUvKMrnJD7fQ">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_MQYNoiONEeaUvKMrnJD7fQ" name="aniadirUsuario" covered="_MQYNpSONEeaUvKMrnJD7fQ _MQYNpiONEeaUvKMrnJD7fQ">
+        <ownedParameter xmi:id="_MQYNoyONEeaUvKMrnJD7fQ" visibility="package" direction="inout">
+          <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferUsuario%5Bjcu%5Ename=TransferUsuario.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+        </ownedParameter>
+        <lifeline xmi:id="_MQYNpCONEeaUvKMrnJD7fQ" name="self" represents="_MQY0vSONEeaUvKMrnJD7fQ" coveredBy="_MQYNpyONEeaUvKMrnJD7fQ _MQYNqCONEeaUvKMrnJD7fQ _MQYNqSONEeaUvKMrnJD7fQ _MQYNrSONEeaUvKMrnJD7fQ _MQYNriONEeaUvKMrnJD7fQ _MQYNsiONEeaUvKMrnJD7fQ _MQY0sSONEeaUvKMrnJD7fQ"/>
+        <lifeline xmi:id="_MQYNpSONEeaUvKMrnJD7fQ" name="DAOUsuariosImp" represents="_MQY0wCONEeaUvKMrnJD7fQ" coveredBy="_MQYNoiONEeaUvKMrnJD7fQ _MQYNqiONEeaUvKMrnJD7fQ _MQYNqyONEeaUvKMrnJD7fQ _MQYNrCONEeaUvKMrnJD7fQ"/>
+        <lifeline xmi:id="_MQYNpiONEeaUvKMrnJD7fQ" name="canal" represents="_MQY0vyONEeaUvKMrnJD7fQ" coveredBy="_MQYNoiONEeaUvKMrnJD7fQ _MQYNryONEeaUvKMrnJD7fQ _MQYNsCONEeaUvKMrnJD7fQ _MQYNsSONEeaUvKMrnJD7fQ _MQYNsyONEeaUvKMrnJD7fQ _MQY0sCONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNpyONEeaUvKMrnJD7fQ" covered="_MQYNpCONEeaUvKMrnJD7fQ" event="_MQY00yONEeaUvKMrnJD7fQ" message="_MQY0tCONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_MQYNqCONEeaUvKMrnJD7fQ" covered="_MQYNpCONEeaUvKMrnJD7fQ" start="_MQYNpyONEeaUvKMrnJD7fQ" finish="_MQY0sSONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNqSONEeaUvKMrnJD7fQ" covered="_MQYNpCONEeaUvKMrnJD7fQ" event="_MQY0zCONEeaUvKMrnJD7fQ" message="_MQY0tSONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNqiONEeaUvKMrnJD7fQ" covered="_MQYNpSONEeaUvKMrnJD7fQ" event="_MQY0zSONEeaUvKMrnJD7fQ" message="_MQY0tSONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_MQYNqyONEeaUvKMrnJD7fQ" name="getInstance" covered="_MQYNpSONEeaUvKMrnJD7fQ" start="_MQYNqiONEeaUvKMrnJD7fQ" finish="_MQYNrCONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNrCONEeaUvKMrnJD7fQ" covered="_MQYNpSONEeaUvKMrnJD7fQ" event="_MQY0zCONEeaUvKMrnJD7fQ" message="_MQY0tiONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNrSONEeaUvKMrnJD7fQ" covered="_MQYNpCONEeaUvKMrnJD7fQ" event="_MQY0zSONEeaUvKMrnJD7fQ" message="_MQY0tiONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNriONEeaUvKMrnJD7fQ" covered="_MQYNpCONEeaUvKMrnJD7fQ" event="_MQY00SONEeaUvKMrnJD7fQ" message="_MQY0tyONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNryONEeaUvKMrnJD7fQ" covered="_MQYNpiONEeaUvKMrnJD7fQ" event="_MQY0ziONEeaUvKMrnJD7fQ" message="_MQY0tyONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_MQYNsCONEeaUvKMrnJD7fQ" name="aniadirUsuario" covered="_MQYNpiONEeaUvKMrnJD7fQ" start="_MQYNryONEeaUvKMrnJD7fQ" finish="_MQYNsSONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNsSONEeaUvKMrnJD7fQ" covered="_MQYNpiONEeaUvKMrnJD7fQ" event="_MQY00SONEeaUvKMrnJD7fQ" message="_MQY0uSONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNsiONEeaUvKMrnJD7fQ" covered="_MQYNpCONEeaUvKMrnJD7fQ" event="_MQY0ziONEeaUvKMrnJD7fQ" message="_MQY0uSONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQYNsyONEeaUvKMrnJD7fQ" covered="_MQYNpiONEeaUvKMrnJD7fQ" event="_MQY00iONEeaUvKMrnJD7fQ" message="_MQY0uiONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQY0sCONEeaUvKMrnJD7fQ" covered="_MQYNpiONEeaUvKMrnJD7fQ" event="_MQY00CONEeaUvKMrnJD7fQ" message="_MQY0uiONEeaUvKMrnJD7fQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MQY0sSONEeaUvKMrnJD7fQ" covered="_MQYNpCONEeaUvKMrnJD7fQ" event="_MQY0zyONEeaUvKMrnJD7fQ" message="_MQY0uyONEeaUvKMrnJD7fQ"/>
+        <formalGate xmi:id="_MQY0siONEeaUvKMrnJD7fQ" message="_MQY0tCONEeaUvKMrnJD7fQ"/>
+        <formalGate xmi:id="_MQY0syONEeaUvKMrnJD7fQ" message="_MQY0uyONEeaUvKMrnJD7fQ"/>
+        <message xmi:id="_MQY0tCONEeaUvKMrnJD7fQ" name="aniadirUsuario" receiveEvent="_MQYNpyONEeaUvKMrnJD7fQ" sendEvent="_MQY0siONEeaUvKMrnJD7fQ"/>
+        <message xmi:id="_MQY0tSONEeaUvKMrnJD7fQ" name="getInstance" receiveEvent="_MQYNqiONEeaUvKMrnJD7fQ" sendEvent="_MQYNqSONEeaUvKMrnJD7fQ"/>
+        <message xmi:id="_MQY0tiONEeaUvKMrnJD7fQ" name="getInstance" messageSort="reply" receiveEvent="_MQYNrSONEeaUvKMrnJD7fQ" sendEvent="_MQYNrCONEeaUvKMrnJD7fQ"/>
+        <message xmi:id="_MQY0tyONEeaUvKMrnJD7fQ" name="aniadirUsuario" receiveEvent="_MQYNryONEeaUvKMrnJD7fQ" sendEvent="_MQYNriONEeaUvKMrnJD7fQ">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_MQY0uCONEeaUvKMrnJD7fQ" name="us" instance="_MQY0yyONEeaUvKMrnJD7fQ"/>
+        </message>
+        <message xmi:id="_MQY0uSONEeaUvKMrnJD7fQ" name="aniadirUsuario" messageSort="reply" receiveEvent="_MQYNsiONEeaUvKMrnJD7fQ" sendEvent="_MQYNsSONEeaUvKMrnJD7fQ"/>
+        <message xmi:id="_MQY0uiONEeaUvKMrnJD7fQ" messageSort="deleteMessage" receiveEvent="_MQY0sCONEeaUvKMrnJD7fQ" sendEvent="_MQYNsyONEeaUvKMrnJD7fQ" connector="_MQY0yCONEeaUvKMrnJD7fQ"/>
+        <message xmi:id="_MQY0uyONEeaUvKMrnJD7fQ" name="aniadirUsuario" messageSort="reply" receiveEvent="_MQY0syONEeaUvKMrnJD7fQ" sendEvent="_MQY0sSONEeaUvKMrnJD7fQ"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_MQY0vCONEeaUvKMrnJD7fQ" name="us" visibility="package">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferUsuario%5Bjcu%5Ename=TransferUsuario.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MQY0vSONEeaUvKMrnJD7fQ" name="self">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=UsuariosImp%5Bjcu%5Ename=UsuariosImp.java%5Bjpack%5Ename=usuario.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MQY0viONEeaUvKMrnJD7fQ" name="canal" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOUsuariosImp%5Bjcu%5Ename=DAOUsuariosImp.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MQY0vyONEeaUvKMrnJD7fQ" name="canal" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOUsuariosImp%5Bjcu%5Ename=DAOUsuariosImp.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MQY0wCONEeaUvKMrnJD7fQ" name="DAOUsuariosImp" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOUsuariosImp%5Bjcu%5Ename=DAOUsuariosImp.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedConnector xmi:id="_MQY0wSONEeaUvKMrnJD7fQ">
+        <end xmi:id="_MQY0wiONEeaUvKMrnJD7fQ">
+          <role xmi:type="uml:Parameter" href="mmi:///#_M-bRUCOLEeaUvKMrnJD7fQ"/>
+        </end>
+        <end xmi:id="_MQY0wyONEeaUvKMrnJD7fQ" role="_MQYNoyONEeaUvKMrnJD7fQ"/>
+        <end xmi:id="_MQY0xCONEeaUvKMrnJD7fQ" role="_MQY0vCONEeaUvKMrnJD7fQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_MQY0xSONEeaUvKMrnJD7fQ">
+        <end xmi:id="_MQY0xiONEeaUvKMrnJD7fQ" role="_MQY0vSONEeaUvKMrnJD7fQ"/>
+        <end xmi:id="_MQY0xyONEeaUvKMrnJD7fQ" role="_MQY0wCONEeaUvKMrnJD7fQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_MQY0yCONEeaUvKMrnJD7fQ">
+        <end xmi:id="_MQY0ySONEeaUvKMrnJD7fQ" role="_MQY0vSONEeaUvKMrnJD7fQ"/>
+        <end xmi:id="_MQY0yiONEeaUvKMrnJD7fQ" role="_MQY0vyONEeaUvKMrnJD7fQ"/>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_MQY0yyONEeaUvKMrnJD7fQ" name="TransferUsuario">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferUsuario%5Bjcu%5Ename=TransferUsuario.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_MQY0zCONEeaUvKMrnJD7fQ">
+      <operation href="mmi:///#jmethod%5Ename=getInstance%5Esign=()QDAOUsuariosImp;%5Bjsrctype%5Ename=DAOUsuariosImp%5Bjcu%5Ename=DAOUsuariosImp.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_MQY0zSONEeaUvKMrnJD7fQ">
+      <operation href="mmi:///#jmethod%5Ename=getInstance%5Esign=()QDAOUsuariosImp;%5Bjsrctype%5Ename=DAOUsuariosImp%5Bjcu%5Ename=DAOUsuariosImp.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_MQY0ziONEeaUvKMrnJD7fQ">
+      <operation href="mmi:///#jmethod%5Ename=aniadirUsuario%5Esign=(QTransferUsuario;)Z%5Bjsrctype%5Ename=DAOUsuariosImp%5Bjcu%5Ename=DAOUsuariosImp.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_MQY0zyONEeaUvKMrnJD7fQ">
+      <operation href="mmi:///#jmethod%5Ename=aniadirUsuario%5Esign=(QTransferUsuario;)V%5Bjsrctype%5Ename=UsuariosImp%5Bjcu%5Ename=UsuariosImp.java%5Bjpack%5Ename=usuario.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DestructionEvent" xmi:id="_MQY00CONEeaUvKMrnJD7fQ"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_MQY00SONEeaUvKMrnJD7fQ">
+      <operation href="mmi:///#jmethod%5Ename=aniadirUsuario%5Esign=(QTransferUsuario;)Z%5Bjsrctype%5Ename=DAOUsuariosImp%5Bjcu%5Ename=DAOUsuariosImp.java%5Bjpack%5Ename=usuario.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_MQY00iONEeaUvKMrnJD7fQ"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_MQY00yONEeaUvKMrnJD7fQ">
+      <operation href="mmi:///#jmethod%5Ename=aniadirUsuario%5Esign=(QTransferUsuario;)V%5Bjsrctype%5Ename=UsuariosImp%5Bjcu%5Ename=UsuariosImp.java%5Bjpack%5Ename=usuario.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>
