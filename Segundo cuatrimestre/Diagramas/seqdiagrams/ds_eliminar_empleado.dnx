@@ -388,7 +388,7 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MRCAoSNbEeaYJYMGZANknQ" covered="_E899ICNbEeaYJYMGZANknQ" event="_Sx-gkCMYEeaWesxgPaLVwQ" message="_MRCAoCNbEeaYJYMGZANknQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MRCnsCNbEeaYJYMGZANknQ" covered="_olmF5CLAEeayNu_cC-U2UQ" event="_Sx8EUCMYEeaWesxgPaLVwQ" message="_MRCAoCNbEeaYJYMGZANknQ"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_MRCnsSNbEeaYJYMGZANknQ" covered="_olmF5CLAEeayNu_cC-U2UQ" start="_MRCnsCNbEeaYJYMGZANknQ" finish="_MRDOwCNbEeaYJYMGZANknQ"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_olmF6SLAEeayNu_cC-U2UQ" covered="_olmF5CLAEeayNu_cC-U2UQ" event="_olmtFiLAEeayNu_cC-U2UQ" message="_olms9SLAEeayNu_cC-U2UQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_olmF6SLAEeayNu_cC-U2UQ" covered="_olmF5CLAEeayNu_cC-U2UQ" event="_T96K8COWEeas2rdFSCxjlg" message="_olms9SLAEeayNu_cC-U2UQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_olmF6iLAEeayNu_cC-U2UQ" covered="_olmF5SLAEeayNu_cC-U2UQ" event="_olmtFSLAEeayNu_cC-U2UQ" message="_olms9SLAEeayNu_cC-U2UQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_olmF6yLAEeayNu_cC-U2UQ" covered="_olmF5CLAEeayNu_cC-U2UQ" event="_nN-qsCMYEeaWesxgPaLVwQ" message="_olms9yLAEeayNu_cC-U2UQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_olmF7CLAEeayNu_cC-U2UQ" covered="_olmF5iLAEeayNu_cC-U2UQ" event="_nOBG8CMYEeaWesxgPaLVwQ" message="_olms9yLAEeayNu_cC-U2UQ"/>
@@ -449,7 +449,7 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4n5ocSNbEeaYJYMGZANknQ" covered="_Dpdt4CNbEeaYJYMGZANknQ" event="_x1oDYSNbEeaYJYMGZANknQ" message="_4n5ocCNbEeaYJYMGZANknQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_olmF9SLAEeayNu_cC-U2UQ" covered="_olmF5SLAEeayNu_cC-U2UQ" event="_olmtDiLAEeayNu_cC-U2UQ" message="_olms_CLAEeayNu_cC-U2UQ"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_olms8CLAEeayNu_cC-U2UQ" covered="_olmF5SLAEeayNu_cC-U2UQ" event="_olmtECLAEeayNu_cC-U2UQ" message="_olms_CLAEeayNu_cC-U2UQ"/>
-        <message xmi:id="_olms9SLAEeayNu_cC-U2UQ" name="TransferEmpleado" messageSort="createMessage" receiveEvent="_olmF6iLAEeayNu_cC-U2UQ" sendEvent="_olmF6SLAEeayNu_cC-U2UQ">
+        <message xmi:id="_olms9SLAEeayNu_cC-U2UQ" name="TransferInt" messageSort="createMessage" receiveEvent="_olmF6iLAEeayNu_cC-U2UQ" sendEvent="_olmF6SLAEeayNu_cC-U2UQ">
           <argument xmi:type="uml:InstanceValue" xmi:id="_olms9iLAEeayNu_cC-U2UQ" name="empleado" instance="_olmtDSLAEeayNu_cC-U2UQ"/>
         </message>
         <message xmi:id="_olms9yLAEeayNu_cC-U2UQ" name="eliminarEmpleado" receiveEvent="_olmF7CLAEeayNu_cC-U2UQ" sendEvent="_olmF6yLAEeayNu_cC-U2UQ">
@@ -615,6 +615,9 @@
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_x1oDYSNbEeaYJYMGZANknQ" name="Eventodeoperaciónderecepción11">
       <operation href="mmi:///#jmethod%5Ename=eliminarEmpleadoPulsado%5Esign=()V%5Bjsrctype%5Ename=VistaEliminarEmpleado%5Bjcu%5Ename=VistaEliminarEmpleado.java%5Bjpack%5Ename=empleado.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_T96K8COWEeas2rdFSCxjlg" name="Eventodeoperacióndeenvío12">
+      <operation href="mmi:///#jmethod%5Ename=TransferInt%5Esign=(I)V%5Bjsrctype%5Ename=TransferInt%5Bjcu%5Ename=TransferInt.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
     </packagedElement>
     <profileApplication xmi:id="_DUzTcCLBEeayNu_cC-U2UQ">
       <eAnnotations xmi:id="_DUzTcSLBEeayNu_cC-U2UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
