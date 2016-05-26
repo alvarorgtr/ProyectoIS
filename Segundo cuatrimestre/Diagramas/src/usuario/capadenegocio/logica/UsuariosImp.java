@@ -1,13 +1,17 @@
 package usuario.capadenegocio.logica;
 
-import empleado.capadenegocio.transferencia.TransferPermisos;
 import usuario.capadeintegracion.DAOUsuariosImp;
 import usuario.capadenegocio.reglas.TipoFacultad;
 import usuario.capadenegocio.reglas.TipoPermiso;
 import usuario.capadenegocio.reglas.Usuario;
+import usuario.capadenegocio.transferencia.TransferBoolean;
+import usuario.capadenegocio.transferencia.TransferContrasenia;
+import usuario.capadenegocio.transferencia.TransferFacultad;
 import usuario.capadenegocio.transferencia.TransferID;
 import usuario.capadenegocio.transferencia.TransferNombre;
+import usuario.capadenegocio.transferencia.TransferPermiso;
 import usuario.capadenegocio.transferencia.TransferUsuario;
+import empleado.capadenegocio.transferencia.TransferPermisos;
 
 public class UsuariosImp implements Usuarios {
 	private String nombreLogueado;
@@ -31,48 +35,43 @@ public class UsuariosImp implements Usuarios {
 	}
 
 	@Override
-	public boolean userYaExiste(String nombre) {
+	public TransferBoolean userYaExiste(TransferNombre nombre) {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
-		TransferNombre us = new TransferNombre(nombre);
-		return canal.yaExiste(us);
+		return canal.yaExiste(nombre);
 	}
 
-	@SuppressWarnings("unused")
 	@Override
-	public boolean comprobarContrasenia(String nombre, String contra) {
+	public TransferBoolean comprobarContrasenia(TransferNombre nombre,
+			TransferContrasenia contra) {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
-		TransferNombre us = new TransferNombre(nombre);
-		if (us != null) {
-			String contrasenia = canal.getContra(us);
-			if (contra.equals(contrasenia)) {
-				nombreLogueado = nombre;
-				return true;
-			} else {
-				return false;
-			}
+		String contrasenia = canal.getContra(nombre).getContrasenia();
+		if (contra.equals(contrasenia)) {
+			nombreLogueado = nombre.getNombre();
+			return new TransferBoolean(true);
 		} else {
-			return false;
+			return new TransferBoolean(false);
 		}
 	}
 
 	@Override
-	public boolean comprobarPermiso(TipoPermiso permisoNecesario, TipoFacultad facultadNecesaria) {
-
+	public TransferBoolean comprobarPermiso(TransferPermiso permisoNecesario,
+			TransferFacultad facultadNecesaria) {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
 		TransferNombre transfer = new TransferNombre(nombreLogueado);
-		Usuario usuario = canal.getUsuario(transfer);
-		
-		return permisoValido(usuario, permisoNecesario, facultadNecesaria);
+		Usuario usuario = canal.getUsuario(transfer).getUser();
+
+		return permisoValido(usuario, permisoNecesario.getPermiso(),
+				facultadNecesaria.getFacultad());
 
 	}
 
-	private boolean permisoValido(Usuario usuario,
-			TipoPermiso permisoNecesario, TipoFacultad facultadNecesaria) {		
-		return true;
+	private TransferBoolean permisoValido(Usuario usuario,
+			TipoPermiso permisoNecesario, TipoFacultad facultadNecesaria) {
+		return new TransferBoolean(true);
 	}
 
 	@Override
-	public Usuario consultarUsuario(TransferNombre nom) {
+	public TransferUsuario consultarUsuario(TransferNombre nom) {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
 		return canal.getUsuario(nom);
 	}
@@ -80,27 +79,28 @@ public class UsuariosImp implements Usuarios {
 	@Override
 	public TransferPermisos permisoUsuarioActual() {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
-		Usuario usr = canal.getUsuario(new TransferNombre(nombreLogueado));
-		TipoPermiso permiso = usr.getTipoPermiso();
+		TransferUsuario usr = canal.getUsuario(new TransferNombre(
+				nombreLogueado));
+		TipoPermiso permiso = usr.getUser().getTipoPermiso();
 		return new TransferPermisos(permiso);
 	}
 
 	@Override
-	public boolean validarDatos() {
+	public TransferBoolean validarDatos() {
 		// TODO Apéndice de método generado automáticamente
-		return false;
+		return new TransferBoolean(false);
 	}
 
 	@Override
-	public boolean datosRellenos() {
+	public TransferBoolean datosRellenos() {
 		// TODO Apéndice de método generado automáticamente
-		return false;
+		return new TransferBoolean(false);
 	}
 
 	@Override
-	public boolean conexionBaseDatos() {
+	public TransferBoolean conexionBaseDatos() {
 		// TODO Apéndice de método generado automáticamente
-		return false;
+		return new TransferBoolean(false);
 	}
 
 }

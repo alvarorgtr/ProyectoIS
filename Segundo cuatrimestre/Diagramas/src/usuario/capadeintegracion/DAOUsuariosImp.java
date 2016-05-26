@@ -1,9 +1,10 @@
 package usuario.capadeintegracion;
 
-import usuario.capadenegocio.reglas.TipoPermiso;
-import usuario.capadenegocio.reglas.Usuario;
+import usuario.capadenegocio.transferencia.TransferBoolean;
+import usuario.capadenegocio.transferencia.TransferContrasenia;
 import usuario.capadenegocio.transferencia.TransferID;
 import usuario.capadenegocio.transferencia.TransferNombre;
+import usuario.capadenegocio.transferencia.TransferPermiso;
 import usuario.capadenegocio.transferencia.TransferUsuario;
 
 public class DAOUsuariosImp implements DAOUsuarios{
@@ -25,37 +26,35 @@ public class DAOUsuariosImp implements DAOUsuarios{
  	}
 	
 	@Override
-	public boolean aniadirUsuario(TransferUsuario usuario) {
+	public void aniadirUsuario(TransferUsuario usuario) {
 		// TODO Apéndice de método generado automáticamente
-		return false;
 	}
 
 	@Override
-	public boolean eliminarUsuario(TransferNombre usuario) {
+	public void eliminarUsuario(TransferNombre usuario) {
 		// TODO Apéndice de método generado automáticamente
-		return false;
 	}
 
 	@Override
-	public String getContra(TransferNombre nom) {
+	public TransferContrasenia getContra(TransferNombre nom) {
 		// TODO Apéndice de método generado automáticamente
 		return null;
 	}
 
 	@Override
-	public TipoPermiso comprobarPerm(TransferNombre nombre) {
+	public TransferPermiso comprobarPerm(TransferNombre nombre) {
 		// TODO Apéndice de método generado automáticamente
 		return null;
 	}
 
 	@Override
-	public boolean yaExiste(TransferNombre nom) {
+	public TransferBoolean yaExiste(TransferNombre nom) {
 		// TODO Apéndice de método generado automáticamente
-		return false;
+		return new TransferBoolean(false);
 	}
 
 	@Override
-	public Usuario getUsuario(TransferNombre nom) {
+	public TransferUsuario getUsuario(TransferNombre nom) {
 		// TODO Apéndice de método generado automáticamente
 		return null;
 	}
