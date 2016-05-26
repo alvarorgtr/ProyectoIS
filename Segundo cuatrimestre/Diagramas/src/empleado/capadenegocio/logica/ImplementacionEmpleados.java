@@ -20,15 +20,18 @@ public class ImplementacionEmpleados implements Empleados {
 	// SECRETARIO_PAS, SECRETARIO_PDI
 	@Override
 	public void aniadirEmpleado(TransferEmpleado transfer) {
-		TipoPermiso necesario = transfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
-				: TipoPermiso.SECRETARIO_PDI;
-		boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(
-				necesario, transfer.getEmpleado().getFacultad());
-		if (permiso) {
-			DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
-			DAONegocio.insertarEmpleado(transfer);
-		} else {
-			// Error
+		if (servicioAplicacionUsuarios.validarDatos()
+				&& servicioAplicacionUsuarios.datosRellenos()) {
+			TipoPermiso necesario = transfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
+					: TipoPermiso.SECRETARIO_PDI;
+			boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(
+					necesario, transfer.getEmpleado().getFacultad());
+			if (permiso && servicioAplicacionUsuarios.conexionBaseDatos()) {
+				DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
+				DAONegocio.insertarEmpleado(transfer);
+			} else {
+				// Error
+			}
 		}
 	}
 
@@ -65,8 +68,11 @@ public class ImplementacionEmpleados implements Empleados {
 
 	@Override
 	public TransferListEmpleados buscarEmpleado(TransferBusqueda transfer) {
-		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
-		return DAONegocio.getListEmpleadoPorBusqueda(transfer);
+		if (servicioAplicacionUsuarios.validarDatos()
+				&& servicioAplicacionUsuarios.conexionBaseDatos()) {
+			DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
+			return DAONegocio.getListEmpleadoPorBusqueda(transfer);
+		} else return null;
 	}
 
 	@Override

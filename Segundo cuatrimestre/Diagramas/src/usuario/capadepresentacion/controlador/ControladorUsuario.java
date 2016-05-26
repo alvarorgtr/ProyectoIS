@@ -5,7 +5,7 @@ import java.util.Stack;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-import usuario.capadenegocio.logica.Usuarios;
+import usuario.capadenegocio.logica.UsuariosImp;
 import usuario.capadenegocio.reglas.Conserje;
 import usuario.capadenegocio.reglas.Memento;
 import usuario.capadenegocio.reglas.TipoPermiso;
@@ -30,13 +30,13 @@ public class ControladorUsuario implements VistaActividadListener,
 		VistaAniadirUsuarioListener, VistaEliminarUsuarioListener,
 		VistaLoginUsuarioListener {
 
-	private Usuarios servicioAplicacionUsuarios;
+	private UsuariosImp servicioAplicacionUsuarios;
 	private FactoriaVistasUsuario factoria;
 	private Controlador controlerEmpleados;
 	private Stack<VistaGenerica> lista;
 	private Conserje cons;
 
-	public ControladorUsuario(Usuarios sua, FactoriaVistasUsuario factUser,
+	public ControladorUsuario(UsuariosImp sua, FactoriaVistasUsuario factUser,
 			ImplementacionEmpleados imP, FactoriaVistas fact) {
 		this.servicioAplicacionUsuarios = sua;
 		this.factoria = factUser;
@@ -63,13 +63,19 @@ public class ControladorUsuario implements VistaActividadListener,
 
 	@Override
 	public void aniadir(Usuario us) {
-		if (!servicioAplicacionUsuarios.userYaExiste(us.getNombre())) {
-			if (servicioAplicacionUsuarios.comprobarPermiso(
-					TipoPermiso.permisoSuperior(us.getTipoPermiso()),
-					us.getTipoFacultad())) {
+		if (servicioAplicacionUsuarios.validarDatos()
+				&& servicioAplicacionUsuarios.datosRellenos()) {
+			if (!servicioAplicacionUsuarios.userYaExiste(us.getNombre())
+					&& servicioAplicacionUsuarios.comprobarPermiso(
+							TipoPermiso.permisoSuperior(us.getTipoPermiso()),
+							us.getTipoFacultad())) {
 				TransferUsuario user = new TransferUsuario(us);
-				servicioAplicacionUsuarios.aniadirUsuario(user);
-				ocultarUltimaVista();
+				if (servicioAplicacionUsuarios.conexionBaseDatos()) {
+					servicioAplicacionUsuarios.aniadirUsuario(user);
+					ocultarUltimaVista();
+				} else {
+					// Error
+				}
 			} else {
 				// Error
 			}
