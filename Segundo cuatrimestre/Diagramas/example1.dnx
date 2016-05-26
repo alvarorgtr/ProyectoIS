@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation">
+  <umlnotation:UMLDiagram xmi:id="_jsFhkCN2EeaEDO9DFou9DQ" type="Sequence" element="_jsGvsiN2EeaEDO9DFou9DQ" name="example1.dnx" measurementUnit="Himetric">
+    <children xmi:type="umlnotation:UMLShape" xmi:id="_jsFhkSN2EeaEDO9DFou9DQ" element="_jsGvsiN2EeaEDO9DFou9DQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_jsFhkiN2EeaEDO9DFou9DQ" element="_jsGv3SN2EeaEDO9DFou9DQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsFhkyN2EeaEDO9DFou9DQ"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_jsFhlCN2EeaEDO9DFou9DQ" element="_jsGv3iN2EeaEDO9DFou9DQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsFhlSN2EeaEDO9DFou9DQ"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_jsFhliN2EeaEDO9DFou9DQ" type="interaction_compartment"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_jsFh0iN2EeaEDO9DFou9DQ" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsFh0yN2EeaEDO9DFou9DQ" x="793" y="793"/>
+    </children>
+  </umlnotation:UMLDiagram>
+  <uml:Package xmi:id="_jsGvsCN2EeaEDO9DFou9DQ">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_jsGvsSN2EeaEDO9DFou9DQ" name="aniadir" collaborationRole="_jsGv6SN2EeaEDO9DFou9DQ">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_jsGvsiN2EeaEDO9DFou9DQ" name="aniadir" covered="_jsGvtCN2EeaEDO9DFou9DQ _jsGvtSN2EeaEDO9DFou9DQ _jsGvtiN2EeaEDO9DFou9DQ">
+        <ownedParameter xmi:id="_jsGvsyN2EeaEDO9DFou9DQ" visibility="package" direction="inout">
+          <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Usuario%5Bjcu%5Ename=Usuario.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+        </ownedParameter>
+        <lifeline xmi:id="_jsGvtCN2EeaEDO9DFou9DQ" name="self" represents="_jsGv6iN2EeaEDO9DFou9DQ" coveredBy="_jsGvtyN2EeaEDO9DFou9DQ _jsGvuCN2EeaEDO9DFou9DQ _jsGvuSN2EeaEDO9DFou9DQ _jsGvuiN2EeaEDO9DFou9DQ _jsGvvSN2EeaEDO9DFou9DQ _jsGvviN2EeaEDO9DFou9DQ _jsGvwSN2EeaEDO9DFou9DQ _jsGvwyN2EeaEDO9DFou9DQ _jsGvxCN2EeaEDO9DFou9DQ _jsGvxyN2EeaEDO9DFou9DQ _jsGvyyN2EeaEDO9DFou9DQ _jsGvzCN2EeaEDO9DFou9DQ _jsGvzSN2EeaEDO9DFou9DQ _jsGvziN2EeaEDO9DFou9DQ _jsGvzyN2EeaEDO9DFou9DQ _jsGv0CN2EeaEDO9DFou9DQ _jsGv0SN2EeaEDO9DFou9DQ _jsGv1iN2EeaEDO9DFou9DQ _jsGv2SN2EeaEDO9DFou9DQ _jsGvsiN2EeaEDO9DFou9DQ _jsGv3CN2EeaEDO9DFou9DQ"/>
+        <lifeline xmi:id="_jsGvtSN2EeaEDO9DFou9DQ" name="user" represents="_jsGv6yN2EeaEDO9DFou9DQ" coveredBy="_jsGvviN2EeaEDO9DFou9DQ _jsGvwiN2EeaEDO9DFou9DQ _jsGv1CN2EeaEDO9DFou9DQ _jsGv1SN2EeaEDO9DFou9DQ _jsGvvSN2EeaEDO9DFou9DQ _jsGvuiN2EeaEDO9DFou9DQ _jsGvuSN2EeaEDO9DFou9DQ _jsGvsiN2EeaEDO9DFou9DQ"/>
+        <lifeline xmi:id="_jsGvtiN2EeaEDO9DFou9DQ" name="servicioAplicacionUsuarios" coveredBy="_jsGvxCN2EeaEDO9DFou9DQ _jsGvyCN2EeaEDO9DFou9DQ _jsGvySN2EeaEDO9DFou9DQ _jsGvyiN2EeaEDO9DFou9DQ _jsGvwyN2EeaEDO9DFou9DQ _jsGvviN2EeaEDO9DFou9DQ _jsGvvSN2EeaEDO9DFou9DQ _jsGvuiN2EeaEDO9DFou9DQ _jsGvuSN2EeaEDO9DFou9DQ _jsGvsiN2EeaEDO9DFou9DQ">
+          <represents xmi:type="uml:Property" href="mmi:///#jfield%5Ename=servicioAplicacionUsuarios%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </lifeline>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvtyN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" event="_jsHW0yN2EeaEDO9DFou9DQ" message="_jsGv3yN2EeaEDO9DFou9DQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_jsGvuCN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" start="_jsGvtyN2EeaEDO9DFou9DQ" finish="_jsGv3CN2EeaEDO9DFou9DQ"/>
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_jsGvuSN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ _jsGvtSN2EeaEDO9DFou9DQ _jsGvtiN2EeaEDO9DFou9DQ" interactionOperator="alt">
+          <operand xmi:id="_jsGvuiN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ _jsGvtSN2EeaEDO9DFou9DQ _jsGvtiN2EeaEDO9DFou9DQ">
+            <guard xmi:id="_jsGvuyN2EeaEDO9DFou9DQ">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_jsGvvCN2EeaEDO9DFou9DQ">
+                <language>java</language>
+                <body>servicioAplicacionUsuarios.validarDatos() &amp;&amp; servicioAplicacionUsuarios.datosRellenos()</body>
+              </specification>
+            </guard>
+            <fragment xmi:type="uml:CombinedFragment" xmi:id="_jsGvvSN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ _jsGvtSN2EeaEDO9DFou9DQ _jsGvtiN2EeaEDO9DFou9DQ" interactionOperator="alt">
+              <operand xmi:id="_jsGvviN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ _jsGvtSN2EeaEDO9DFou9DQ _jsGvtiN2EeaEDO9DFou9DQ">
+                <guard xmi:id="_jsGvvyN2EeaEDO9DFou9DQ">
+                  <specification xmi:type="uml:OpaqueExpression" xmi:id="_jsGvwCN2EeaEDO9DFou9DQ">
+                    <language>java</language>
+                    <body>!servicioAplicacionUsuarios.userYaExiste(us.getNombre()) &amp;&amp; servicioAplicacionUsuarios.comprobarPermiso(TipoPermiso.permisoSuperior(us.getTipoPermiso()),us.getTipoFacultad())</body>
+                  </specification>
+                </guard>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvwSN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" event="_jsHWzSN2EeaEDO9DFou9DQ" message="_jsGv4CN2EeaEDO9DFou9DQ"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvwiN2EeaEDO9DFou9DQ" covered="_jsGvtSN2EeaEDO9DFou9DQ" event="_jsHW0iN2EeaEDO9DFou9DQ" message="_jsGv4CN2EeaEDO9DFou9DQ"/>
+                <fragment xmi:type="uml:CombinedFragment" xmi:id="_jsGvwyN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ _jsGvtiN2EeaEDO9DFou9DQ" interactionOperator="alt">
+                  <operand xmi:id="_jsGvxCN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ _jsGvtiN2EeaEDO9DFou9DQ">
+                    <guard xmi:id="_jsGvxSN2EeaEDO9DFou9DQ">
+                      <specification xmi:type="uml:OpaqueExpression" xmi:id="_jsGvxiN2EeaEDO9DFou9DQ">
+                        <language>java</language>
+                        <body>servicioAplicacionUsuarios.conexionBaseDatos()</body>
+                      </specification>
+                    </guard>
+                    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvxyN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" event="_jsHWziN2EeaEDO9DFou9DQ" message="_jsGv4iN2EeaEDO9DFou9DQ"/>
+                    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvyCN2EeaEDO9DFou9DQ" covered="_jsGvtiN2EeaEDO9DFou9DQ" event="_jsHWyiN2EeaEDO9DFou9DQ" message="_jsGv4iN2EeaEDO9DFou9DQ"/>
+                    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_jsGvySN2EeaEDO9DFou9DQ" name="aniadirUsuario" covered="_jsGvtiN2EeaEDO9DFou9DQ" start="_jsGvyCN2EeaEDO9DFou9DQ" finish="_jsGvyiN2EeaEDO9DFou9DQ"/>
+                    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvyiN2EeaEDO9DFou9DQ" covered="_jsGvtiN2EeaEDO9DFou9DQ" event="_jsHWziN2EeaEDO9DFou9DQ" message="_jsGv5CN2EeaEDO9DFou9DQ"/>
+                    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvyyN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" event="_jsHWyiN2EeaEDO9DFou9DQ" message="_jsGv5CN2EeaEDO9DFou9DQ"/>
+                    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvzCN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" event="_jsHWyyN2EeaEDO9DFou9DQ" message="_jsGv5SN2EeaEDO9DFou9DQ"/>
+                    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvzSN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" event="_jsHW0CN2EeaEDO9DFou9DQ" message="_jsGv5SN2EeaEDO9DFou9DQ"/>
+                    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_jsGvziN2EeaEDO9DFou9DQ" name="ocultarUltimaVista" covered="_jsGvtCN2EeaEDO9DFou9DQ" start="_jsGvzSN2EeaEDO9DFou9DQ" finish="_jsGvzyN2EeaEDO9DFou9DQ"/>
+                    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGvzyN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" event="_jsHWyyN2EeaEDO9DFou9DQ" message="_jsGv5iN2EeaEDO9DFou9DQ"/>
+                    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGv0CN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" event="_jsHW0CN2EeaEDO9DFou9DQ" message="_jsGv5iN2EeaEDO9DFou9DQ"/>
+                  </operand>
+                  <operand xmi:id="_jsGv0SN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ">
+                    <guard xmi:id="_jsGv0iN2EeaEDO9DFou9DQ">
+                      <specification xmi:type="uml:OpaqueExpression" xmi:id="_jsGv0yN2EeaEDO9DFou9DQ">
+                        <language>java</language>
+                        <body>else</body>
+                      </specification>
+                    </guard>
+                  </operand>
+                </fragment>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGv1CN2EeaEDO9DFou9DQ" covered="_jsGvtSN2EeaEDO9DFou9DQ" event="_jsHWzyN2EeaEDO9DFou9DQ" message="_jsGv5yN2EeaEDO9DFou9DQ"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGv1SN2EeaEDO9DFou9DQ" covered="_jsGvtSN2EeaEDO9DFou9DQ" event="_jsHWzCN2EeaEDO9DFou9DQ" message="_jsGv5yN2EeaEDO9DFou9DQ"/>
+              </operand>
+              <operand xmi:id="_jsGv1iN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ">
+                <guard xmi:id="_jsGv1yN2EeaEDO9DFou9DQ">
+                  <specification xmi:type="uml:OpaqueExpression" xmi:id="_jsGv2CN2EeaEDO9DFou9DQ">
+                    <language>java</language>
+                    <body>else</body>
+                  </specification>
+                </guard>
+              </operand>
+            </fragment>
+          </operand>
+          <operand xmi:id="_jsGv2SN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ">
+            <guard xmi:id="_jsGv2iN2EeaEDO9DFou9DQ">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_jsGv2yN2EeaEDO9DFou9DQ">
+                <language>java</language>
+                <body>else</body>
+              </specification>
+            </guard>
+          </operand>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsGv3CN2EeaEDO9DFou9DQ" covered="_jsGvtCN2EeaEDO9DFou9DQ" event="_jsHW1SN2EeaEDO9DFou9DQ" message="_jsGv6CN2EeaEDO9DFou9DQ"/>
+        <formalGate xmi:id="_jsGv3SN2EeaEDO9DFou9DQ" message="_jsGv3yN2EeaEDO9DFou9DQ"/>
+        <formalGate xmi:id="_jsGv3iN2EeaEDO9DFou9DQ" message="_jsGv6CN2EeaEDO9DFou9DQ"/>
+        <message xmi:id="_jsGv3yN2EeaEDO9DFou9DQ" name="aniadir" receiveEvent="_jsGvtyN2EeaEDO9DFou9DQ" sendEvent="_jsGv3SN2EeaEDO9DFou9DQ"/>
+        <message xmi:id="_jsGv4CN2EeaEDO9DFou9DQ" name="TransferUsuario" messageSort="createMessage" receiveEvent="_jsGvwiN2EeaEDO9DFou9DQ" sendEvent="_jsGvwSN2EeaEDO9DFou9DQ">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_jsGv4SN2EeaEDO9DFou9DQ" name="us" instance="_jsHW1CN2EeaEDO9DFou9DQ"/>
+        </message>
+        <message xmi:id="_jsGv4iN2EeaEDO9DFou9DQ" name="aniadirUsuario" receiveEvent="_jsGvyCN2EeaEDO9DFou9DQ" sendEvent="_jsGvxyN2EeaEDO9DFou9DQ">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_jsGv4yN2EeaEDO9DFou9DQ" name="user" instance="_jsHW0SN2EeaEDO9DFou9DQ"/>
+        </message>
+        <message xmi:id="_jsGv5CN2EeaEDO9DFou9DQ" name="aniadirUsuario" messageSort="reply" receiveEvent="_jsGvyyN2EeaEDO9DFou9DQ" sendEvent="_jsGvyiN2EeaEDO9DFou9DQ"/>
+        <message xmi:id="_jsGv5SN2EeaEDO9DFou9DQ" name="ocultarUltimaVista" receiveEvent="_jsGvzSN2EeaEDO9DFou9DQ" sendEvent="_jsGvzCN2EeaEDO9DFou9DQ" connector="_jsHWxCN2EeaEDO9DFou9DQ"/>
+        <message xmi:id="_jsGv5iN2EeaEDO9DFou9DQ" name="ocultarUltimaVista" messageSort="reply" receiveEvent="_jsGv0CN2EeaEDO9DFou9DQ" sendEvent="_jsGvzyN2EeaEDO9DFou9DQ"/>
+        <message xmi:id="_jsGv5yN2EeaEDO9DFou9DQ" messageSort="deleteMessage" receiveEvent="_jsGv1SN2EeaEDO9DFou9DQ" sendEvent="_jsGv1CN2EeaEDO9DFou9DQ" connector="_jsHWxCN2EeaEDO9DFou9DQ"/>
+        <message xmi:id="_jsGv6CN2EeaEDO9DFou9DQ" name="aniadir" messageSort="reply" receiveEvent="_jsGv3iN2EeaEDO9DFou9DQ" sendEvent="_jsGv3CN2EeaEDO9DFou9DQ"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_jsGv6SN2EeaEDO9DFou9DQ" name="us" visibility="package">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Usuario%5Bjcu%5Ename=Usuario.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jsGv6iN2EeaEDO9DFou9DQ" name="self">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jsGv6yN2EeaEDO9DFou9DQ" name="user" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferUsuario%5Bjcu%5Ename=TransferUsuario.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedConnector xmi:id="_jsHWwCN2EeaEDO9DFou9DQ">
+        <end xmi:id="_jsHWwSN2EeaEDO9DFou9DQ">
+          <role xmi:type="uml:Parameter" href="mmi:///#_FkGXISNyEeaEDO9DFou9DQ"/>
+        </end>
+        <end xmi:id="_jsHWwiN2EeaEDO9DFou9DQ" role="_jsGvsyN2EeaEDO9DFou9DQ"/>
+        <end xmi:id="_jsHWwyN2EeaEDO9DFou9DQ" role="_jsGv6SN2EeaEDO9DFou9DQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_jsHWxCN2EeaEDO9DFou9DQ">
+        <end xmi:id="_jsHWxSN2EeaEDO9DFou9DQ" role="_jsGv6iN2EeaEDO9DFou9DQ"/>
+        <end xmi:id="_jsHWxiN2EeaEDO9DFou9DQ" role="_jsGv6yN2EeaEDO9DFou9DQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_jsHWxyN2EeaEDO9DFou9DQ">
+        <end xmi:id="_jsHWyCN2EeaEDO9DFou9DQ" role="_jsGv6iN2EeaEDO9DFou9DQ"/>
+        <end xmi:id="_jsHWySN2EeaEDO9DFou9DQ">
+          <role xmi:type="uml:Property" href="mmi:///#jfield%5Ename=servicioAplicacionUsuarios%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </end>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_jsHWyiN2EeaEDO9DFou9DQ">
+      <operation href="mmi:///#jmethod%5Ename=aniadirUsuario%5Esign=(QTransferUsuario;)V%5Bjsrctype%5Ename=UsuariosImp%5Bjcu%5Ename=UsuariosImp.java%5Bjpack%5Ename=usuario.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jsHWyyN2EeaEDO9DFou9DQ">
+      <operation href="mmi:///#jmethod%5Ename=ocultarUltimaVista%5Esign=()V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DestructionEvent" xmi:id="_jsHWzCN2EeaEDO9DFou9DQ"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jsHWzSN2EeaEDO9DFou9DQ">
+      <operation href="mmi:///#jmethod%5Ename=TransferUsuario%5Esign=(QUsuario;)V%5Bjsrctype%5Ename=TransferUsuario%5Bjcu%5Ename=TransferUsuario.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jsHWziN2EeaEDO9DFou9DQ">
+      <operation href="mmi:///#jmethod%5Ename=aniadirUsuario%5Esign=(QTransferUsuario;)V%5Bjsrctype%5Ename=UsuariosImp%5Bjcu%5Ename=UsuariosImp.java%5Bjpack%5Ename=usuario.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jsHWzyN2EeaEDO9DFou9DQ"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_jsHW0CN2EeaEDO9DFou9DQ">
+      <operation href="mmi:///#jmethod%5Ename=ocultarUltimaVista%5Esign=()V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_jsHW0SN2EeaEDO9DFou9DQ" name="TransferUsuario">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferUsuario%5Bjcu%5Ename=TransferUsuario.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CreationEvent" xmi:id="_jsHW0iN2EeaEDO9DFou9DQ"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_jsHW0yN2EeaEDO9DFou9DQ">
+      <operation href="mmi:///#jmethod%5Ename=aniadir%5Esign=(QUsuario;)V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_jsHW1CN2EeaEDO9DFou9DQ" name="Usuario">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Usuario%5Bjcu%5Ename=Usuario.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jsHW1SN2EeaEDO9DFou9DQ">
+      <operation href="mmi:///#jmethod%5Ename=aniadir%5Esign=(QUsuario;)V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>
