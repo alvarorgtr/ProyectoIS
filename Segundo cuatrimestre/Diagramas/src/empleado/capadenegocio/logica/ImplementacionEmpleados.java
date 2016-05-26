@@ -7,6 +7,7 @@ import empleado.capadenegocio.transferencia.TransferBusqueda;
 import empleado.capadenegocio.transferencia.TransferEmpleado;
 import empleado.capadenegocio.transferencia.TransferInt;
 import empleado.capadenegocio.transferencia.TransferListEmpleados;
+import empleado.capadenegocio.transferencia.TransferPermisos;
 
 public class ImplementacionEmpleados implements Empleados {
 	private UsuariosImp servicioAplicacionUsuarios;
@@ -42,7 +43,8 @@ public class ImplementacionEmpleados implements Empleados {
 	@Override
 	public TransferListEmpleados listaEmpleados(TransferInt pagina) {
 		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
-		return DAONegocio.getListempleadoVista(pagina);
+		TransferPermisos transfer = servicioAplicacionUsuarios.permisoUsuarioActual();
+		return DAONegocio.getListEmpleadoVista(pagina, transfer);
 	}
 
 	@Override

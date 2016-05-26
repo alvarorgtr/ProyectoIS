@@ -6,6 +6,7 @@ import usuario.capadenegocio.reglas.Usuario;
 import usuario.capadenegocio.transferencia.TransferID;
 import usuario.capadenegocio.transferencia.TransferNombre;
 import usuario.capadenegocio.transferencia.TransferUsuario;
+import empleado.capadenegocio.transferencia.TransferPermisos;
 
 public interface Usuarios {
 	
@@ -20,6 +21,8 @@ public interface Usuarios {
 	public boolean comprobarContrasenia(String nombre, String contra);
 	
 	public boolean comprobarPermiso(TipoPermiso permisoNecesario, TipoFacultad facultad);
+	
+	public TransferPermisos permisoUsuarioActual();
 	
 	public Usuario consultarUsuario(TransferNombre nom);
 

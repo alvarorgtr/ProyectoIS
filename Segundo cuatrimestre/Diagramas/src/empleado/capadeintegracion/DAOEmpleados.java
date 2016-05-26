@@ -5,6 +5,7 @@ import empleado.capadenegocio.transferencia.TransferBusqueda;
 import empleado.capadenegocio.transferencia.TransferEmpleado;
 import empleado.capadenegocio.transferencia.TransferInt;
 import empleado.capadenegocio.transferencia.TransferListEmpleados;
+import empleado.capadenegocio.transferencia.TransferPermisos;
 
 public interface DAOEmpleados {
 
@@ -12,7 +13,7 @@ public interface DAOEmpleados {
 
 	public boolean eliminarEmpleado(TransferInt idEmpleado);
 
-	public TransferListEmpleados getListempleadoVista(TransferInt indice);
+	public TransferListEmpleados getListEmpleadoVista(TransferInt indice, TransferPermisos permisos);
 	
 	public TransferListEmpleados getListEmpleadoPorBusqueda(TransferBusqueda empleado);
 	

@@ -1,5 +1,6 @@
 package usuario.capadenegocio.logica;
 
+import empleado.capadenegocio.transferencia.TransferPermisos;
 import usuario.capadeintegracion.DAOUsuariosImp;
 import usuario.capadenegocio.reglas.TipoFacultad;
 import usuario.capadenegocio.reglas.TipoPermiso;
@@ -109,6 +110,14 @@ public class UsuariosImp implements Usuarios {
 	public Usuario consultarUsuario(TransferNombre nom) {
 		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
 		return canal.getUsuario(nom);
+	}
+
+	@Override
+	public TransferPermisos permisoUsuarioActual() {
+		DAOUsuariosImp canal = DAOUsuariosImp.getInstance();
+		Usuario usr = canal.getUsuario(new TransferNombre(nombreLogueado));
+		TipoPermiso permiso = usr.getTipoPermiso();
+		return new TransferPermisos(permiso);
 	}
 
 }

@@ -5,6 +5,7 @@ import empleado.capadenegocio.transferencia.TransferBusqueda;
 import empleado.capadenegocio.transferencia.TransferEmpleado;
 import empleado.capadenegocio.transferencia.TransferInt;
 import empleado.capadenegocio.transferencia.TransferListEmpleados;
+import empleado.capadenegocio.transferencia.TransferPermisos;
 
 
 public class DAOEmpleadosImp implements DAOEmpleados {
@@ -33,7 +34,7 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 	}
 
 	@Override
-	public TransferListEmpleados getListempleadoVista(TransferInt indice) {
+	public TransferListEmpleados getListEmpleadoVista(TransferInt indice, TransferPermisos permiso) {
 		return null;
 	}
 
