@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation">
+  <umlnotation:UMLDiagram xmi:id="_melwUCN0EeaOwJ5v1OdJaw" type="Sequence" element="_meozoiN0EeaOwJ5v1OdJaw" name="ds_logIn.dnx" measurementUnit="Himetric">
+    <children xmi:type="umlnotation:UMLShape" xmi:id="_melwUSN0EeaOwJ5v1OdJaw" element="_meozoiN0EeaOwJ5v1OdJaw" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_melwUiN0EeaOwJ5v1OdJaw" element="_meoz4CN0EeaOwJ5v1OdJaw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_melwUyN0EeaOwJ5v1OdJaw"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_melwVCN0EeaOwJ5v1OdJaw" element="_meoz4SN0EeaOwJ5v1OdJaw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_melwVSN0EeaOwJ5v1OdJaw"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_melwViN0EeaOwJ5v1OdJaw" type="interaction_compartment"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_memXgCN0EeaOwJ5v1OdJaw" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_memXgSN0EeaOwJ5v1OdJaw" x="793" y="793"/>
+    </children>
+  </umlnotation:UMLDiagram>
+  <uml:Package xmi:id="_meozoCN0EeaOwJ5v1OdJaw">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_meozoSN0EeaOwJ5v1OdJaw" name="inicioSesion">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_meozoiN0EeaOwJ5v1OdJaw" name="inicioSesion" covered="_meozpCN0EeaOwJ5v1OdJaw _meozoyN0EeaOwJ5v1OdJaw _meozpSN0EeaOwJ5v1OdJaw _meozpiN0EeaOwJ5v1OdJaw _meozpyN0EeaOwJ5v1OdJaw">
+        <lifeline xmi:id="_meozoyN0EeaOwJ5v1OdJaw" name="self" represents="_meoz_iN0EeaOwJ5v1OdJaw" coveredBy="_meozqCN0EeaOwJ5v1OdJaw _meozqSN0EeaOwJ5v1OdJaw _meozqiN0EeaOwJ5v1OdJaw _meozriN0EeaOwJ5v1OdJaw _meozryN0EeaOwJ5v1OdJaw _meozsCN0EeaOwJ5v1OdJaw _meozsSN0EeaOwJ5v1OdJaw _meozoiN0EeaOwJ5v1OdJaw _meozsiN0EeaOwJ5v1OdJaw _meozsyN0EeaOwJ5v1OdJaw _meoztCN0EeaOwJ5v1OdJaw _meoztSN0EeaOwJ5v1OdJaw _meozuCN0EeaOwJ5v1OdJaw _meozvCN0EeaOwJ5v1OdJaw _meozvSN0EeaOwJ5v1OdJaw _meozwSN0EeaOwJ5v1OdJaw _meozwiN0EeaOwJ5v1OdJaw _meozxCN0EeaOwJ5v1OdJaw _meozyCN0EeaOwJ5v1OdJaw _meozySN0EeaOwJ5v1OdJaw _meozyiN0EeaOwJ5v1OdJaw _meozyyN0EeaOwJ5v1OdJaw _meozzCN0EeaOwJ5v1OdJaw _meozzSN0EeaOwJ5v1OdJaw _meozziN0EeaOwJ5v1OdJaw _meoz0iN0EeaOwJ5v1OdJaw _meoz0yN0EeaOwJ5v1OdJaw _meoz1CN0EeaOwJ5v1OdJaw _meoz1SN0EeaOwJ5v1OdJaw _meoz1iN0EeaOwJ5v1OdJaw _meoz1yN0EeaOwJ5v1OdJaw _meoz2iN0EeaOwJ5v1OdJaw _meoz3yN0EeaOwJ5v1OdJaw"/>
+        <lifeline xmi:id="_meozpCN0EeaOwJ5v1OdJaw" name="factoria" coveredBy="_meozoiN0EeaOwJ5v1OdJaw _meozqyN0EeaOwJ5v1OdJaw _meozrCN0EeaOwJ5v1OdJaw _meozrSN0EeaOwJ5v1OdJaw _meoztSN0EeaOwJ5v1OdJaw _meozzyN0EeaOwJ5v1OdJaw _meoz0CN0EeaOwJ5v1OdJaw _meoz0SN0EeaOwJ5v1OdJaw _meoztCN0EeaOwJ5v1OdJaw">
+          <represents xmi:type="uml:Property" href="mmi:///#jfield%5Ename=factoria%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </lifeline>
+        <lifeline xmi:id="_meozpSN0EeaOwJ5v1OdJaw" name="vista" represents="_meoz_yN0EeaOwJ5v1OdJaw" coveredBy="_meoztSN0EeaOwJ5v1OdJaw _meozuSN0EeaOwJ5v1OdJaw _meozuiN0EeaOwJ5v1OdJaw _meozuyN0EeaOwJ5v1OdJaw _meozviN0EeaOwJ5v1OdJaw _meozvyN0EeaOwJ5v1OdJaw _meozwCN0EeaOwJ5v1OdJaw _meoztCN0EeaOwJ5v1OdJaw _meozoiN0EeaOwJ5v1OdJaw _meoz3SN0EeaOwJ5v1OdJaw _meoz3iN0EeaOwJ5v1OdJaw"/>
+        <lifeline xmi:id="_meozpiN0EeaOwJ5v1OdJaw" name="user" represents="_meo0ASN0EeaOwJ5v1OdJaw" coveredBy="_meoztSN0EeaOwJ5v1OdJaw _meozwyN0EeaOwJ5v1OdJaw _meoz2CN0EeaOwJ5v1OdJaw _meoz2SN0EeaOwJ5v1OdJaw _meoztCN0EeaOwJ5v1OdJaw _meozoiN0EeaOwJ5v1OdJaw"/>
+        <lifeline xmi:id="_meozpyN0EeaOwJ5v1OdJaw" name="servicioAplicacionUsuarios" coveredBy="_meoztSN0EeaOwJ5v1OdJaw _meozxSN0EeaOwJ5v1OdJaw _meozxiN0EeaOwJ5v1OdJaw _meozxyN0EeaOwJ5v1OdJaw _meoztCN0EeaOwJ5v1OdJaw _meozoiN0EeaOwJ5v1OdJaw">
+          <represents xmi:type="uml:Property" href="mmi:///#jfield%5Ename=servicioAplicacionUsuarios%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </lifeline>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozqCN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0JiN0EeaOwJ5v1OdJaw" message="_meoz4iN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meozqSN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" start="_meozqCN0EeaOwJ5v1OdJaw" finish="_meoz3yN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozqiN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0HCN0EeaOwJ5v1OdJaw" message="_meoz4yN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozqyN0EeaOwJ5v1OdJaw" covered="_meozpCN0EeaOwJ5v1OdJaw" event="_meo0JyN0EeaOwJ5v1OdJaw" message="_meoz4yN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meozrCN0EeaOwJ5v1OdJaw" name="vistaLoginUsuario" covered="_meozpCN0EeaOwJ5v1OdJaw" start="_meozqyN0EeaOwJ5v1OdJaw" finish="_meozrSN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozrSN0EeaOwJ5v1OdJaw" covered="_meozpCN0EeaOwJ5v1OdJaw" event="_meo0HCN0EeaOwJ5v1OdJaw" message="_meoz5SN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozriN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0JyN0EeaOwJ5v1OdJaw" message="_meoz5SN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozryN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0IyN0EeaOwJ5v1OdJaw" message="_meoz5iN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozsCN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0JSN0EeaOwJ5v1OdJaw" message="_meoz5iN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meozsSN0EeaOwJ5v1OdJaw" name="mostrarVista" covered="_meozoyN0EeaOwJ5v1OdJaw" start="_meozsCN0EeaOwJ5v1OdJaw" finish="_meozsiN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozsiN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0IyN0EeaOwJ5v1OdJaw" message="_meoz6CN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozsyN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0JSN0EeaOwJ5v1OdJaw" message="_meoz6CN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_meoztCN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw _meozpSN0EeaOwJ5v1OdJaw _meozpiN0EeaOwJ5v1OdJaw _meozpyN0EeaOwJ5v1OdJaw _meozpCN0EeaOwJ5v1OdJaw" interactionOperator="alt">
+          <operand xmi:id="_meoztSN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw _meozpSN0EeaOwJ5v1OdJaw _meozpiN0EeaOwJ5v1OdJaw _meozpyN0EeaOwJ5v1OdJaw _meozpCN0EeaOwJ5v1OdJaw">
+            <guard xmi:id="_meoztiN0EeaOwJ5v1OdJaw">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_meoztyN0EeaOwJ5v1OdJaw">
+                <language>java</language>
+                <body>servicioAplicacionUsuarios.comprobarContrasenia(vista.getNombre(),vista.getContrasenia())</body>
+              </specification>
+            </guard>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozuCN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0ISN0EeaOwJ5v1OdJaw" message="_meoz6SN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozuSN0EeaOwJ5v1OdJaw" covered="_meozpSN0EeaOwJ5v1OdJaw" event="_meo0HiN0EeaOwJ5v1OdJaw" message="_meoz6SN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meozuiN0EeaOwJ5v1OdJaw" name="getNombre" covered="_meozpSN0EeaOwJ5v1OdJaw" start="_meozuSN0EeaOwJ5v1OdJaw" finish="_meozuyN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozuyN0EeaOwJ5v1OdJaw" covered="_meozpSN0EeaOwJ5v1OdJaw" event="_meo0ISN0EeaOwJ5v1OdJaw" message="_meoz6iN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozvCN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0HiN0EeaOwJ5v1OdJaw" message="_meoz6iN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozvSN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0FiN0EeaOwJ5v1OdJaw" message="_meoz6yN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozviN0EeaOwJ5v1OdJaw" covered="_meozpSN0EeaOwJ5v1OdJaw" event="_meo0ECN0EeaOwJ5v1OdJaw" message="_meoz6yN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meozvyN0EeaOwJ5v1OdJaw" name="getContrasenia" covered="_meozpSN0EeaOwJ5v1OdJaw" start="_meozviN0EeaOwJ5v1OdJaw" finish="_meozwCN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozwCN0EeaOwJ5v1OdJaw" covered="_meozpSN0EeaOwJ5v1OdJaw" event="_meo0FiN0EeaOwJ5v1OdJaw" message="_meoz7CN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozwSN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0ECN0EeaOwJ5v1OdJaw" message="_meoz7CN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozwiN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0GiN0EeaOwJ5v1OdJaw" message="_meoz7SN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozwyN0EeaOwJ5v1OdJaw" covered="_meozpiN0EeaOwJ5v1OdJaw" event="_meo0EiN0EeaOwJ5v1OdJaw" message="_meoz7SN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozxCN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0IiN0EeaOwJ5v1OdJaw" message="_meoz8CN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozxSN0EeaOwJ5v1OdJaw" covered="_meozpyN0EeaOwJ5v1OdJaw" event="_meo0GyN0EeaOwJ5v1OdJaw" message="_meoz8CN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meozxiN0EeaOwJ5v1OdJaw" name="log" covered="_meozpyN0EeaOwJ5v1OdJaw" start="_meozxSN0EeaOwJ5v1OdJaw" finish="_meozxyN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozxyN0EeaOwJ5v1OdJaw" covered="_meozpyN0EeaOwJ5v1OdJaw" event="_meo0IiN0EeaOwJ5v1OdJaw" message="_meoz8iN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozyCN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0GyN0EeaOwJ5v1OdJaw" message="_meoz8iN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozySN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0GCN0EeaOwJ5v1OdJaw" message="_meoz8yN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozyiN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0GSN0EeaOwJ5v1OdJaw" message="_meoz8yN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meozyyN0EeaOwJ5v1OdJaw" name="ocultarUltimaVista" covered="_meozoyN0EeaOwJ5v1OdJaw" start="_meozyiN0EeaOwJ5v1OdJaw" finish="_meozzCN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozzCN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0GCN0EeaOwJ5v1OdJaw" message="_meoz9CN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozzSN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0GSN0EeaOwJ5v1OdJaw" message="_meoz9CN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozziN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0KiN0EeaOwJ5v1OdJaw" message="_meoz9SN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meozzyN0EeaOwJ5v1OdJaw" covered="_meozpCN0EeaOwJ5v1OdJaw" event="_meo0FyN0EeaOwJ5v1OdJaw" message="_meoz9SN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meoz0CN0EeaOwJ5v1OdJaw" name="vistaActividad" covered="_meozpCN0EeaOwJ5v1OdJaw" start="_meozzyN0EeaOwJ5v1OdJaw" finish="_meoz0SN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz0SN0EeaOwJ5v1OdJaw" covered="_meozpCN0EeaOwJ5v1OdJaw" event="_meo0KiN0EeaOwJ5v1OdJaw" message="_meoz9yN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz0iN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0FyN0EeaOwJ5v1OdJaw" message="_meoz9yN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz0yN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0IyN0EeaOwJ5v1OdJaw" message="_meoz-CN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz1CN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0JSN0EeaOwJ5v1OdJaw" message="_meoz-CN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_meoz1SN0EeaOwJ5v1OdJaw" name="mostrarVista" covered="_meozoyN0EeaOwJ5v1OdJaw" start="_meoz1CN0EeaOwJ5v1OdJaw" finish="_meoz1iN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz1iN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0IyN0EeaOwJ5v1OdJaw" message="_meoz-iN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz1yN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0JSN0EeaOwJ5v1OdJaw" message="_meoz-iN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz2CN0EeaOwJ5v1OdJaw" covered="_meozpiN0EeaOwJ5v1OdJaw" event="_meo0ESN0EeaOwJ5v1OdJaw" message="_meoz-yN0EeaOwJ5v1OdJaw"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz2SN0EeaOwJ5v1OdJaw" covered="_meozpiN0EeaOwJ5v1OdJaw" event="_meo0HyN0EeaOwJ5v1OdJaw" message="_meoz-yN0EeaOwJ5v1OdJaw"/>
+          </operand>
+          <operand xmi:id="_meoz2iN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw">
+            <guard xmi:id="_meoz2yN0EeaOwJ5v1OdJaw">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_meoz3CN0EeaOwJ5v1OdJaw">
+                <language>java</language>
+                <body>else</body>
+              </specification>
+            </guard>
+          </operand>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz3SN0EeaOwJ5v1OdJaw" covered="_meozpSN0EeaOwJ5v1OdJaw" event="_meo0KCN0EeaOwJ5v1OdJaw" message="_meoz_CN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz3iN0EeaOwJ5v1OdJaw" covered="_meozpSN0EeaOwJ5v1OdJaw" event="_meo0EyN0EeaOwJ5v1OdJaw" message="_meoz_CN0EeaOwJ5v1OdJaw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_meoz3yN0EeaOwJ5v1OdJaw" covered="_meozoyN0EeaOwJ5v1OdJaw" event="_meo0FCN0EeaOwJ5v1OdJaw" message="_meoz_SN0EeaOwJ5v1OdJaw"/>
+        <formalGate xmi:id="_meoz4CN0EeaOwJ5v1OdJaw" message="_meoz4iN0EeaOwJ5v1OdJaw"/>
+        <formalGate xmi:id="_meoz4SN0EeaOwJ5v1OdJaw" message="_meoz_SN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz4iN0EeaOwJ5v1OdJaw" name="inicioSesion" receiveEvent="_meozqCN0EeaOwJ5v1OdJaw" sendEvent="_meoz4CN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz4yN0EeaOwJ5v1OdJaw" name="vistaLoginUsuario" receiveEvent="_meozqyN0EeaOwJ5v1OdJaw" sendEvent="_meozqiN0EeaOwJ5v1OdJaw">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_meoz5CN0EeaOwJ5v1OdJaw" name="this" instance="_meo0ICN0EeaOwJ5v1OdJaw"/>
+        </message>
+        <message xmi:id="_meoz5SN0EeaOwJ5v1OdJaw" name="vistaLoginUsuario" messageSort="reply" receiveEvent="_meozriN0EeaOwJ5v1OdJaw" sendEvent="_meozrSN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz5iN0EeaOwJ5v1OdJaw" name="mostrarVista" receiveEvent="_meozsCN0EeaOwJ5v1OdJaw" sendEvent="_meozryN0EeaOwJ5v1OdJaw" connector="_meo0BCN0EeaOwJ5v1OdJaw">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_meoz5yN0EeaOwJ5v1OdJaw" name="vista" instance="_meo0JCN0EeaOwJ5v1OdJaw"/>
+        </message>
+        <message xmi:id="_meoz6CN0EeaOwJ5v1OdJaw" name="mostrarVista" messageSort="reply" receiveEvent="_meozsyN0EeaOwJ5v1OdJaw" sendEvent="_meozsiN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz6SN0EeaOwJ5v1OdJaw" name="getNombre" receiveEvent="_meozuSN0EeaOwJ5v1OdJaw" sendEvent="_meozuCN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz6iN0EeaOwJ5v1OdJaw" name="getNombre" messageSort="reply" receiveEvent="_meozvCN0EeaOwJ5v1OdJaw" sendEvent="_meozuyN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz6yN0EeaOwJ5v1OdJaw" name="getContrasenia" receiveEvent="_meozviN0EeaOwJ5v1OdJaw" sendEvent="_meozvSN0EeaOwJ5v1OdJaw" connector="_meo0ByN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz7CN0EeaOwJ5v1OdJaw" name="getContrasenia" messageSort="reply" receiveEvent="_meozwSN0EeaOwJ5v1OdJaw" sendEvent="_meozwCN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz7SN0EeaOwJ5v1OdJaw" name="TransferID" messageSort="createMessage" receiveEvent="_meozwyN0EeaOwJ5v1OdJaw" sendEvent="_meozwiN0EeaOwJ5v1OdJaw">
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_meoz7iN0EeaOwJ5v1OdJaw">
+            <language>java</language>
+            <body>vista.getNombre()</body>
+          </argument>
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_meoz7yN0EeaOwJ5v1OdJaw">
+            <language>java</language>
+            <body>vista.getContrasenia()</body>
+          </argument>
+        </message>
+        <message xmi:id="_meoz8CN0EeaOwJ5v1OdJaw" name="log" receiveEvent="_meozxSN0EeaOwJ5v1OdJaw" sendEvent="_meozxCN0EeaOwJ5v1OdJaw">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_meoz8SN0EeaOwJ5v1OdJaw" name="user" instance="_meo0FSN0EeaOwJ5v1OdJaw"/>
+        </message>
+        <message xmi:id="_meoz8iN0EeaOwJ5v1OdJaw" name="log" messageSort="reply" receiveEvent="_meozyCN0EeaOwJ5v1OdJaw" sendEvent="_meozxyN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz8yN0EeaOwJ5v1OdJaw" name="ocultarUltimaVista" receiveEvent="_meozyiN0EeaOwJ5v1OdJaw" sendEvent="_meozySN0EeaOwJ5v1OdJaw" connector="_meo0BCN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz9CN0EeaOwJ5v1OdJaw" name="ocultarUltimaVista" messageSort="reply" receiveEvent="_meozzSN0EeaOwJ5v1OdJaw" sendEvent="_meozzCN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz9SN0EeaOwJ5v1OdJaw" name="vistaActividad" receiveEvent="_meozzyN0EeaOwJ5v1OdJaw" sendEvent="_meozziN0EeaOwJ5v1OdJaw" connector="_meo0BCN0EeaOwJ5v1OdJaw">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_meoz9iN0EeaOwJ5v1OdJaw" name="this" instance="_meo0KSN0EeaOwJ5v1OdJaw"/>
+        </message>
+        <message xmi:id="_meoz9yN0EeaOwJ5v1OdJaw" name="vistaActividad" messageSort="reply" receiveEvent="_meoz0iN0EeaOwJ5v1OdJaw" sendEvent="_meoz0SN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz-CN0EeaOwJ5v1OdJaw" name="mostrarVista" receiveEvent="_meoz1CN0EeaOwJ5v1OdJaw" sendEvent="_meoz0yN0EeaOwJ5v1OdJaw" connector="_meo0BCN0EeaOwJ5v1OdJaw">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_meoz-SN0EeaOwJ5v1OdJaw" name="vista2" instance="_meo0HSN0EeaOwJ5v1OdJaw"/>
+        </message>
+        <message xmi:id="_meoz-iN0EeaOwJ5v1OdJaw" name="mostrarVista" messageSort="reply" receiveEvent="_meoz1yN0EeaOwJ5v1OdJaw" sendEvent="_meoz1iN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz-yN0EeaOwJ5v1OdJaw" messageSort="deleteMessage" receiveEvent="_meoz2SN0EeaOwJ5v1OdJaw" sendEvent="_meoz2CN0EeaOwJ5v1OdJaw" connector="_meo0CiN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz_CN0EeaOwJ5v1OdJaw" messageSort="deleteMessage" receiveEvent="_meoz3iN0EeaOwJ5v1OdJaw" sendEvent="_meoz3SN0EeaOwJ5v1OdJaw" connector="_meo0ByN0EeaOwJ5v1OdJaw"/>
+        <message xmi:id="_meoz_SN0EeaOwJ5v1OdJaw" name="inicioSesion" messageSort="reply" receiveEvent="_meoz4SN0EeaOwJ5v1OdJaw" sendEvent="_meoz3yN0EeaOwJ5v1OdJaw"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_meoz_iN0EeaOwJ5v1OdJaw" name="self">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_meoz_yN0EeaOwJ5v1OdJaw" name="vista" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaLoginUsuario%5Bjcu%5Ename=VistaLoginUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_meo0ACN0EeaOwJ5v1OdJaw" name="this" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_meo0ASN0EeaOwJ5v1OdJaw" name="user" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferID%5Bjcu%5Ename=TransferID.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_meo0AiN0EeaOwJ5v1OdJaw" name="vista2" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaActividad%5Bjcu%5Ename=VistaActividad.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_meo0AyN0EeaOwJ5v1OdJaw" name="this" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedConnector xmi:id="_meo0BCN0EeaOwJ5v1OdJaw">
+        <end xmi:id="_meo0BSN0EeaOwJ5v1OdJaw" role="_meoz_iN0EeaOwJ5v1OdJaw"/>
+        <end xmi:id="_meo0BiN0EeaOwJ5v1OdJaw">
+          <role xmi:type="uml:Property" href="mmi:///#jfield%5Ename=factoria%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:id="_meo0ByN0EeaOwJ5v1OdJaw">
+        <end xmi:id="_meo0CCN0EeaOwJ5v1OdJaw" role="_meoz_iN0EeaOwJ5v1OdJaw"/>
+        <end xmi:id="_meo0CSN0EeaOwJ5v1OdJaw" role="_meoz_yN0EeaOwJ5v1OdJaw"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_meo0CiN0EeaOwJ5v1OdJaw">
+        <end xmi:id="_meo0CyN0EeaOwJ5v1OdJaw" role="_meoz_iN0EeaOwJ5v1OdJaw"/>
+        <end xmi:id="_meo0DCN0EeaOwJ5v1OdJaw" role="_meo0ASN0EeaOwJ5v1OdJaw"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_meo0DSN0EeaOwJ5v1OdJaw">
+        <end xmi:id="_meo0DiN0EeaOwJ5v1OdJaw" role="_meoz_iN0EeaOwJ5v1OdJaw"/>
+        <end xmi:id="_meo0DyN0EeaOwJ5v1OdJaw">
+          <role xmi:type="uml:Property" href="mmi:///#jfield%5Ename=servicioAplicacionUsuarios%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </end>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_meo0ECN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=getContrasenia%5Esign=()QString;%5Bjsrctype%5Ename=VistaLoginUsuario%5Bjcu%5Ename=VistaLoginUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0ESN0EeaOwJ5v1OdJaw"/>
+    <packagedElement xmi:type="uml:CreationEvent" xmi:id="_meo0EiN0EeaOwJ5v1OdJaw"/>
+    <packagedElement xmi:type="uml:DestructionEvent" xmi:id="_meo0EyN0EeaOwJ5v1OdJaw"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0FCN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=inicioSesion%5Esign=()V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_meo0FSN0EeaOwJ5v1OdJaw" name="TransferID">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferID%5Bjcu%5Ename=TransferID.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0FiN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=getContrasenia%5Esign=()QString;%5Bjsrctype%5Ename=VistaLoginUsuario%5Bjcu%5Ename=VistaLoginUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_meo0FyN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=vistaActividad%5Esign=(QVistaActividadListener;)QVistaActividad;%5Bjsrctype%5Ename=FactoriaVistasUsuario%5Bjcu%5Ename=FactoriaVistasUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0GCN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=ocultarUltimaVista%5Esign=()V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_meo0GSN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=ocultarUltimaVista%5Esign=()V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0GiN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=TransferID%5Esign=(QString;QString;)V%5Bjsrctype%5Ename=TransferID%5Bjcu%5Ename=TransferID.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_meo0GyN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=log%5Esign=(QTransferID;)V%5Bjsrctype%5Ename=UsuariosImp%5Bjcu%5Ename=UsuariosImp.java%5Bjpack%5Ename=usuario.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0HCN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=vistaLoginUsuario%5Esign=(QVistaLoginUsuarioListener;)QVistaLoginUsuario;%5Bjsrctype%5Ename=FactoriaVistasUsuario%5Bjcu%5Ename=FactoriaVistasUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_meo0HSN0EeaOwJ5v1OdJaw" name="VistaActividad">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaActividad%5Bjcu%5Ename=VistaActividad.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_meo0HiN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=getNombre%5Esign=()QString;%5Bjsrctype%5Ename=VistaLoginUsuario%5Bjcu%5Ename=VistaLoginUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DestructionEvent" xmi:id="_meo0HyN0EeaOwJ5v1OdJaw"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_meo0ICN0EeaOwJ5v1OdJaw" name="ControladorUsuario">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0ISN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=getNombre%5Esign=()QString;%5Bjsrctype%5Ename=VistaLoginUsuario%5Bjcu%5Ename=VistaLoginUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0IiN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=log%5Esign=(QTransferID;)V%5Bjsrctype%5Ename=UsuariosImp%5Bjcu%5Ename=UsuariosImp.java%5Bjpack%5Ename=usuario.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0IyN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=mostrarVista%5Esign=(QVistaGenerica;)V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_meo0JCN0EeaOwJ5v1OdJaw" name="VistaLoginUsuario">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaLoginUsuario%5Bjcu%5Ename=VistaLoginUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_meo0JSN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=mostrarVista%5Esign=(QVistaGenerica;)V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_meo0JiN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=inicioSesion%5Esign=()V%5Bjsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_meo0JyN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=vistaLoginUsuario%5Esign=(QVistaLoginUsuarioListener;)QVistaLoginUsuario;%5Bjsrctype%5Ename=FactoriaVistasUsuario%5Bjcu%5Ename=FactoriaVistasUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0KCN0EeaOwJ5v1OdJaw"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_meo0KSN0EeaOwJ5v1OdJaw" name="ControladorUsuario">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_meo0KiN0EeaOwJ5v1OdJaw">
+      <operation href="mmi:///#jmethod%5Ename=vistaActividad%5Esign=(QVistaActividadListener;)QVistaActividad;%5Bjsrctype%5Ename=FactoriaVistasUsuario%5Bjcu%5Ename=FactoriaVistasUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>
