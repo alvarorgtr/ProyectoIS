@@ -2,7 +2,7 @@ package usuario.capadepresentacion.vista;
 
 import empleado.capadepresentacion.vista.VistaGenerica;
 
-public class VistaEliminarUsuario implements VistaGenerica{
+public class VistaEliminarUsuario implements VistaGenerica {
 
 	VistaEliminarUsuarioListener listener;
 	

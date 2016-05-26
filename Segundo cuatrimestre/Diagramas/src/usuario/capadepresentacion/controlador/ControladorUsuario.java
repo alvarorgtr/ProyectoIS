@@ -89,7 +89,6 @@ public class ControladorUsuario implements VistaActividadListener,
 		TransferNombre nom = new TransferNombre(nombre);
 		Usuario usuarioAEliminar = servicioAplicacionUsuarios
 				.consultarUsuario(nom);
-
 		if (servicioAplicacionUsuarios.comprobarPermiso(
 				TipoPermiso.permisoSuperior(usuarioAEliminar.getTipoPermiso()),
 				usuarioAEliminar.getTipoFacultad())) {
