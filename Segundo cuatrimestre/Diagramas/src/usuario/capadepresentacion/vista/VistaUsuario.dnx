@@ -71,6 +71,18 @@
     <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ControladorUsuario%5Bjcu%5Ename=ControladorUsuario.java%5Bjpack%5Ename=usuario.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nAergSNrEeapPetiFpSHbQ" x="528" y="2772"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_LO8BwCNsEeapPetiFpSHbQ" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>En el siguiente diagrama de Vista de Usuarios se ha usado el patron de MCV (Modelo Vista Controlador).&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_LO-eACNsEeapPetiFpSHbQ" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_LO_FECNsEeapPetiFpSHbQ" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_LO8BwSNsEeapPetiFpSHbQ"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_LO8BwiNsEeapPetiFpSHbQ"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LO8BwyNsEeapPetiFpSHbQ" x="8184" y="2112" width="6985" height="1692"/>
+  </children>
   <element xsi:nil="true"/>
   <edges xmi:type="umlnotation:UMLConnector" xmi:id="_hEgcUCNrEeapPetiFpSHbQ" source="_hBEGwCNrEeapPetiFpSHbQ" target="_Ft5moB6AEeaaoJ72tJeb_w" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
     <children xmi:type="notation:DecorationNode" xmi:id="_hEhDYCNrEeapPetiFpSHbQ" type="NameLabel">
