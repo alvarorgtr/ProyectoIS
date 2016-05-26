@@ -148,7 +148,7 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	}
 
 	@Override
-	public void eliminarEmpleadoPulsado(int idEmpleado) {
+	public void eliminarEmpleado(int idEmpleado) {
 		TransferInt transfer = new TransferInt(idEmpleado);
 		servicioAplicacionEmpleado.eliminarEmpleado(transfer);
 		ocultarUltimaVista();
