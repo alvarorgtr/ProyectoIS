@@ -157,7 +157,6 @@ public class ControladorUsuario implements VistaActividadListener,
 		}
 	}
 
-	@Override
 	public void logout() {
 		for (int i = 0; i < lista.size(); i++)
 			ocultarUltimaVista();
