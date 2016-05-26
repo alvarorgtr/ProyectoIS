@@ -786,7 +786,7 @@
       <ownedAttribute xmi:id="_qp_8cSNWEeaYJYMGZANknQ" name="Propiedad2">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaFichaEmpleado%5Bjcu%5Ename=VistaFichaEmpleado.java%5Bjpack%5Ename=empleado.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_xiTRACNWEeaYJYMGZANknQ" name="Actor:"/>
+      <ownedAttribute xmi:id="_xiTRACNWEeaYJYMGZANknQ" name="Actor"/>
       <ownedConnector xmi:id="__cSYDCMPEea7bPfBZt07oQ">
         <end xmi:id="__cSYDSMPEea7bPfBZt07oQ">
           <role xmi:type="uml:Parameter" href="mmi:///#_BGbUlyMHEea7bPfBZt07oQ"/>
