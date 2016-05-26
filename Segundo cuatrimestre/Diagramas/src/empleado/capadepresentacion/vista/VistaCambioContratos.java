@@ -28,7 +28,8 @@ public abstract class VistaCambioContratos implements VistaGenerica {
 	}
 	
 	public void contratoCambiado() {
-		listener.contratoCambiado(empleado, leerNuevoContrato());
+		Contrato nuevoContrato = leerNuevoContrato();
+		listener.contratoCambiado(empleado, nuevoContrato);
 	}
 	
 	protected abstract void actualizarInformacion();
