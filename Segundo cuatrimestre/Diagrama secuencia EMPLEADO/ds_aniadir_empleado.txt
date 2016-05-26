@@ -1,0 +1,9 @@
+El siguiente diagrama de secuencias describe el caso de uso correspondiente a añadir un nuevo empleado a la base de datos de empleado. 
+El actor o usuario que está ejecutando la aplicación, tendra en su consola o pantalla, la vista que corresponde con la de Vista de añadido de empleado, 
+tal y como se puede apreciar en el diagrama. Posteriormente el actor deberá introducir los nuevos datos necesarios para crear el nuevo empleado como el nombre,
+apellidos, contrato, curriculum, etc... Con los datos del nuevo empleado ya introducidos en el sistema, se comenzará el proceso interno de la creación de ese nuevo
+empleado. Para empezar el sistema obtendra los datos necesarios de usuario por medio de un DAO de Usuario que accederá a la base de datos de usuario obteniendo el tipo de permiso y la facultad.
+Con esos datos obtenidos el sistema comprobará si el permiso coincide con los permisos que necesita dicho empleado es decir si el empleado es de una facultad concreta, 
+el usuario deberá serlo también. De aqui surgen dos posibilidades, la primera, el usuario no tiene los permisos correspondientes por lo que el sistema manda un mensaje de error por pantalla,
+elimina por completo la acción que estaba realizando y recupera la pantalla original antes de comenzar dicha operación; y la segunda, el usuario si posee dichos permisos, entonces el sistema encapsulara
+la información del nuevo empleado en un objeto de transferencia que será entregado al DAO de empleado para crear el empleado en la base de datos. Por ultimo el sistema 
