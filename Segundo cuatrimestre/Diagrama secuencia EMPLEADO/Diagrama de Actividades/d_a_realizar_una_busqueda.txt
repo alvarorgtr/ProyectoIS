@@ -1,0 +1,5 @@
+En el diagrama de actividades siguiente corresponde con el caso de uso de REALIZAR UNA BUSQUEDA.
+El sistema acto seguido de que un usuario haya seleccionado la opción de realizar una busqeuda el sistema le pide al usuario,
+que introduzca el parametro de busqueda porque deseara buscar. Entonces el usuario escribe dicho dato y el sistema lo recibe y 
+comprueba si el campo que ha solicitado es correcto.Si no mensaje de error y acaba la ejecución de esta tarea, pero si es correcto se comprueba si hay conexión de la base de datos y si no se consigue conectar con la base de datos,
+se mostrará un mensaje de error y finaliza la ejecución. De ser la conexión correcta se comienza a realizar la busqueda y en este caso si se encuentra algún dato, la busqueda habrá tenido éxito sino habrá sido fallida y mostrará un mensaje de error de busqueda fallida. 
