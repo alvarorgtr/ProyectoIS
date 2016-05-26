@@ -48,4 +48,8 @@ public abstract class VistaFichaEmpleado implements VistaGenerica {
 	}
 	
 	protected abstract void actualizarInformacion();
+
+	public void empleadoSeleccionado() {
+			return;
+		}
 }
