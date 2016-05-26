@@ -373,7 +373,7 @@
             <guard xmi:id="_iDpUcCLDEeaEiJjOFCmoeQ">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_iDpUcSLDEeaEiJjOFCmoeQ">
                 <language></language>
-                <body></body>
+                <body>else</body>
               </specification>
             </guard>
           </operand>
