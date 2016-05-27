@@ -1,10 +1,11 @@
 package usuario.capadenegocio.logica;
 
-import usuario.capadenegocio.reglas.TipoFacultad;
-import usuario.capadenegocio.reglas.TipoPermiso;
-import usuario.capadenegocio.reglas.Usuario;
+import usuario.capadenegocio.transferencia.TransferBoolean;
+import usuario.capadenegocio.transferencia.TransferContrasenia;
+import usuario.capadenegocio.transferencia.TransferFacultad;
 import usuario.capadenegocio.transferencia.TransferID;
 import usuario.capadenegocio.transferencia.TransferNombre;
+import usuario.capadenegocio.transferencia.TransferPermiso;
 import usuario.capadenegocio.transferencia.TransferUsuario;
 import empleado.capadenegocio.transferencia.TransferPermisos;
 
@@ -16,20 +17,20 @@ public interface Usuarios {
 		
 	public void log(TransferID us);
 	
-	public boolean userYaExiste(String nombre);
+	public TransferBoolean userYaExiste(TransferNombre nombre);
 	
-	public boolean comprobarContrasenia(String nombre, String contra);
+	public TransferBoolean comprobarContrasenia(TransferNombre nombre, TransferContrasenia contra);
 	
-	public boolean comprobarPermiso(TipoPermiso permisoNecesario, TipoFacultad facultad);
+	public TransferBoolean comprobarPermiso(TransferPermiso permisoNecesario, TransferFacultad facultad);
 	
-	public boolean validarDatos();
+	public TransferBoolean validarDatos();
 	
-	public boolean datosRellenos();
+	public TransferBoolean datosRellenos();
 	
-	public boolean conexionBaseDatos();
+	public TransferBoolean conexionBaseDatos();
 	
 	public TransferPermisos permisoUsuarioActual();
 	
-	public Usuario consultarUsuario(TransferNombre nom);
+	public TransferUsuario consultarUsuario(TransferNombre nom);
 
 }

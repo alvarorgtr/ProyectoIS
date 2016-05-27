@@ -773,14 +773,14 @@
         <message xmi:id="_PtpAsSN3EeanKPBPqQsGzw" name="infoNuevoUser" messageSort="reply" receiveEvent="_PtpnwCN3EeanKPBPqQsGzw" sendEvent="_PtpAsCN3EeanKPBPqQsGzw" connector="_PtpnwSN3EeanKPBPqQsGzw"/>
         <message xmi:id="_Wq674CN3EeanKPBPqQsGzw" name="aniadir" receiveEvent="_Wq8KACN3EeanKPBPqQsGzw" sendEvent="_Wq7i8CN3EeanKPBPqQsGzw" connector="_Wq9YISN3EeanKPBPqQsGzw"/>
         <message xmi:id="_Wq8xESN3EeanKPBPqQsGzw" name="aniadir" messageSort="reply" receiveEvent="_Wq9YICN3EeanKPBPqQsGzw" sendEvent="_Wq8xECN3EeanKPBPqQsGzw" connector="_Wq9YISN3EeanKPBPqQsGzw"/>
-        <message xmi:id="_jneR4CN3EeanKPBPqQsGzw" name="validarDatos" receiveEvent="_jne48CN3EeanKPBPqQsGzw" sendEvent="_jneR4SN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
-        <message xmi:id="_jnfgASN3EeanKPBPqQsGzw" name="validarDatos" messageSort="reply" receiveEvent="_jnfgAiN3EeanKPBPqQsGzw" sendEvent="_jnfgACN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
-        <message xmi:id="_ntCZECN3EeanKPBPqQsGzw" name="datosRellenos" receiveEvent="_ntDAICN3EeanKPBPqQsGzw" sendEvent="_ntCZESN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
-        <message xmi:id="_ntDnMSN3EeanKPBPqQsGzw" name="datosRellenos" messageSort="reply" receiveEvent="_ntEOQCN3EeanKPBPqQsGzw" sendEvent="_ntDnMCN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
-        <message xmi:id="_vRKR0CN3EeanKPBPqQsGzw" name="userYaExiste" receiveEvent="_vRLf8CN3EeanKPBPqQsGzw" sendEvent="_vRK44CN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
-        <message xmi:id="_vRMHACN3EeanKPBPqQsGzw" name="userYaExiste" messageSort="reply" receiveEvent="_vRMHASN3EeanKPBPqQsGzw" sendEvent="_vRLf8iN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
-        <message xmi:id="_0Y610CN3EeanKPBPqQsGzw" name="comprobarPermiso" receiveEvent="_0Y7c4SN3EeanKPBPqQsGzw" sendEvent="_0Y7c4CN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
-        <message xmi:id="_0Y8D8SN3EeanKPBPqQsGzw" name="comprobarPermiso" messageSort="reply" receiveEvent="_0Y8D8iN3EeanKPBPqQsGzw" sendEvent="_0Y8D8CN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
+        <message xmi:id="_jneR4CN3EeanKPBPqQsGzw" name="\Sin especificar\" receiveEvent="_jne48CN3EeanKPBPqQsGzw" sendEvent="_jneR4SN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
+        <message xmi:id="_jnfgASN3EeanKPBPqQsGzw" name="\Sin especificar\" messageSort="reply" receiveEvent="_jnfgAiN3EeanKPBPqQsGzw" sendEvent="_jnfgACN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
+        <message xmi:id="_ntCZECN3EeanKPBPqQsGzw" name="\Sin especificar\" receiveEvent="_ntDAICN3EeanKPBPqQsGzw" sendEvent="_ntCZESN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
+        <message xmi:id="_ntDnMSN3EeanKPBPqQsGzw" name="\Sin especificar\" messageSort="reply" receiveEvent="_ntEOQCN3EeanKPBPqQsGzw" sendEvent="_ntDnMCN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
+        <message xmi:id="_vRKR0CN3EeanKPBPqQsGzw" name="\Sin especificar\" receiveEvent="_vRLf8CN3EeanKPBPqQsGzw" sendEvent="_vRK44CN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
+        <message xmi:id="_vRMHACN3EeanKPBPqQsGzw" name="\Sin especificar\" messageSort="reply" receiveEvent="_vRMHASN3EeanKPBPqQsGzw" sendEvent="_vRLf8iN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
+        <message xmi:id="_0Y610CN3EeanKPBPqQsGzw" name="\Sin especificar\" receiveEvent="_0Y7c4SN3EeanKPBPqQsGzw" sendEvent="_0Y7c4CN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
+        <message xmi:id="_0Y8D8SN3EeanKPBPqQsGzw" name="\Sin especificar\" messageSort="reply" receiveEvent="_0Y8D8iN3EeanKPBPqQsGzw" sendEvent="_0Y8D8CN3EeanKPBPqQsGzw" connector="_8dEu8iN2EeanKPBPqQsGzw"/>
         <message xmi:id="_CiU5ICN7EeaYEIcjE40z0w" name="getNombre" receiveEvent="_CiWHQCN7EeaYEIcjE40z0w" sendEvent="_CiVgMCN7EeaYEIcjE40z0w" connector="_CiXVYCN7EeaYEIcjE40z0w"/>
         <message xmi:id="_CiWuUCN7EeaYEIcjE40z0w" name="getNombre" messageSort="reply" receiveEvent="_CiWuUSN7EeaYEIcjE40z0w" sendEvent="_CiWHQiN7EeaYEIcjE40z0w" connector="_CiXVYCN7EeaYEIcjE40z0w"/>
         <message xmi:id="_Y1QIoCN7EeaYEIcjE40z0w" name="permisoSuperior" receiveEvent="_Y1RWwCN7EeaYEIcjE40z0w" sendEvent="_Y1QvsCN7EeaYEIcjE40z0w" connector="_Y1TL8CN7EeaYEIcjE40z0w"/>

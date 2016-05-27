@@ -10,8 +10,11 @@ import usuario.capadenegocio.reglas.Conserje;
 import usuario.capadenegocio.reglas.Memento;
 import usuario.capadenegocio.reglas.TipoPermiso;
 import usuario.capadenegocio.reglas.Usuario;
+import usuario.capadenegocio.transferencia.TransferContrasenia;
+import usuario.capadenegocio.transferencia.TransferFacultad;
 import usuario.capadenegocio.transferencia.TransferID;
 import usuario.capadenegocio.transferencia.TransferNombre;
+import usuario.capadenegocio.transferencia.TransferPermiso;
 import usuario.capadenegocio.transferencia.TransferUsuario;
 import usuario.capadepresentacion.vista.VistaActividad;
 import usuario.capadepresentacion.vista.VistaActividadListener;
@@ -48,8 +51,11 @@ public class ControladorUsuario implements VistaActividadListener,
 	public void inicioSesion() {
 		VistaLoginUsuario vista = factoria.vistaLoginUsuario(this);
 		mostrarVista(vista);
-		if (servicioAplicacionUsuarios.comprobarContrasenia(vista.getNombre(),
-				vista.getContrasenia())) {
+		TransferNombre nombre = new TransferNombre(vista.getNombre());
+		TransferContrasenia contra = new TransferContrasenia(
+				vista.getContrasenia());
+		if (servicioAplicacionUsuarios.comprobarContrasenia(nombre, contra)
+				.getBool()) {
 			TransferID user = new TransferID(vista.getNombre(),
 					vista.getContrasenia());
 			servicioAplicacionUsuarios.log(user);
@@ -63,14 +69,15 @@ public class ControladorUsuario implements VistaActividadListener,
 
 	@Override
 	public void aniadir(Usuario us) {
-		if (servicioAplicacionUsuarios.validarDatos()
-				&& servicioAplicacionUsuarios.datosRellenos()) {
-			if (!servicioAplicacionUsuarios.userYaExiste(us.getNombre())
-					&& servicioAplicacionUsuarios.comprobarPermiso(
-							TipoPermiso.permisoSuperior(us.getTipoPermiso()),
-							us.getTipoFacultad())) {
+		if (servicioAplicacionUsuarios.validarDatos().getBool()
+				&& servicioAplicacionUsuarios.datosRellenos().getBool()) {
+			TransferNombre nom = new TransferNombre(us.getNombre());
+			TransferPermiso perm = new TransferPermiso(TipoPermiso.permisoSuperior(us.getTipoPermiso()));
+			TransferFacultad fac = new TransferFacultad(us.getTipoFacultad());
+			if (!servicioAplicacionUsuarios.userYaExiste(nom).getBool()
+					&& servicioAplicacionUsuarios.comprobarPermiso(perm, fac).getBool()) {
 				TransferUsuario user = new TransferUsuario(us);
-				if (servicioAplicacionUsuarios.conexionBaseDatos()) {
+				if (servicioAplicacionUsuarios.conexionBaseDatos().getBool()) {
 					servicioAplicacionUsuarios.aniadirUsuario(user);
 					ocultarUltimaVista();
 				} else {
@@ -87,12 +94,13 @@ public class ControladorUsuario implements VistaActividadListener,
 	@Override
 	public void eliminar(String nombre) {
 		TransferNombre nom = new TransferNombre(nombre);
-		Usuario usuarioAEliminar = servicioAplicacionUsuarios
-				.consultarUsuario(nom);
-		if (servicioAplicacionUsuarios.comprobarPermiso(
-				TipoPermiso.permisoSuperior(usuarioAEliminar.getTipoPermiso()),
-				usuarioAEliminar.getTipoFacultad())) {
-
+		Usuario usuarioAEliminar = servicioAplicacionUsuarios.consultarUsuario(
+				nom).getUser();
+		TransferPermiso perm = new TransferPermiso(
+				TipoPermiso.permisoSuperior(usuarioAEliminar.getTipoPermiso()));
+		TransferFacultad fac = new TransferFacultad(
+				usuarioAEliminar.getTipoFacultad());
+		if (servicioAplicacionUsuarios.comprobarPermiso(perm, fac).getBool()) {
 			cons.setMemento(new Memento(usuarioAEliminar));
 			servicioAplicacionUsuarios.eliminarUsuario(nom);
 			if (!estasSeguro()) {
