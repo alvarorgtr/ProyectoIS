@@ -79,7 +79,7 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_b9NXKiLCEeayNu_cC-U2UQ" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_b9NXKyLCEeayNu_cC-U2UQ" type="Name"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_b9NXLCLCEeayNu_cC-U2UQ" type="Parent"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9NXLSLCEeayNu_cC-U2UQ" x="793" y="263"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9NXLSLCEeayNu_cC-U2UQ" x="-32" y="713" width="8094" height="21564"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_43FFcCLCEeaEiJjOFCmoeQ" element="_tJ6TsSLCEeayNu_cC-U2UQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_43FFcSLCEeaEiJjOFCmoeQ" x="-1" y="1322" height="1322"/>
@@ -118,7 +118,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_puPskSNbEeaYJYMGZANknQ"/>
             </children>
           </children>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_puN3YSNbEeaYJYMGZANknQ" x="22916" y="767" width="48031" height="5240"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_puN3YSNbEeaYJYMGZANknQ" x="20842" y="847" width="31760" height="5240"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_X9c-ICOgEea9fLFbFn4VKw" element="_4n5BYCNbEeaYJYMGZANknQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X9c-ISOgEea9fLFbFn4VKw" x="-1" y="1426" height="1426"/>
@@ -143,7 +143,7 @@
         </children>
       </children>
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_oljpxCLAEeayNu_cC-U2UQ" type="Name"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oljpxSLAEeayNu_cC-U2UQ" x="793" y="793"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oljpxSLAEeayNu_cC-U2UQ" width="71412" height="25902"/>
     </children>
     <edges xmi:type="umlnotation:UMLConnector" xmi:id="_DWU9cCLBEeayNu_cC-U2UQ" element="_olms-yLAEeayNu_cC-U2UQ" source="_DVi6UCLBEeayNu_cC-U2UQ" target="_DVi6UCLBEeayNu_cC-U2UQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
       <children xmi:type="notation:DecorationNode" xmi:id="_DWVkgCLBEeayNu_cC-U2UQ" type="MessageNameLabel">
