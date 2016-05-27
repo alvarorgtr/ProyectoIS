@@ -22,31 +22,33 @@ public class ImplementacionEmpleados implements Empleados {
 	// SECRETARIO_PAS, SECRETARIO_PDI
 	@Override
 	public void aniadirEmpleado(TransferEmpleado transfer) {
-		if (servicioAplicacionUsuarios.validarDatos().getBool()
-				&& servicioAplicacionUsuarios.datosRellenos().getBool()) {
-			TipoPermiso necesario = transfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
-					: TipoPermiso.SECRETARIO_PDI;
-			TransferPermiso perm = new TransferPermiso(necesario);
-			TransferFacultad fac = new TransferFacultad(transfer.getEmpleado().getFacultad());
-			boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(perm, fac).getBool();
-			if (permiso && servicioAplicacionUsuarios.conexionBaseDatos().getBool()) {
-				DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
-				DAONegocio.insertarEmpleado(transfer);
-			} else {
-				// Error
-			}
+		TipoPermiso necesario = transfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
+				: TipoPermiso.SECRETARIO_PDI;
+		TransferPermiso perm = new TransferPermiso(necesario);
+		TransferFacultad fac = new TransferFacultad(transfer.getEmpleado()
+				.getFacultad());
+		boolean permiso = servicioAplicacionUsuarios
+				.comprobarPermiso(perm, fac).getBool();
+		if (permiso && servicioAplicacionUsuarios.conexionBaseDatos().getBool()) {
+			DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
+			DAONegocio.insertarEmpleado(transfer);
+		} else {
+			// Error
 		}
 	}
 
 	@Override
 	public TransferEmpleado perfilCompletoEmpleado(TransferInt transfer) {
 		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
-		TransferEmpleado empleadoTransfer = DAONegocio.consultarEmpleado(transfer);
+		TransferEmpleado empleadoTransfer = DAONegocio
+				.consultarEmpleado(transfer);
 		TipoPermiso necesario = empleadoTransfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
 				: TipoPermiso.SECRETARIO_PDI;
 		TransferPermiso perm = new TransferPermiso(necesario);
-		TransferFacultad fac = new TransferFacultad(empleadoTransfer.getEmpleado().getFacultad());
-		boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(perm, fac).getBool();
+		TransferFacultad fac = new TransferFacultad(empleadoTransfer
+				.getEmpleado().getFacultad());
+		boolean permiso = servicioAplicacionUsuarios
+				.comprobarPermiso(perm, fac).getBool();
 		if (permiso) {
 			return empleadoTransfer;
 		} else {
@@ -75,7 +77,8 @@ public class ImplementacionEmpleados implements Empleados {
 				&& servicioAplicacionUsuarios.conexionBaseDatos().getBool()) {
 			DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
 			return DAONegocio.getListEmpleadoPorBusqueda(transfer);
-		} else return null;
+		} else
+			return null;
 	}
 
 	@Override
@@ -83,8 +86,10 @@ public class ImplementacionEmpleados implements Empleados {
 		TipoPermiso necesario = transfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
 				: TipoPermiso.SECRETARIO_PDI;
 		TransferPermiso perm = new TransferPermiso(necesario);
-		TransferFacultad fac = new TransferFacultad(transfer.getEmpleado().getFacultad());
-		boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(perm, fac).getBool();
+		TransferFacultad fac = new TransferFacultad(transfer.getEmpleado()
+				.getFacultad());
+		boolean permiso = servicioAplicacionUsuarios
+				.comprobarPermiso(perm, fac).getBool();
 		if (permiso) {
 			DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
 			DAONegocio.modificarEmpleado(transfer);
