@@ -1,8 +1,0 @@
-El siguiente diagrama de secuencias describe el caso de uso correspondiente a VER UNA FICHA DE EMPLEADO de la base de datos de empleado.
-La secuencia comienza con un actor o usuario llamando a empleadoSeleccionado que mostrara la VistaFichaEmpleado. A continuación la VistaFichaEmpleado obtendrá 
-del empleado seleccionado (del que solo se tiene nombre, apellidos e id) su id con el cual creará un TransferId para poder buscarlo en la base de datos.
-Después el DAOEmpleados obtendrá el empleado buscado con consultarEmpleado usando el TransferId como parámetro de busqueda, que lo usará para crear un TransferEmpleado del cual obtendra la facultad con getEmpleado primero y a posteriori getFacultad,
-para así poder comprobar los permisos del usuario haciendo uso de la función comprobarPermisos del servicioAplicación de la capa de negocio del subsistema de Usuario. 
-Si el usuario posee los permisos necesarios entonces el DAOEmpleado devolverá el valor correspondiente del empleado y sino el DAOEmpleados devolverá un valor vacío,
-por lo que si los posee el controlador lo obtendrá con getEmpleado y los mostrara en la VistaFichaEmpleado y de no ser así al no tener valor no mostrará nada excepto un mensaje de error. 
-Por último el ControladorEmpleado ocultará la vista volviendo así al vista de antes de comenzar la secuencia. 
