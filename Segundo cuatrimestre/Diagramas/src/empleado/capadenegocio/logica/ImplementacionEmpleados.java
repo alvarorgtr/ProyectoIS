@@ -38,8 +38,7 @@ public class ImplementacionEmpleados implements Empleados {
 	@Override
 	public TransferEmpleado perfilCompletoEmpleado(TransferInt transfer) {
 		DAOEmpleadosImp DAONegocio = DAOEmpleadosImp.getInstance();
-		TransferEmpleado empleadoTransfer = new TransferEmpleado(
-				DAONegocio.consultarEmpleado(transfer));
+		TransferEmpleado empleadoTransfer = DAONegocio.consultarEmpleado(transfer);
 		TipoPermiso necesario = empleadoTransfer.getEmpleado().isPAS() ? TipoPermiso.SECRETARIO_PAS
 				: TipoPermiso.SECRETARIO_PDI;
 		boolean permiso = servicioAplicacionUsuarios.comprobarPermiso(

@@ -1,6 +1,5 @@
 package empleado.capadeintegracion;
 
-import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadenegocio.transferencia.TransferBusqueda;
 import empleado.capadenegocio.transferencia.TransferEmpleado;
 import empleado.capadenegocio.transferencia.TransferInt;
@@ -22,15 +21,14 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 	}
 
 	@Override
-	public Empleado consultarEmpleado(TransferInt idEmpleado) {
+	public TransferEmpleado consultarEmpleado(TransferInt idEmpleado) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public boolean eliminarEmpleado(TransferInt idEmpleado) {
+	public void eliminarEmpleado(TransferInt idEmpleado) {
 		// TODO Auto-generated method stub
-		return false;
 	}
 
 	@Override
@@ -46,15 +44,13 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 	}
 
 	@Override
-	public boolean insertarEmpleado(TransferEmpleado empleado) {
+	public void insertarEmpleado(TransferEmpleado empleado) {
 		// TODO Auto-generated method stub
-		return false;
 	}
 
 	@Override
-	public boolean modificarEmpleado(TransferEmpleado empleado) {
+	public void modificarEmpleado(TransferEmpleado empleado) {
 		// TODO Auto-generated method stub
-		return false;
 	}
 
 	
