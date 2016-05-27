@@ -440,7 +440,7 @@
   </umlnotation:UMLDiagram>
   <uml:Package xmi:id="_9T1WQCMSEea7bPfBZt07oQ">
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_9T1WQSMSEea7bPfBZt07oQ" name="contratoCambiado" collaborationRole="_9T1WbiMSEea7bPfBZt07oQ _9T1WbyMSEea7bPfBZt07oQ">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_9T1WQiMSEea7bPfBZt07oQ" name="contratoCambiado" covered="_9T1WRiMSEea7bPfBZt07oQ _9T1WRyMSEea7bPfBZt07oQ _9T1WSCMSEea7bPfBZt07oQ _9T1WRSMSEea7bPfBZt07oQ">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_9T1WQiMSEea7bPfBZt07oQ" name="trasladoFacultad" covered="_9T1WRiMSEea7bPfBZt07oQ _9T1WRyMSEea7bPfBZt07oQ _9T1WSCMSEea7bPfBZt07oQ _9T1WRSMSEea7bPfBZt07oQ">
         <ownedConnector xmi:id="_AHn3FSMUEea7bPfBZt07oQ">
           <end xmi:id="_AHn3FiMUEea7bPfBZt07oQ" role="_xPF8kCMTEea7bPfBZt07oQ"/>
           <end xmi:id="_AHn3FyMUEea7bPfBZt07oQ">
