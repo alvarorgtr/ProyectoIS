@@ -1,0 +1,3 @@
+En el diagrama de actividades siguiente corresponde con el caso de uso de LOGIN.
+El sistema muestra la pantalla de inicio de sesión y le pide al usuario el nombre y la contraseña. El sistema recibe dichos datos y
+los comprueba con la ayuda de la base de datos. Si son correctos muestra la pantalla de selección de actividad de lo contrario muestra un mensaje de error y vuelve a la pantalla de inicio de sesión.
