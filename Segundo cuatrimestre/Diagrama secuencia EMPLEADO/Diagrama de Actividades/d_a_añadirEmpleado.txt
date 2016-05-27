@@ -1,0 +1,8 @@
+En el diagrama de actividades siguiente corresponde con el caso de uso de AÑADIR EMPLEADO.
+El sistema acto seguido de que un usuario haya seleccionado la opción de añadir un empleado el sistema le pide al usuario,
+que introduzca si desea que el empleado sea de PAS o de PDI. Entonces el usuario escribe dicho dato y el sistema lo recibe y 
+le pide los datos correspondientes a ese nuevo empleado. Inmediatamente el sistema recibe esos datos y comprueba si son correctos o no.
+Si no lo son mostrará un mensaje de error y finalizará esa tarea, pero si los datos si son correctos continua y comprueba que todos los campos esten rellenos,
+si no lo están mensaje de error y finalización, de estarlo continuará con otra comprobación mas. En esta, el sistema comprueba si el usuario existe o no,
+de no ser así mensaje de error y finalización, pero de existir se comprueba si hay conexión de la base de datos y finalmente si se consigue conectar con la base de datos, 
+esta misma creará el nuevo empleado.
