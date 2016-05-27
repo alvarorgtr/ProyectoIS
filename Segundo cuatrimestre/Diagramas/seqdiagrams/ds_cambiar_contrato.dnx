@@ -178,7 +178,7 @@
         </children>
       </children>
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_9Ty6LSMSEea7bPfBZt07oQ" type="Name"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Ty6LiMSEea7bPfBZt07oQ" width="95197" height="36349"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Ty6LiMSEea7bPfBZt07oQ" width="64617" height="34975"/>
     </children>
     <edges xmi:type="umlnotation:UMLConnector" xmi:id="_v85U4CMTEea7bPfBZt07oQ" element="_9T1WZSMSEea7bPfBZt07oQ" source="_v8jWoCMTEea7bPfBZt07oQ" target="_v8ly4yMTEea7bPfBZt07oQ" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
       <children xmi:type="notation:DecorationNode" xmi:id="_v85U4iMTEea7bPfBZt07oQ" type="MessageNameLabel">
