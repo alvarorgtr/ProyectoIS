@@ -1,4 +1,0 @@
-Este diagrama de actividades corresponde con el caso de uso de VER FICHA DE EMPLEADO.
-El sistema acto seguido de que un usuario haya seleccionado la opción de ver una ficha de un empleado, el sistema comprueba si los permisos del usuario son correctos.
-De no serlo se producirá un mensaje de error y se saldrá de la ejecución de la tarea pero de lo contrario el sistema pedirá la información del empleado a la base de datos.
-Si la base de datos no encuentra el empleado, fallo y mensaje de error en caso contrario el sistema mostrará o un empleado PAS o un empleado PDI.

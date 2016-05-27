@@ -1,8 +1,0 @@
-El siguiente diagrama de secuencias describe el caso de uso correspondiente a añadir un nuevo empleado independientemente si es de PDI o PAS a la base de datos de empleado.
-La secuencia comienza con la acción del actor o usuario llamando a la acción de crear un nuevo empleado. Se pedirá al usuario la información correspondiente al nuevo usuario,
-la cual sera encapsulada en un transfer empleado. Este transfer empleado lo obtendrá el ControladorEmpleado. Este controlador llamará a su método aniadirEmpleado, 
-el cual obtendra la facultad del trasnfer empleado mediante el metodo getFaculad el cual es posible gracias a haber obtenido el empleado completo con getEmpleado.
-Esta facultad es un dato el cual el serviciodeAplicaciónEmpleado de la capa de negocio necesita para llamar a comprobacionPermisos con dos argumentos uno de TipoPermiso y otro de la facultad,
-que determinará si el usuario posee los permisos necesarios para crearlo. En el caso de que el usuario si posea los permisos la capa de negocio mediante el servicio de aplicación le pedirá al DAO
-que inserte el nuevo empleado en la base de datos con su método insertarEmpleado, en caso contrario el ControladorEmpleado mostrara un mensaje de error y no se realizará la acción de 
-añadir empleado. Finalmente el ControladorEmpleado ocultará la vista de añadir empleado y se recuperará la vista anterior en la que comenzó.

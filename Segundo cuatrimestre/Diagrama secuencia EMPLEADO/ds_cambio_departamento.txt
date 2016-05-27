@@ -1,7 +1,0 @@
-El siguiente diagrama de secuencias describe el caso de uso correspondiente a cambiar el departamento de un empleado de PDI de la base de datos de empleado.
-La secuencia comienza con un actor o usuario llamando a cambioDepartamento que mostrara la VistaCambioDepartamento. A continuación la VistaCambioDepartemento solicitará al usuario
-el nuevo departamento al cual el empleado va a cambiar y llamará al ControladorEmpleado que modificara el departamento del objeto empleado del que se quiera cambiar con setDepartamento.
-Este ControladorEmpleado creará un nuevo TransferEmpleado que le pasará a la capa de negocio que mediante su clase ImplementaciónEmpleados obtendra la facultad del empleado primero con getEmpleado y luego con getFacultad, 
-para así poder comprobar los permisos del usuario haciendo uso de la función comprobarPermisos del servicioAplicación de la capa de negocio del subsistema de Usuario. 
-Si el usuario posee los permisos necesarios entonces el servicioAplicación de Empleado llamará al DAOEmpleados y modificará el empleado de la base de datos cambiando así el departamento del empleado.
-Por último el ControladorEmpleado ocultará la vista volviendo así al vista de antes de comenzar la secuencia. 
