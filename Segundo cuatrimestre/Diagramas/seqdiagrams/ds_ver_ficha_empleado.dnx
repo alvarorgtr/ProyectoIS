@@ -884,7 +884,7 @@
       <ownedAttribute xmi:id="_SfvatyMQEea7bPfBZt07oQ" name="empleadoTransfer" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_Sfx28CMQEea7bPfBZt07oQ" name="Copiar_1__synthetic$0" visibility="public">
+      <ownedAttribute xmi:id="_Sfx28CMQEea7bPfBZt07oQ" name="" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Empleado%5Bjcu%5Ename=Empleado.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_Sfx28SMQEea7bPfBZt07oQ" name="DAONegocio" visibility="public">
@@ -901,10 +901,10 @@
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaFichaEmpleado%5Bjcu%5Ename=VistaFichaEmpleado.java%5Bjpack%5Ename=empleado.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_xiTRACNWEeaYJYMGZANknQ" name="Actor"/>
-      <ownedAttribute xmi:id="_TV7qUCOpEeagfP-eRcQHeg" name="Propiedad2">
+      <ownedAttribute xmi:id="_TV7qUCOpEeagfP-eRcQHeg" name="transferPerm">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferPermiso%5Bjcu%5Ename=TransferPermiso.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_Tiv-UCOpEeagfP-eRcQHeg" name="Propiedad3">
+      <ownedAttribute xmi:id="_Tiv-UCOpEeagfP-eRcQHeg" name="transferFac">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferFacultad%5Bjcu%5Ename=TransferFacultad.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedConnector xmi:id="__cSYDCMPEea7bPfBZt07oQ">

@@ -509,10 +509,10 @@
       <ownedAttribute xmi:id="_A5DX8SOsEeaUacW2xfmCZw" name="DAONegocio" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_uUVHQCOlEearQeRi3UsUbA" name="Copiar_1_DAOEmpleadosImp" visibility="public">
+      <ownedAttribute xmi:id="_uUVHQCOlEearQeRi3UsUbA" name="DAOEmpleadosImp" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_uUVuUCOlEearQeRi3UsUbA" name="Copiar_1_DAONegocio" visibility="public">
+      <ownedAttribute xmi:id="_uUVuUCOlEearQeRi3UsUbA" name="DAOEmpleadosImp" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_uUWVYCOlEearQeRi3UsUbA" name="Copiar_2_self">

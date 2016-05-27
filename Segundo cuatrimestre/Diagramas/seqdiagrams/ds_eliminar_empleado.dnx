@@ -573,7 +573,7 @@
       <ownedAttribute xmi:id="_olmtACLAEeayNu_cC-U2UQ" name="transfer" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferInt%5Bjcu%5Ename=TransferInt.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_b9MJASLCEeayNu_cC-U2UQ" name="_synthetic$0" visibility="public">
+      <ownedAttribute xmi:id="_b9MJASLCEeayNu_cC-U2UQ" name="" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Empleado%5Bjcu%5Ename=Empleado.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_b9MJAiLCEeayNu_cC-U2UQ" name="servicioAplicacionUsuarios" visibility="private">
@@ -589,7 +589,7 @@
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_DpfjECNbEeaYJYMGZANknQ" name="Actor"/>
-      <ownedAttribute xmi:id="_E8-kMCNbEeaYJYMGZANknQ" name="Propiedad">
+      <ownedAttribute xmi:id="_E8-kMCNbEeaYJYMGZANknQ" name="vista">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaEliminarEmpleado%5Bjcu%5Ename=VistaEliminarEmpleado.java%5Bjpack%5Ename=empleado.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_8gpOQCOgEea9fLFbFn4VKw" name="Copiar_1_transfer" visibility="package">

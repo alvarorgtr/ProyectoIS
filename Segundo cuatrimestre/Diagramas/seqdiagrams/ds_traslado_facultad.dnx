@@ -749,7 +749,7 @@
       <ownedAttribute xmi:id="_HCDe4COeEeafyfaQhP9iOA" name="fac" visibility="public">
         <type xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=TipoFacultad%5Bjcu%5Ename=TipoFacultad.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Enumeration"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_HCDe4SOeEeafyfaQhP9iOA" name="Copiar_1_servicioAplicacionUsuarios" visibility="private">
+      <ownedAttribute xmi:id="_HCDe4SOeEeafyfaQhP9iOA" name="servicioAplicacionUsuarios" visibility="private">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=UsuariosImp%5Bjcu%5Ename=UsuariosImp.java%5Bjpack%5Ename=usuario.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_HCEF8COeEeafyfaQhP9iOA" name="_synthetic$1" visibility="public">

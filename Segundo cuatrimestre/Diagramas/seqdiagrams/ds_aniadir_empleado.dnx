@@ -160,7 +160,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G9xtziOcEeafyfaQhP9iOA"/>
             </children>
           </children>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G9xt0yOcEeafyfaQhP9iOA" x="21874" y="2600" width="78897" height="10075"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G9xt0yOcEeafyfaQhP9iOA" x="20921" y="2687" width="70853" height="10075"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_G9yU0COcEeafyfaQhP9iOA" element="_G9kSYCOcEeafyfaQhP9iOA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G9yU0SOcEeafyfaQhP9iOA" x="-1" y="1426"/>
@@ -176,7 +176,7 @@
         </children>
       </children>
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_oljpxCLAEeayNu_cC-U2UQ" type="Name"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oljpxSLAEeayNu_cC-U2UQ" width="103415" height="43175"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oljpxSLAEeayNu_cC-U2UQ" width="92381" height="38649"/>
     </children>
     <edges xmi:type="umlnotation:UMLConnector" xmi:id="_DWU9cCLBEeayNu_cC-U2UQ" element="_olms-yLAEeayNu_cC-U2UQ" source="_DVi6UCLBEeayNu_cC-U2UQ" target="_DVi6UCLBEeayNu_cC-U2UQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
       <children xmi:type="notation:DecorationNode" xmi:id="_DWVkgCLBEeayNu_cC-U2UQ" type="MessageNameLabel">
@@ -886,7 +886,7 @@
       <ownedAttribute xmi:id="_yKToACNdEeai0M3fgMJDSQ" name="Propiedad"/>
       <ownedAttribute xmi:id="_0lf4ECNdEeai0M3fgMJDSQ" name="Propiedad2"/>
       <ownedAttribute xmi:id="_2uT-sCNdEeai0M3fgMJDSQ" name="Actor"/>
-      <ownedAttribute xmi:id="_4SfuQSNdEeai0M3fgMJDSQ" name="Propiedad3">
+      <ownedAttribute xmi:id="_4SfuQSNdEeai0M3fgMJDSQ" name="vista">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaAniadirEmpleado%5Bjcu%5Ename=VistaAniadirEmpleado.java%5Bjpack%5Ename=empleado.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_aj7DYCObEeafyfaQhP9iOA" name="Copiar_1_self">
@@ -907,7 +907,7 @@
       <ownedAttribute xmi:id="_aj9foCObEeafyfaQhP9iOA" name="Copiar_1_DAONegocio" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_G9FKMCOcEeafyfaQhP9iOA" name="Copiar_1_DAOEmpleadosImp" visibility="public">
+      <ownedAttribute xmi:id="_G9FKMCOcEeafyfaQhP9iOA" name="DAOEmpleadosImp" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_G9FKMSOcEeafyfaQhP9iOA" name="Copiar_2_self">
@@ -916,22 +916,22 @@
       <ownedAttribute xmi:id="_G9FxQCOcEeafyfaQhP9iOA" name="Copiar_1_fac" visibility="public">
         <type xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=TipoFacultad%5Bjcu%5Ename=TipoFacultad.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Enumeration"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_G9FxQSOcEeafyfaQhP9iOA" name="Copiar_1_servicioAplicacionUsuarios" visibility="private">
+      <ownedAttribute xmi:id="_G9FxQSOcEeafyfaQhP9iOA" name="servicioAplicacionUsuarios" visibility="private">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=UsuariosImp%5Bjcu%5Ename=UsuariosImp.java%5Bjpack%5Ename=usuario.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_G9GYUCOcEeafyfaQhP9iOA" name="Copiar_1__synthetic$1" visibility="public">
+      <ownedAttribute xmi:id="_G9GYUCOcEeafyfaQhP9iOA" name="" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBoolean%5Bjcu%5Ename=TransferBoolean.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_G9GYUSOcEeafyfaQhP9iOA" name="Copiar_1__synthetic$0" visibility="public">
+      <ownedAttribute xmi:id="_G9GYUSOcEeafyfaQhP9iOA" name="" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Empleado%5Bjcu%5Ename=Empleado.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_G9G_YCOcEeafyfaQhP9iOA" name="Copiar_1_perm" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferPermiso%5Bjcu%5Ename=TransferPermiso.java%5Bjpack%5Ename=usuario.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_G9G_YSOcEeafyfaQhP9iOA" name="Copiar_2_DAONegocio" visibility="public">
+      <ownedAttribute xmi:id="_G9G_YSOcEeafyfaQhP9iOA" name="DAONegocio" visibility="public">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DAOEmpleadosImp%5Bjcu%5Ename=DAOEmpleadosImp.java%5Bjpack%5Ename=empleado.capadeintegracion%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_G9HmcCOcEeafyfaQhP9iOA" name="Copiar_1_transfer" visibility="package">
+      <ownedAttribute xmi:id="_G9HmcCOcEeafyfaQhP9iOA" name="transfer" visibility="package">
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferEmpleado%5Bjcu%5Ename=TransferEmpleado.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedConnector xmi:id="_olmtASLAEeayNu_cC-U2UQ">
