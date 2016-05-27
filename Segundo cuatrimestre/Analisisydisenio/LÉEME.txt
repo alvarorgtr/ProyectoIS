@@ -1,0 +1,3 @@
+Los archivos están exportados en la calidad permitida por el RSA y por Word. Todos (tanto de clases como de secuencias)
+se pueden consultar a máxima calidad en el proyecto de RSA incluido (en la carpeta "diagramas"). Nos disculpamos por
+las molestias que esto pueda causar.
