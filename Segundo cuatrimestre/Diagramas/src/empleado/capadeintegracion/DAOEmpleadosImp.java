@@ -27,9 +27,8 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 	}
 
 	@Override
-	public boolean eliminarEmpleado(TransferInt idEmpleado) {
+	public void eliminarEmpleado(TransferInt idEmpleado) {
 		// TODO Auto-generated method stub
-		return false;
 	}
 
 	@Override
@@ -45,15 +44,13 @@ public class DAOEmpleadosImp implements DAOEmpleados {
 	}
 
 	@Override
-	public boolean insertarEmpleado(TransferEmpleado empleado) {
+	public void insertarEmpleado(TransferEmpleado empleado) {
 		// TODO Auto-generated method stub
-		return false;
 	}
 
 	@Override
-	public boolean modificarEmpleado(TransferEmpleado empleado) {
+	public void modificarEmpleado(TransferEmpleado empleado) {
 		// TODO Auto-generated method stub
-		return false;
 	}
 
 	

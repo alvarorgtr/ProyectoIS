@@ -10,14 +10,14 @@ public interface DAOEmpleados {
 
 	public TransferEmpleado consultarEmpleado(TransferInt idEmpleado);
 
-	public boolean eliminarEmpleado(TransferInt idEmpleado);
+	public void eliminarEmpleado(TransferInt idEmpleado);
 
 	public TransferListEmpleados getListEmpleadoVista(TransferInt indice, TransferPermisos permisos);
 	
 	public TransferListEmpleados getListEmpleadoPorBusqueda(TransferBusqueda empleado);
 	
-	public boolean insertarEmpleado (TransferEmpleado empleado);
+	public void insertarEmpleado (TransferEmpleado empleado);
 	
-	public boolean modificarEmpleado (TransferEmpleado empleado);
+	public void modificarEmpleado (TransferEmpleado empleado);
 
 }
