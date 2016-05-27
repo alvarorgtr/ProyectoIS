@@ -5,11 +5,15 @@ import java.util.Stack;
 
 import usuario.capadenegocio.reglas.TipoFacultad;
 import empleado.capadenegocio.logica.ImplementacionEmpleados;
+import empleado.capadenegocio.reglas.AreaTrabajo;
 import empleado.capadenegocio.reglas.Contrato;
 import empleado.capadenegocio.reglas.Empleado;
 import empleado.capadenegocio.reglas.EmpleadoPDI;
 import empleado.capadenegocio.reglas.EmpleadoVista;
 import empleado.capadenegocio.reglas.TipoBaja;
+import empleado.capadenegocio.transferencia.TransferBusqueda;
+import empleado.capadenegocio.transferencia.TransferBusquedaPAS;
+import empleado.capadenegocio.transferencia.TransferBusquedaPDI;
 import empleado.capadenegocio.transferencia.TransferEmpleado;
 import empleado.capadenegocio.transferencia.TransferInt;
 import empleado.capadepresentacion.vista.VistaAniadirEmpleadoPAS;
@@ -37,26 +41,28 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		VistaEliminarEmpleadoListener, VistaEspecificarBajaListener,
 		VistaFichaEmpleadoListener, VistaListaEmpleadosListener,
 		VistaTrasladoFacultadListener, BotonRetrocesoListener {
-	
+
 	private ImplementacionEmpleados servicioAplicacionEmpleado;
 	private FactoriaVistas factoriaVistas;
-	
+
 	private Stack<VistaGenerica> vistasPresentadas;
-	
-	public Controlador(ImplementacionEmpleados servicioAplicacionEmpleado, FactoriaVistas factoria) {
+
+	public Controlador(ImplementacionEmpleados servicioAplicacionEmpleado,
+			FactoriaVistas factoria) {
 		this.servicioAplicacionEmpleado = servicioAplicacionEmpleado;
 		this.factoriaVistas = factoria;
 		vistasPresentadas = new Stack<VistaGenerica>();
 	}
-	
+
 	public void lanzar() {
 		TransferInt transfer = new TransferInt(0);
-		List<EmpleadoVista> lista = servicioAplicacionEmpleado.listaEmpleados(transfer).getList();
+		List<EmpleadoVista> lista = servicioAplicacionEmpleado.listaEmpleados(
+				transfer).getList();
 		VistaListaEmpleados vista = factoriaVistas.vistaListaEmpleados(this);
 		vista.actualizarPagina(lista, 0);
 		mostrarVista(vista);
 	}
-	
+
 	// EVENT LISTENERS
 	@Override
 	public void trasladoFacultad(Empleado empleado, TipoFacultad facultad) {
@@ -70,28 +76,33 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	public void empleadoSeleccionado(int idEmpleado) {
 		VistaFichaEmpleado vista = factoriaVistas.vistaFichaEmpleado(this);
 		TransferInt transfer = new TransferInt(idEmpleado);
-		Empleado empleado = servicioAplicacionEmpleado.perfilCompletoEmpleado(transfer).getEmpleado();
+		Empleado empleado = servicioAplicacionEmpleado.perfilCompletoEmpleado(
+				transfer).getEmpleado();
 		vista.setEmpleado(empleado);
 		mostrarVista(vista);
 	}
-	
+
 	@Override
 	public void mostrarNuevaPagina(int pagina) {
-		VistaListaEmpleados vistaAct = (VistaListaEmpleados)vistasPresentadas.peek();
+		VistaListaEmpleados vistaAct = (VistaListaEmpleados) vistasPresentadas
+				.peek();
 		TransferInt transfer = new TransferInt(pagina);
-		List<EmpleadoVista> lista = servicioAplicacionEmpleado.listaEmpleados(transfer).getList();
+		List<EmpleadoVista> lista = servicioAplicacionEmpleado.listaEmpleados(
+				transfer).getList();
 		vistaAct.actualizarPagina(lista, pagina);
 	}
-	
+
 	@Override
 	public void aniadirEmpleadoPASPulsado() {
-		VistaAniadirEmpleadoPAS vista = factoriaVistas.vistaAniadirEmpleadoPAS(this);
+		VistaAniadirEmpleadoPAS vista = factoriaVistas
+				.vistaAniadirEmpleadoPAS(this);
 		mostrarVista(vista);
 	}
 
 	@Override
 	public void aniadirEmpleadoPDIPulsado() {
-		VistaAniadirEmpleadoPDI vista = factoriaVistas.vistaAniadirEmpleadoPDI(this);
+		VistaAniadirEmpleadoPDI vista = factoriaVistas
+				.vistaAniadirEmpleadoPDI(this);
 		mostrarVista(vista);
 	}
 
@@ -111,7 +122,8 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 
 	@Override
 	public void especificarTrasladoPulsado(Empleado empleado) {
-		VistaTrasladoFacultad vista = factoriaVistas.vistaTrasladoFacultad(this);
+		VistaTrasladoFacultad vista = factoriaVistas
+				.vistaTrasladoFacultad(this);
 		vista.setEmpleado(empleado);
 		mostrarVista(vista);
 	}
@@ -119,8 +131,9 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 	@Override
 	public void especificarCambioDepartamentoPulsado(Empleado empleado) {
 		if (empleado instanceof EmpleadoPDI) {
-			VistaCambioDepartamento vista = factoriaVistas.vistaCambioDepartamento(this);
-			vista.setEmpleado((EmpleadoPDI)empleado);
+			VistaCambioDepartamento vista = factoriaVistas
+					.vistaCambioDepartamento(this);
+			vista.setEmpleado((EmpleadoPDI) empleado);
 			mostrarVista(vista);
 		} else {
 			// Show error
@@ -129,7 +142,8 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 
 	@Override
 	public void eliminarFichaPulsado(Empleado empleado) {
-		VistaEliminarEmpleado vista = factoriaVistas.vistaEliminarEmpleado(this);
+		VistaEliminarEmpleado vista = factoriaVistas
+				.vistaEliminarEmpleado(this);
 		vista.setEmpleado(empleado);
 		mostrarVista(vista);
 	}
@@ -176,7 +190,7 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		servicioAplicacionEmpleado.aniadirEmpleado(transfer);
 		ocultarUltimaVista();
 	}
-	
+
 	@Override
 	public void BotonRetrocesoPulsado() {
 		ocultarUltimaVista();
@@ -187,13 +201,49 @@ public class Controlador implements VistaAniadirEmpleadoListener,
 		vistasPresentadas.add(vista);
 		vista.mostrarVista();
 	}
-	
+
 	private void ocultarUltimaVista() {
 		if (!vistasPresentadas.isEmpty()) {
 			VistaGenerica vista = vistasPresentadas.pop();
 			vista.ocultarVista();
 		}
 	}
+
+	@Override
+	public void buscarEmpleadoPASPulsado(String nombre, String apellido1,
+			String apellido2, TipoFacultad facultad, AreaTrabajo areaTrabajo) {
+		TransferBusquedaPAS transfer = new TransferBusquedaPAS(nombre,
+				apellido1, apellido2, facultad, areaTrabajo);
+		List<EmpleadoVista> lista = servicioAplicacionEmpleado.buscarEmpleado(
+				transfer).getList();
+		VistaListaEmpleados vista = factoriaVistas.vistaListaEmpleados(this);
+		vista.actualizarPagina(lista, 0);
+		mostrarVista(vista);
+	}
+
+	@Override
+	public void buscarEmpleadoPDIPulsado(String nombre, String apellido1,
+			String apellido2, String departamento, String despacho,
+			TipoFacultad facultad) {
+		TransferBusquedaPDI transfer = new TransferBusquedaPDI(nombre,
+				apellido1, apellido2, departamento, despacho, facultad);
+		List<EmpleadoVista> lista = servicioAplicacionEmpleado.buscarEmpleado(
+				transfer).getList();
+		VistaListaEmpleados vista = factoriaVistas.vistaListaEmpleados(this);
+		vista.actualizarPagina(lista, 0);
+		mostrarVista(vista);
+
+	}
+
+	@Override
+	public void buscarEmpleadoPulsado(String nombre, String apellido1,
+			String apellido2, TipoFacultad facultad) {
+		TransferBusqueda transfer = new TransferBusqueda(nombre, apellido1,
+				apellido2, facultad);
+		List<EmpleadoVista> lista = servicioAplicacionEmpleado.buscarEmpleado(
+				transfer).getList();
+		VistaListaEmpleados vista = factoriaVistas.vistaListaEmpleados(this);
+		vista.actualizarPagina(lista, 0);
+		mostrarVista(vista);
+	}
 }
-
-

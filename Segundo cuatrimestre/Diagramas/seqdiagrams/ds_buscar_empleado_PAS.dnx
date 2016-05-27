@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation">
+  <umlnotation:UMLDiagram xmi:id="_BZB_4COpEea_o-yNU_xsnA" type="Sequence" element="_BZDOAiOpEea_o-yNU_xsnA" name="ds_buscar_empleado_PAS.dnx" measurementUnit="Himetric">
+    <children xmi:type="umlnotation:UMLShape" xmi:id="_BZB_4SOpEea_o-yNU_xsnA" element="_BZDOAiOpEea_o-yNU_xsnA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BZB_4iOpEea_o-yNU_xsnA" element="_BZD1LyOpEea_o-yNU_xsnA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BZB_4yOpEea_o-yNU_xsnA"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BZB_5COpEea_o-yNU_xsnA" element="_BZD1MCOpEea_o-yNU_xsnA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BZB_5SOpEea_o-yNU_xsnA"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_BZB_5iOpEea_o-yNU_xsnA" type="interaction_compartment"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_BZCm8yOpEea_o-yNU_xsnA" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BZCm9COpEea_o-yNU_xsnA" x="793" y="793"/>
+    </children>
+  </umlnotation:UMLDiagram>
+  <uml:Package xmi:id="_BZDOACOpEea_o-yNU_xsnA">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_BZDOASOpEea_o-yNU_xsnA" name="buscarEmpleadoPASPulsado" collaborationRole="_BZD1SCOpEea_o-yNU_xsnA _BZD1SSOpEea_o-yNU_xsnA _BZD1SiOpEea_o-yNU_xsnA _BZD1SyOpEea_o-yNU_xsnA _BZD1TCOpEea_o-yNU_xsnA">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_BZDOAiOpEea_o-yNU_xsnA" name="buscarEmpleadoPASPulsado" covered="_BZDOCSOpEea_o-yNU_xsnA _BZDOCiOpEea_o-yNU_xsnA _BZD1ECOpEea_o-yNU_xsnA _BZD1ESOpEea_o-yNU_xsnA _BZDOCCOpEea_o-yNU_xsnA">
+        <ownedParameter xmi:id="_BZDOAyOpEea_o-yNU_xsnA" visibility="package" direction="inout">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=GestorDePersonal%5D$uml.Class"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BZDOBCOpEea_o-yNU_xsnA" visibility="package" direction="inout">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=GestorDePersonal%5D$uml.Class"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BZDOBSOpEea_o-yNU_xsnA" visibility="package" direction="inout">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=GestorDePersonal%5D$uml.Class"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BZDOBiOpEea_o-yNU_xsnA" visibility="package" direction="inout">
+          <type xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=TipoFacultad%5Bjcu%5Ename=TipoFacultad.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Enumeration"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_BZDOByOpEea_o-yNU_xsnA" visibility="package" direction="inout">
+          <type xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=AreaTrabajo%5Bjcu%5Ename=AreaTrabajo.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Enumeration"/>
+        </ownedParameter>
+        <lifeline xmi:id="_BZDOCCOpEea_o-yNU_xsnA" name="self" represents="_BZD1TSOpEea_o-yNU_xsnA" coveredBy="_BZD1EiOpEea_o-yNU_xsnA _BZD1EyOpEea_o-yNU_xsnA _BZD1FCOpEea_o-yNU_xsnA _BZD1FiOpEea_o-yNU_xsnA _BZD1GiOpEea_o-yNU_xsnA _BZD1GyOpEea_o-yNU_xsnA _BZD1HyOpEea_o-yNU_xsnA _BZD1ICOpEea_o-yNU_xsnA _BZD1JCOpEea_o-yNU_xsnA _BZD1JSOpEea_o-yNU_xsnA _BZD1JiOpEea_o-yNU_xsnA _BZD1JyOpEea_o-yNU_xsnA _BZDOAiOpEea_o-yNU_xsnA _BZD1KCOpEea_o-yNU_xsnA _BZD1KSOpEea_o-yNU_xsnA _BZD1LiOpEea_o-yNU_xsnA"/>
+        <lifeline xmi:id="_BZDOCSOpEea_o-yNU_xsnA" name="transfer" represents="_BZD1TiOpEea_o-yNU_xsnA" coveredBy="_BZDOAiOpEea_o-yNU_xsnA _BZD1FSOpEea_o-yNU_xsnA _BZD1LCOpEea_o-yNU_xsnA _BZD1LSOpEea_o-yNU_xsnA"/>
+        <lifeline xmi:id="_BZDOCiOpEea_o-yNU_xsnA" name="servicioAplicacionEmpleado" coveredBy="_BZDOAiOpEea_o-yNU_xsnA _BZD1FyOpEea_o-yNU_xsnA _BZD1GCOpEea_o-yNU_xsnA _BZD1GSOpEea_o-yNU_xsnA">
+          <represents xmi:type="uml:Property" href="mmi:///#jfield%5Ename=servicioAplicacionEmpleado%5Bjsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </lifeline>
+        <lifeline xmi:id="_BZD1ECOpEea_o-yNU_xsnA" name="factoriaVistas" coveredBy="_BZDOAiOpEea_o-yNU_xsnA _BZD1HCOpEea_o-yNU_xsnA _BZD1HSOpEea_o-yNU_xsnA _BZD1HiOpEea_o-yNU_xsnA">
+          <represents xmi:type="uml:Property" href="mmi:///#jfield%5Ename=factoriaVistas%5Bjsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </lifeline>
+        <lifeline xmi:id="_BZD1ESOpEea_o-yNU_xsnA" name="vista" represents="_BZD1USOpEea_o-yNU_xsnA" coveredBy="_BZDOAiOpEea_o-yNU_xsnA _BZD1ISOpEea_o-yNU_xsnA _BZD1IiOpEea_o-yNU_xsnA _BZD1IyOpEea_o-yNU_xsnA _BZD1KiOpEea_o-yNU_xsnA _BZD1KyOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1EiOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1hSOpEea_o-yNU_xsnA" message="_BZD1MSOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BZD1EyOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" start="_BZD1EiOpEea_o-yNU_xsnA" finish="_BZD1LiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1FCOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1eiOpEea_o-yNU_xsnA" message="_BZD1MiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1FSOpEea_o-yNU_xsnA" covered="_BZDOCSOpEea_o-yNU_xsnA" event="_BZD1hiOpEea_o-yNU_xsnA" message="_BZD1MiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1FiOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1iSOpEea_o-yNU_xsnA" message="_BZD1OCOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1FyOpEea_o-yNU_xsnA" covered="_BZDOCiOpEea_o-yNU_xsnA" event="_BZD1diOpEea_o-yNU_xsnA" message="_BZD1OCOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BZD1GCOpEea_o-yNU_xsnA" name="buscarEmpleado" covered="_BZDOCiOpEea_o-yNU_xsnA" start="_BZD1FyOpEea_o-yNU_xsnA" finish="_BZD1GSOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1GSOpEea_o-yNU_xsnA" covered="_BZDOCiOpEea_o-yNU_xsnA" event="_BZD1iSOpEea_o-yNU_xsnA" message="_BZD1OiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1GiOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1diOpEea_o-yNU_xsnA" message="_BZD1OiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1GyOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1fCOpEea_o-yNU_xsnA" message="_BZD1OyOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1HCOpEea_o-yNU_xsnA" covered="_BZD1ECOpEea_o-yNU_xsnA" event="_BZD1gyOpEea_o-yNU_xsnA" message="_BZD1OyOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BZD1HSOpEea_o-yNU_xsnA" name="vistaListaEmpleados" covered="_BZD1ECOpEea_o-yNU_xsnA" start="_BZD1HCOpEea_o-yNU_xsnA" finish="_BZD1HiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1HiOpEea_o-yNU_xsnA" covered="_BZD1ECOpEea_o-yNU_xsnA" event="_BZD1fCOpEea_o-yNU_xsnA" message="_BZD1PSOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1HyOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1gyOpEea_o-yNU_xsnA" message="_BZD1PSOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1ICOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1giOpEea_o-yNU_xsnA" message="_BZD1PiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1ISOpEea_o-yNU_xsnA" covered="_BZD1ESOpEea_o-yNU_xsnA" event="_BZD1hyOpEea_o-yNU_xsnA" message="_BZD1PiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BZD1IiOpEea_o-yNU_xsnA" name="actualizarPagina" covered="_BZD1ESOpEea_o-yNU_xsnA" start="_BZD1ISOpEea_o-yNU_xsnA" finish="_BZD1IyOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1IyOpEea_o-yNU_xsnA" covered="_BZD1ESOpEea_o-yNU_xsnA" event="_BZD1giOpEea_o-yNU_xsnA" message="_BZD1QSOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1JCOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1hyOpEea_o-yNU_xsnA" message="_BZD1QSOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1JSOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1gCOpEea_o-yNU_xsnA" message="_BZD1QiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1JiOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1fSOpEea_o-yNU_xsnA" message="_BZD1QiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BZD1JyOpEea_o-yNU_xsnA" name="mostrarVista" covered="_BZDOCCOpEea_o-yNU_xsnA" start="_BZD1JiOpEea_o-yNU_xsnA" finish="_BZD1KCOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1KCOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1gCOpEea_o-yNU_xsnA" message="_BZD1RCOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1KSOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1fSOpEea_o-yNU_xsnA" message="_BZD1RCOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1KiOpEea_o-yNU_xsnA" covered="_BZD1ESOpEea_o-yNU_xsnA" event="_BZD1eyOpEea_o-yNU_xsnA" message="_BZD1RSOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1KyOpEea_o-yNU_xsnA" covered="_BZD1ESOpEea_o-yNU_xsnA" event="_BZD1eCOpEea_o-yNU_xsnA" message="_BZD1RSOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1LCOpEea_o-yNU_xsnA" covered="_BZDOCSOpEea_o-yNU_xsnA" event="_BZD1iyOpEea_o-yNU_xsnA" message="_BZD1RiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1LSOpEea_o-yNU_xsnA" covered="_BZDOCSOpEea_o-yNU_xsnA" event="_BZD1eSOpEea_o-yNU_xsnA" message="_BZD1RiOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BZD1LiOpEea_o-yNU_xsnA" covered="_BZDOCCOpEea_o-yNU_xsnA" event="_BZD1cyOpEea_o-yNU_xsnA" message="_BZD1RyOpEea_o-yNU_xsnA"/>
+        <formalGate xmi:id="_BZD1LyOpEea_o-yNU_xsnA" message="_BZD1MSOpEea_o-yNU_xsnA"/>
+        <formalGate xmi:id="_BZD1MCOpEea_o-yNU_xsnA" message="_BZD1RyOpEea_o-yNU_xsnA"/>
+        <message xmi:id="_BZD1MSOpEea_o-yNU_xsnA" name="buscarEmpleadoPASPulsado" receiveEvent="_BZD1EiOpEea_o-yNU_xsnA" sendEvent="_BZD1LyOpEea_o-yNU_xsnA"/>
+        <message xmi:id="_BZD1MiOpEea_o-yNU_xsnA" name="TransferBusquedaPAS" messageSort="createMessage" receiveEvent="_BZD1FSOpEea_o-yNU_xsnA" sendEvent="_BZD1FCOpEea_o-yNU_xsnA">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_BZD1MyOpEea_o-yNU_xsnA" name="nombre" instance="_BZD1dyOpEea_o-yNU_xsnA"/>
+          <argument xmi:type="uml:InstanceValue" xmi:id="_BZD1NCOpEea_o-yNU_xsnA" name="apellido1" instance="_BZD1iCOpEea_o-yNU_xsnA"/>
+          <argument xmi:type="uml:InstanceValue" xmi:id="_BZD1NSOpEea_o-yNU_xsnA" name="apellido2" instance="_BZD1fyOpEea_o-yNU_xsnA"/>
+          <argument xmi:type="uml:InstanceValue" xmi:id="_BZD1NiOpEea_o-yNU_xsnA" name="facultad" instance="_BZD1gSOpEea_o-yNU_xsnA"/>
+          <argument xmi:type="uml:InstanceValue" xmi:id="_BZD1NyOpEea_o-yNU_xsnA" name="areaTrabajo" instance="_BZD1iiOpEea_o-yNU_xsnA"/>
+        </message>
+        <message xmi:id="_BZD1OCOpEea_o-yNU_xsnA" name="buscarEmpleado" receiveEvent="_BZD1FyOpEea_o-yNU_xsnA" sendEvent="_BZD1FiOpEea_o-yNU_xsnA">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_BZD1OSOpEea_o-yNU_xsnA" name="transfer" instance="_BZD1dSOpEea_o-yNU_xsnA"/>
+        </message>
+        <message xmi:id="_BZD1OiOpEea_o-yNU_xsnA" name="buscarEmpleado" messageSort="reply" receiveEvent="_BZD1GiOpEea_o-yNU_xsnA" sendEvent="_BZD1GSOpEea_o-yNU_xsnA"/>
+        <message xmi:id="_BZD1OyOpEea_o-yNU_xsnA" name="vistaListaEmpleados" receiveEvent="_BZD1HCOpEea_o-yNU_xsnA" sendEvent="_BZD1GyOpEea_o-yNU_xsnA">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_BZD1PCOpEea_o-yNU_xsnA" name="this" instance="_BZD1fiOpEea_o-yNU_xsnA"/>
+        </message>
+        <message xmi:id="_BZD1PSOpEea_o-yNU_xsnA" name="vistaListaEmpleados" messageSort="reply" receiveEvent="_BZD1HyOpEea_o-yNU_xsnA" sendEvent="_BZD1HiOpEea_o-yNU_xsnA"/>
+        <message xmi:id="_BZD1PiOpEea_o-yNU_xsnA" name="actualizarPagina" receiveEvent="_BZD1ISOpEea_o-yNU_xsnA" sendEvent="_BZD1ICOpEea_o-yNU_xsnA">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_BZD1PyOpEea_o-yNU_xsnA" name="lista" instance="_BZD1dCOpEea_o-yNU_xsnA"/>
+          <argument xmi:type="uml:OpaqueExpression" xmi:id="_BZD1QCOpEea_o-yNU_xsnA">
+            <language>java</language>
+            <body>0</body>
+          </argument>
+        </message>
+        <message xmi:id="_BZD1QSOpEea_o-yNU_xsnA" name="actualizarPagina" messageSort="reply" receiveEvent="_BZD1JCOpEea_o-yNU_xsnA" sendEvent="_BZD1IyOpEea_o-yNU_xsnA"/>
+        <message xmi:id="_BZD1QiOpEea_o-yNU_xsnA" name="mostrarVista" receiveEvent="_BZD1JiOpEea_o-yNU_xsnA" sendEvent="_BZD1JSOpEea_o-yNU_xsnA" connector="_BZD1ZyOpEea_o-yNU_xsnA">
+          <argument xmi:type="uml:InstanceValue" xmi:id="_BZD1QyOpEea_o-yNU_xsnA" name="vista" instance="_BZD1hCOpEea_o-yNU_xsnA"/>
+        </message>
+        <message xmi:id="_BZD1RCOpEea_o-yNU_xsnA" name="mostrarVista" messageSort="reply" receiveEvent="_BZD1KSOpEea_o-yNU_xsnA" sendEvent="_BZD1KCOpEea_o-yNU_xsnA"/>
+        <message xmi:id="_BZD1RSOpEea_o-yNU_xsnA" messageSort="deleteMessage" receiveEvent="_BZD1KyOpEea_o-yNU_xsnA" sendEvent="_BZD1KiOpEea_o-yNU_xsnA" connector="_BZD1cCOpEea_o-yNU_xsnA"/>
+        <message xmi:id="_BZD1RiOpEea_o-yNU_xsnA" messageSort="deleteMessage" receiveEvent="_BZD1LSOpEea_o-yNU_xsnA" sendEvent="_BZD1LCOpEea_o-yNU_xsnA" connector="_BZD1ZyOpEea_o-yNU_xsnA"/>
+        <message xmi:id="_BZD1RyOpEea_o-yNU_xsnA" name="buscarEmpleadoPASPulsado" messageSort="reply" receiveEvent="_BZD1MCOpEea_o-yNU_xsnA" sendEvent="_BZD1LiOpEea_o-yNU_xsnA"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_BZD1SCOpEea_o-yNU_xsnA" name="nombre" visibility="package">
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=GestorDePersonal%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1SSOpEea_o-yNU_xsnA" name="apellido1" visibility="package">
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=GestorDePersonal%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1SiOpEea_o-yNU_xsnA" name="apellido2" visibility="package">
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=GestorDePersonal%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1SyOpEea_o-yNU_xsnA" name="facultad" visibility="package">
+        <type xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=TipoFacultad%5Bjcu%5Ename=TipoFacultad.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Enumeration"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1TCOpEea_o-yNU_xsnA" name="areaTrabajo" visibility="package">
+        <type xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=AreaTrabajo%5Bjcu%5Ename=AreaTrabajo.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Enumeration"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1TSOpEea_o-yNU_xsnA" name="self">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1TiOpEea_o-yNU_xsnA" name="transfer" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1TyOpEea_o-yNU_xsnA" name="lista" visibility="public">
+        <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=GestorDePersonal%5D$uml.Interface"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1UCOpEea_o-yNU_xsnA" name="lista" visibility="public">
+        <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=GestorDePersonal%5D$uml.Interface"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1USOpEea_o-yNU_xsnA" name="vista" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaListaEmpleados%5Bjcu%5Ename=VistaListaEmpleados.java%5Bjpack%5Ename=empleado.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BZD1UiOpEea_o-yNU_xsnA" name="this" visibility="public">
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+      </ownedAttribute>
+      <ownedConnector xmi:id="_BZD1UyOpEea_o-yNU_xsnA">
+        <end xmi:id="_BZD1VCOpEea_o-yNU_xsnA">
+          <role xmi:type="uml:Parameter" href="mmi:///#_KhGpkSOnEea_o-yNU_xsnA"/>
+        </end>
+        <end xmi:id="_BZD1VSOpEea_o-yNU_xsnA" role="_BZDOAyOpEea_o-yNU_xsnA"/>
+        <end xmi:id="_BZD1ViOpEea_o-yNU_xsnA" role="_BZD1SCOpEea_o-yNU_xsnA"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_BZD1VyOpEea_o-yNU_xsnA">
+        <end xmi:id="_BZD1WCOpEea_o-yNU_xsnA">
+          <role xmi:type="uml:Parameter" href="mmi:///#_KhGpkiOnEea_o-yNU_xsnA"/>
+        </end>
+        <end xmi:id="_BZD1WSOpEea_o-yNU_xsnA" role="_BZDOBCOpEea_o-yNU_xsnA"/>
+        <end xmi:id="_BZD1WiOpEea_o-yNU_xsnA" role="_BZD1SSOpEea_o-yNU_xsnA"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_BZD1WyOpEea_o-yNU_xsnA">
+        <end xmi:id="_BZD1XCOpEea_o-yNU_xsnA">
+          <role xmi:type="uml:Parameter" href="mmi:///#_KhHQoCOnEea_o-yNU_xsnA"/>
+        </end>
+        <end xmi:id="_BZD1XSOpEea_o-yNU_xsnA" role="_BZDOBSOpEea_o-yNU_xsnA"/>
+        <end xmi:id="_BZD1XiOpEea_o-yNU_xsnA" role="_BZD1SiOpEea_o-yNU_xsnA"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_BZD1XyOpEea_o-yNU_xsnA">
+        <end xmi:id="_BZD1YCOpEea_o-yNU_xsnA">
+          <role xmi:type="uml:Parameter" href="mmi:///#_KhHQoSOnEea_o-yNU_xsnA"/>
+        </end>
+        <end xmi:id="_BZD1YSOpEea_o-yNU_xsnA" role="_BZDOBiOpEea_o-yNU_xsnA"/>
+        <end xmi:id="_BZD1YiOpEea_o-yNU_xsnA" role="_BZD1SyOpEea_o-yNU_xsnA"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_BZD1YyOpEea_o-yNU_xsnA">
+        <end xmi:id="_BZD1ZCOpEea_o-yNU_xsnA">
+          <role xmi:type="uml:Parameter" href="mmi:///#_KhHQoiOnEea_o-yNU_xsnA"/>
+        </end>
+        <end xmi:id="_BZD1ZSOpEea_o-yNU_xsnA" role="_BZDOByOpEea_o-yNU_xsnA"/>
+        <end xmi:id="_BZD1ZiOpEea_o-yNU_xsnA" role="_BZD1TCOpEea_o-yNU_xsnA"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_BZD1ZyOpEea_o-yNU_xsnA">
+        <end xmi:id="_BZD1aCOpEea_o-yNU_xsnA" role="_BZD1TSOpEea_o-yNU_xsnA"/>
+        <end xmi:id="_BZD1aSOpEea_o-yNU_xsnA" role="_BZD1TiOpEea_o-yNU_xsnA"/>
+      </ownedConnector>
+      <ownedConnector xmi:id="_BZD1aiOpEea_o-yNU_xsnA">
+        <end xmi:id="_BZD1ayOpEea_o-yNU_xsnA" role="_BZD1TSOpEea_o-yNU_xsnA"/>
+        <end xmi:id="_BZD1bCOpEea_o-yNU_xsnA">
+          <role xmi:type="uml:Property" href="mmi:///#jfield%5Ename=servicioAplicacionEmpleado%5Bjsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:id="_BZD1bSOpEea_o-yNU_xsnA">
+        <end xmi:id="_BZD1biOpEea_o-yNU_xsnA" role="_BZD1TSOpEea_o-yNU_xsnA"/>
+        <end xmi:id="_BZD1byOpEea_o-yNU_xsnA">
+          <role xmi:type="uml:Property" href="mmi:///#jfield%5Ename=factoriaVistas%5Bjsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Property"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:id="_BZD1cCOpEea_o-yNU_xsnA">
+        <end xmi:id="_BZD1cSOpEea_o-yNU_xsnA" role="_BZD1TSOpEea_o-yNU_xsnA"/>
+        <end xmi:id="_BZD1ciOpEea_o-yNU_xsnA" role="_BZD1USOpEea_o-yNU_xsnA"/>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BZD1cyOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=buscarEmpleadoPASPulsado%5Esign=(QString;QString;QString;QTipoFacultad;QAreaTrabajo;)V%5Bjsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BZD1dCOpEea_o-yNU_xsnA" name="List">
+      <classifier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=GestorDePersonal%5D$uml.Interface"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BZD1dSOpEea_o-yNU_xsnA" name="TransferBusquedaPAS">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_BZD1diOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=buscarEmpleado%5Esign=(QTransferBusqueda;)QTransferListEmpleados;%5Bjsrctype%5Ename=ImplementacionEmpleados%5Bjcu%5Ename=ImplementacionEmpleados.java%5Bjpack%5Ename=empleado.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BZD1dyOpEea_o-yNU_xsnA" name="String">
+      <classifier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=GestorDePersonal%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DestructionEvent" xmi:id="_BZD1eCOpEea_o-yNU_xsnA"/>
+    <packagedElement xmi:type="uml:DestructionEvent" xmi:id="_BZD1eSOpEea_o-yNU_xsnA"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BZD1eiOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=TransferBusquedaPAS%5Esign=(QString;QString;QString;QTipoFacultad;QAreaTrabajo;)V%5Bjsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BZD1eyOpEea_o-yNU_xsnA"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BZD1fCOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=vistaListaEmpleados%5Esign=(QVistaListaEmpleadosListener;)QVistaListaEmpleados;%5Bjsrctype%5Ename=FactoriaVistas%5Bjcu%5Ename=FactoriaVistas.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_BZD1fSOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=mostrarVista%5Esign=(QVistaGenerica;)V%5Bjsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BZD1fiOpEea_o-yNU_xsnA" name="Controlador">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BZD1fyOpEea_o-yNU_xsnA" name="String">
+      <classifier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=GestorDePersonal%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BZD1gCOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=mostrarVista%5Esign=(QVistaGenerica;)V%5Bjsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BZD1gSOpEea_o-yNU_xsnA" name="TipoFacultad">
+      <classifier xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=TipoFacultad%5Bjcu%5Ename=TipoFacultad.java%5Bjpack%5Ename=usuario.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Enumeration"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BZD1giOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=actualizarPagina%5Esign=(QList%3CQEmpleadoVista;%3E;I)V%5Bjsrctype%5Ename=VistaListaEmpleados%5Bjcu%5Ename=VistaListaEmpleados.java%5Bjpack%5Ename=empleado.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_BZD1gyOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=vistaListaEmpleados%5Esign=(QVistaListaEmpleadosListener;)QVistaListaEmpleados;%5Bjsrctype%5Ename=FactoriaVistas%5Bjcu%5Ename=FactoriaVistas.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BZD1hCOpEea_o-yNU_xsnA" name="VistaListaEmpleados">
+      <classifier xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=VistaListaEmpleados%5Bjcu%5Ename=VistaListaEmpleados.java%5Bjpack%5Ename=empleado.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_BZD1hSOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=buscarEmpleadoPASPulsado%5Esign=(QString;QString;QString;QTipoFacultad;QAreaTrabajo;)V%5Bjsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CreationEvent" xmi:id="_BZD1hiOpEea_o-yNU_xsnA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_BZD1hyOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=actualizarPagina%5Esign=(QList%3CQEmpleadoVista;%3E;I)V%5Bjsrctype%5Ename=VistaListaEmpleados%5Bjcu%5Ename=VistaListaEmpleados.java%5Bjpack%5Ename=empleado.capadepresentacion.vista%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BZD1iCOpEea_o-yNU_xsnA" name="String">
+      <classifier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=GestorDePersonal%5D$uml.Class"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BZD1iSOpEea_o-yNU_xsnA">
+      <operation href="mmi:///#jmethod%5Ename=buscarEmpleado%5Esign=(QTransferBusqueda;)QTransferListEmpleados;%5Bjsrctype%5Ename=ImplementacionEmpleados%5Bjcu%5Ename=ImplementacionEmpleados.java%5Bjpack%5Ename=empleado.capadenegocio.logica%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_BZD1iiOpEea_o-yNU_xsnA" name="AreaTrabajo">
+      <classifier xmi:type="uml:Enumeration" href="mmi:///#jsrctype%5Ename=AreaTrabajo%5Bjcu%5Ename=AreaTrabajo.java%5Bjpack%5Ename=empleado.capadenegocio.reglas%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Enumeration"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BZD1iyOpEea_o-yNU_xsnA"/>
+  </uml:Package>
+</xmi:XMI>
