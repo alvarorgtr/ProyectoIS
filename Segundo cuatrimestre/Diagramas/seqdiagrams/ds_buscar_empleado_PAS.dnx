@@ -358,7 +358,7 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fxmLsCOnEearQeRi3UsUbA" covered="_b3p7ICOmEearQeRi3UsUbA" event="_I-fx4COoEearQeRi3UsUbA" message="_fxlkoCOnEearQeRi3UsUbA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fxmywCOnEearQeRi3UsUbA" covered="_W6rjdyOpEea_o-yNU_xsnA" event="_I-gY8COoEearQeRi3UsUbA" message="_fxlkoCOnEearQeRi3UsUbA"/>
         <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_fxmywSOnEearQeRi3UsUbA" covered="_W6rjdyOpEea_o-yNU_xsnA" start="_fxmywCOnEearQeRi3UsUbA" finish="_fxmywiOnEearQeRi3UsUbA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_W6rjfiOpEea_o-yNU_xsnA" covered="_W6rjdyOpEea_o-yNU_xsnA" event="_W6rj3COpEea_o-yNU_xsnA" message="_W6rjnCOpEea_o-yNU_xsnA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_W6rjfiOpEea_o-yNU_xsnA" covered="_W6rjdyOpEea_o-yNU_xsnA" event="_0bhnoCOoEearQeRi3UsUbA" message="_W6rjnCOpEea_o-yNU_xsnA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_W6rjfyOpEea_o-yNU_xsnA" covered="_W6rjeCOpEea_o-yNU_xsnA" event="_W6rj5SOpEea_o-yNU_xsnA" message="_W6rjnCOpEea_o-yNU_xsnA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_W6rjgCOpEea_o-yNU_xsnA" covered="_W6rjdyOpEea_o-yNU_xsnA" event="_W6rj7iOpEea_o-yNU_xsnA" message="_W6rjoSOpEea_o-yNU_xsnA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_W6rjgSOpEea_o-yNU_xsnA" covered="_W6rjeSOpEea_o-yNU_xsnA" event="_W6rj6yOpEea_o-yNU_xsnA" message="_W6rjoSOpEea_o-yNU_xsnA"/>
@@ -428,7 +428,7 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fxnZ0SOnEearQeRi3UsUbA" covered="_b3p7ICOmEearQeRi3UsUbA" event="_I-gY8COoEearQeRi3UsUbA" message="_fxnZ0COnEearQeRi3UsUbA"/>
         <formalGate xmi:id="_A6FSsSOsEeaUacW2xfmCZw"/>
         <formalGate xmi:id="_A6F5wCOsEeaUacW2xfmCZw"/>
-        <message xmi:id="_W6rjnCOpEea_o-yNU_xsnA" name="TransferBusqueda" messageSort="createMessage" receiveEvent="_W6rjfyOpEea_o-yNU_xsnA" sendEvent="_W6rjfiOpEea_o-yNU_xsnA">
+        <message xmi:id="_W6rjnCOpEea_o-yNU_xsnA" name="TransferBusquedaPAS" messageSort="createMessage" receiveEvent="_W6rjfyOpEea_o-yNU_xsnA" sendEvent="_W6rjfiOpEea_o-yNU_xsnA">
           <argument xmi:type="uml:InstanceValue" xmi:id="_W6rjnSOpEea_o-yNU_xsnA" name="nombre" instance="_W6rj3yOpEea_o-yNU_xsnA"/>
           <argument xmi:type="uml:InstanceValue" xmi:id="_W6rjniOpEea_o-yNU_xsnA" name="apellido1" instance="_W6rj4yOpEea_o-yNU_xsnA"/>
           <argument xmi:type="uml:InstanceValue" xmi:id="_W6rjnyOpEea_o-yNU_xsnA" name="apellido2" instance="_W6rj3SOpEea_o-yNU_xsnA"/>
@@ -484,7 +484,7 @@
         <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_W6rjtiOpEea_o-yNU_xsnA" name="transfer" visibility="public">
-        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusqueda%5Bjcu%5Ename=TransferBusqueda.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
+        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_W6rjtyOpEea_o-yNU_xsnA" name="lista" visibility="public">
         <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=GestorDePersonal%5D$uml.Interface"/>
@@ -635,6 +635,9 @@
     </packagedElement>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_I-gY8COoEearQeRi3UsUbA" name="Eventodeoperaciónderecepción1">
       <operation href="mmi:///#jmethod%5Ename=buscarEmpleadoPASPulsado%5Esign=(QString;QString;QString;QTipoFacultad;QAreaTrabajo;)V%5Bjsrctype%5Ename=Controlador%5Bjcu%5Ename=Controlador.java%5Bjpack%5Ename=empleado.capadepresentacion.controlador%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_0bhnoCOoEearQeRi3UsUbA" name="Eventodeoperacióndeenvío2">
+      <operation href="mmi:///#jmethod%5Ename=TransferBusquedaPAS%5Esign=(QString;QString;QString;QTipoFacultad;QAreaTrabajo;)V%5Bjsrctype%5Ename=TransferBusquedaPAS%5Bjcu%5Ename=TransferBusquedaPAS.java%5Bjpack%5Ename=empleado.capadenegocio.transferencia%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=GestorDePersonal%5D%5D%5D%5D%5D$uml.Operation"/>
     </packagedElement>
     <profileApplication xmi:id="_pCCxcCOpEea_o-yNU_xsnA">
       <eAnnotations xmi:id="_pCCxcSOpEea_o-yNU_xsnA" source="http://www.eclipse.org/uml2/2.0.0/UML">
